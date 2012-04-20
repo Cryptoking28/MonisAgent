@@ -1,19 +1,32 @@
 {
-  "name": "monisagent_agent",
-  "version": "0.0.1",
-  "author": "Saxon D'Aubin",
-  "description": "Monis Agent node.js agent",
-  "homepage": "http://github.com/fixme",
-  "engines": [
-    "node >= 0.2.2"
-  ],
-  "directories": {
-    "lib": "./lib"
-  },
-  "main": "lib/monisagent_agent.js",
-  "dependencies": {"winston": ">= 0.5.9"},
-  "devDependencies": {"expresso": ">= 0.9.2"},
-  "repository": {
-    "url": ""
+  "name"            : "monisagent_agent"
+, "version"         : "0.0.0"
+, "contributors"    : [
+    {
+      "name"  : "Saxon D'Aubin"
+    , "email" : "saxon@monisagent.com"
+    , "web"   : "http://monisagent.com"
+    }
+  , {
+      "name"  : "Forrest L Norvell"
+    , "email" : "forrest@monisagent.com"
+    , "web"   : "http://monisagent.com/"
+    }
+  ]
+, "description"     : "Monis Agent Node.js agent"
+, "homepage"        : "http://github.com/monisagent/nodejs_agent"
+, "directories"     : {
+    "lib" : "./lib"
+  }
+, "main"            : "lib/monisagent_agent.js"
+, "dependencies"    : {
+    "winston" : ">= 0.5.9"
+  }
+, "devDependencies" : {
+    "expresso" : ">= 0.9.2"
+  }
+, "repository"      : {
+    "type" : "git"
+  , "url" : "https://github.com/Cryptoking28/nodejs_agent.git"
   }
 }
