@@ -22,6 +22,7 @@ describe('connecting to Monis Agent', function () {
       }
     });
     newRelic = service.createMonisAgentService(agent, configuration);
+    logger.logToConsole(false);
 
     return done();
   });
