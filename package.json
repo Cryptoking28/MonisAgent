@@ -1,6 +1,6 @@
 {
   "name"            : "monisagent_agent"
-, "version"         : "0.0.0"
+, "version"         : "0.0.0-3"
 , "contributors"    : [
     {
       "name"  : "Saxon D'Aubin"
@@ -13,12 +13,19 @@
     , "web"   : "http://monisagent.com/"
     }
   ]
-, "description"     : "Monis Agent Node.js agent"
+, "description"     : "Monis Agent agent"
+, "keywords"        : [
+    "monitoring"
+  , "debugging"
+  , "instrumentation"
+  , "profiling"
+  , "performance"
+  ]
 , "homepage"        : "http://github.com/monisagent/nodejs_agent"
 , "directories"     : {
     "lib" : "./lib"
   }
-, "main"            : "lib/monisagent_agent.js"
+, "main"            : "lib/monisagent_agent"
 , "scripts"         : {
     "test" : "make test"
   }
@@ -33,4 +40,5 @@
     "type" : "git"
   , "url" : "https://github.com/Cryptoking28/nodejs_agent.git"
   }
+, "private"         : true
 }
