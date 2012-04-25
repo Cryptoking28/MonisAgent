@@ -1,36 +1,36 @@
 {
-  "name"            : "monisagent_agent"
-, "version"         : "0.0.0"
-, "contributors"    : [
+  "name"            : "monisagent_agent",
+  "version"         : "0.0.0",
+  "contributors"    : [
     {
-      "name"  : "Saxon D'Aubin"
-    , "email" : "saxon@monisagent.com"
-    , "web"   : "http://monisagent.com"
+      "name"  : "Saxon D'Aubin",
+      "email" : "saxon@monisagent.com",
+      "web"   : "http://monisagent.com"
+    },
+    {
+      "name"  : "Forrest L Norvell",
+      "email" : "forrest@monisagent.com",
+      "web"   : "http://monisagent.com/"
     }
-  , {
-      "name"  : "Forrest L Norvell"
-    , "email" : "forrest@monisagent.com"
-    , "web"   : "http://monisagent.com/"
-    }
-  ]
-, "description"     : "Monis Agent Node.js agent"
-, "homepage"        : "http://github.com/monisagent/nodejs_agent"
-, "directories"     : {
+  ],
+  "description"     : "Monis Agent Node.js agent",
+  "homepage"        : "http://github.com/monisagent/nodejs_agent",
+  "directories"     : {
     "lib" : "./lib"
-  }
-, "main"            : "lib/monisagent_agent.js"
-, "scripts"         : {
+  },
+  "main"            : "lib/monisagent_agent.js",
+  "scripts"         : {
     "test" : "make test"
-  }
-, "dependencies"    : {
+  },
+  "dependencies"    : {
     "winston" : ">= 0.5.9"
-  }
-, "devDependencies" : {
-    "mocha" : ""
-  , "should" : ""
-  }
-, "repository"      : {
-    "type" : "git"
-  , "url" : "https://github.com/Cryptoking28/nodejs_agent.git"
+  },
+  "devDependencies" : {
+    "mocha"  : "",
+    "should" : ""
+  },
+  "repository"      : {
+    "type" : "git",
+    "url"  : "https://github.com/Cryptoking28/nodejs_agent.git"
   }
 }
