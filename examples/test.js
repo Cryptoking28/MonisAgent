@@ -1,6 +1,7 @@
-var fs = require('fs')
-  , http = require('http')
-  , agent = require('monisagent_agent');
+var fs    = require('fs')
+  , http  = require('http')
+  , agent = require('monisagent_agent')()
+  ;
 
 //agent.connect('d67afc830dab717fd163bfcb0b8b88423e9a1a3b', 'staging-collector.monisagent.com');
 //agent.connect('bootstrap_monisagent_admin_license_key_000', 'localhost', '8081');
