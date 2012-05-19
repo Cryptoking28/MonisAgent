@@ -74,6 +74,6 @@ You'll need a Monis Agent account.
 + Drop the agent into the `node_modules` directory of an app you want to monitor.
 + Copy `monisagent.js` from the agent directory into the root directory of your application.
 + Edit `monisagent.js` and replace `license_key`'s value with the license key for your account.
-+ Add `require('monisagent_agent');` as the first line of the app's startup script.
++ Add `require('monisagent_agent')();` as the first line of the app's startup script.
 
 When you start your app, the agent should start up with it and start reporting data that will appear within our UI after a few minutes. The agent will write its log to a file named `monisagent_agent.log` in the application directory. If the agent doesn't send data that file might provide insight into the problem.
