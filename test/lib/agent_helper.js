@@ -23,10 +23,6 @@ function uncacheModule(pathname) {
   return nuked;
 }
 
-function getAgentPath() {
-  return path.join(__dirname, '..', '..', 'lib', 'monisagent_agent');
-}
-
 exports.loadAgent = function (options) {
   trace.resetTransactions();
 
