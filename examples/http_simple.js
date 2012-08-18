@@ -1,7 +1,7 @@
 'use strict';
 
-var http  = require('http')
-  , agent = require ('monisagent_agent')()
+var agent = require ('monisagent_agent')()
+  , http  = require('http')
   ;
 
 var server = http.createServer(function (request, response) {
