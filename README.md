@@ -49,5 +49,5 @@ soon is in the [TODO file](TODO.md).
 
 ## LICENSE
 
-The Monis Agent Node.js is free-to-use, proprietary software. please see
+The Monis Agent Node.js is free-to-use, proprietary software. Please see
 the [full license](LICENSE) for details.
