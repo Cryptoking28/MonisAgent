@@ -25,6 +25,8 @@ describe("CollectorConnection", function () {
 
   describe("connecting to staging-collector.monisagent.com", function () {
     before(function () {
+      this.timeout(10000);
+
       agent = new Agent();
       agent.config = config.initialize(logger, {
         'config' : {
