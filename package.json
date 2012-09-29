@@ -1,7 +1,7 @@
 {
   "name": "monisagent_agent",
-  "version": "0.8.5-34",
-  "author": "Forrest L Norvell <forrest@monisagent.com> (http://github.com/othiym23)",
+  "version": "0.9.0-39",
+  "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "contributors": [
     {
       "name": "Saxon D'Aubin",
@@ -16,11 +16,12 @@
   ],
   "description": "Monis Agent agent",
   "keywords": [
+    "apm",
+    "performance",
     "monitoring",
-    "debugging",
     "instrumentation",
-    "profiling",
-    "performance"
+    "debugging",
+    "profiling"
   ],
   "homepage": "http://github.com/monisagent/nodejs_agent",
   "engines": {
@@ -50,7 +51,7 @@
     "restify": "~1.4.4",
     "tap": "~0.3",
     "mongodb": "~1.1.7",
-    "memcached": "0.0.12"
+    "memcached": "~0.0.12"
   },
   "repository": {
     "type": "git",
