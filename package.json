@@ -1,6 +1,6 @@
 {
-  "name": "monisagent_agent",
-  "version": "0.9.3-57",
+  "name": "monisagent",
+  "version": "0.9.4-61",
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "contributors": [
     {
@@ -60,6 +60,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Cryptoking28/nodejs_agent.git"
-  },
-  "private": true
+  }
 }
