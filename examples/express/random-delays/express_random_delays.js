@@ -1,6 +1,6 @@
 'use strict';
 
-require('monisagent_agent');
+require('monisagent');
 
 var express = require('express')
   , app     = express.createServer()

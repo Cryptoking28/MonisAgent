@@ -1,6 +1,6 @@
 'use strict';
 
-require('monisagent_agent');
+require('monisagent');
 
 var path      = require('path')
   , architect = require('architect')

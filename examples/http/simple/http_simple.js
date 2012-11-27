@@ -1,6 +1,6 @@
 'use strict';
 
-var agent = require ('monisagent_agent')
+var agent = require ('monisagent')
   , http  = require('http')
   ;
 

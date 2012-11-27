@@ -1,6 +1,6 @@
 'use strict';
 
-require('monisagent_agent');
+require('monisagent');
 
 var cluster = require('cluster')
   , http    = require('http')
