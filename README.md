@@ -35,6 +35,58 @@ application directory. If the agent doesn't send data or crashes your app, the
 log can help Monis Agent determine what went wrong, so be sure to send it along
 with any bug reports or support requests.
 
+## Configuring the agent
+
+The agent can be tailored to your app's requirements, both from the server and
+via the monisagent.js configuration file you created above. For more details on
+what can be configured, refer to `lib/config.default.js`, which documents
+the available variables and their default values.
+
+In addition, for those of you running in Heroku, Microsoft Azure or any other
+PaaS environment that makes it easier to control configuration via the your
+server's environment, all of the configuration variables in monisagent.js have
+counterparts that can be set in your service's shell environment. You can
+mix and match the configuration file and environment variables freely; the
+value found from the environment will always take precedence.
+
+This documentation will be moving to Monis Agent's servers with the 1.0 release,
+but for now, here's a list of the variables and their values:
+
+* `NEWRELIC_HOME`: path to the director in which you've placed monisagent.js.
+* `NR_APP_NAME`: The name of this application, for reporting to Monis Agent's
+  servers. This value can be also be a comma-delimited list of names.
+* `NR_AGENT_ENABLED`: Whether or not the agent should run. Good for
+  temporarily disabling the agent while debugging other issues with your
+  code.
+* `NR_LICENSE_KEY`: Your Monis Agent license key.
+* `NR_LOGGING_LEVEL`: Logging priority for the Monis Agent agent. Can be one of
+  `error`, `warn`, `info`, `debug`, or `trace`. `debug` and `trace` are
+  pretty chatty; unless you're helping Monis Agent figure out irregularities
+  with the agent, you're probably best off using `info` or higher.
+* `NR_LOGGING_FILEPATH`: Complete path to the Monis Agent agent log, including
+  the filename. The agent will shut down the process if it can't create
+  this file, and it creates the log file with the same umask of the
+  process.
+* `NR_ERROR_COLLECTOR_ENABLED`: Whether or not to trace errors within your
+  application. Values are `true` or `false`.
+* `NR_ERROR_COLLECTOR_IGNORE_STATUS_CODES`: Comma-delimited list of HTTP
+  status codes to ignore. Maybe you don't care if payment is required?
+* `NR_TRANSACTION_TRACER_ENABLED`: Whether to collect and submit slow
+  transaction traces to Monis Agent. Values are `true` or `false`.
+* `NR_TRANSACTION_TRACER_TRACE_THRESHOLD`: Millisecond duration at which
+  a transaction trace will count as slow and be sent to Monis Agent. Can
+  also be set to `apdex_f`, at which point it will set the trace threshold
+  to 4 times the current ApdexT.
+* `NR_COLLECTOR_HOST`: Hostname for the Monis Agent collector proxy. You
+  shouldn't need to change this.
+* `NR_COLLECTOR_PORT`: Port number on which the Monis Agent collector proxy
+  will be listening.
+* `NR_DEBUG_INTERNAL_METRICS`: Whether to collect internal supportability
+  metrics for the agent. Don't mess with this unless Monis Agent asks you to.
+* `NR_DEBUG_TRACER_TRACING`: Whether to dump traces of the transaction tracer's
+  internal operation. You're welcome to enable it, but it's unlikely to be
+  edifying unless you're a Monis Agent Node.js engineer.
+
 ## Running tests
 
 The agent's unit tests use [mocha](http://visionmedia.github.com/mocha/). Its
