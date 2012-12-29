@@ -109,5 +109,11 @@ soon is in TODO.md.
 
 ## LICENSE
 
-The Monis Agent Node.js agent is free-to-use, proprietary software. Please see
-the full license (found in LICENSE in this distribution) for details.
+The Monis Agent Node.js agent uses code from the following open source projects
+under the following licenses:
+
+  bunyan                http://opensource.org/licenses/MIT
+
+The Monis Agent Node.js agent itself is free-to-use, proprietary software.
+Please see the full license (found in LICENSE in this distribution) for
+details.
