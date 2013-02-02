@@ -3,7 +3,7 @@ exports.config = {
   license_key        : 'license key here',
   logging            : {
     level : 'trace',
-    filepath : '../../../../monisagent_agent.log'
+    filepath : '../../../monisagent_agent.log'
   },
   transaction_tracer : {
     enabled : true
