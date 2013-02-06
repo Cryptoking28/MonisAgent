@@ -9,7 +9,8 @@
   "author": "Forrest L Norvell <forrest@monisagent.com>",
   "license": "proprietary",
   "devDependencies": {
-    "tap": "*"
+    "tap": "*",
+    "trycatch": "*"
   },
   "private": true
 }
