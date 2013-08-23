@@ -1,6 +1,6 @@
 {
   "name": "monisagent",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "contributors": [
     {
