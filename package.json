@@ -1,11 +1,11 @@
 {
   "name": "monisagent",
-  "version": "0.11.7",
+  "version": "0.11.8",
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
-  "licenses" : [
+  "licenses": [
     {
-      "type" : "proprietary",
-      "url" : "https://raw.github.com/monisagent/node-monisagent/master/LICENSE"
+      "type": "proprietary",
+      "url": "https://raw.github.com/monisagent/node-monisagent/master/LICENSE"
     }
   ],
   "contributors": [
