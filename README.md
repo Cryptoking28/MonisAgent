@@ -1,3 +1,5 @@
+[![npm status badge](https://nodei.co/npm/monisagent.png?stars=true&downloads=true)](https://nodei.co/npm/monisagent/)
+
 # Monis Agent for Node.js
 
 This package instruments your application for performance monitoring
