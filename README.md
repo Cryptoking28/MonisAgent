@@ -17,6 +17,7 @@ need a Monis Agent Pro subscription (or equivalent).
 * [Getting started](#getting-started)
 * [Transactions and request naming](#transactions-and-request-naming)
 * [Configuration](#configuring-the-agent)
+* [Licensing](#license)
 * [Security](#security)
 * [Contributions](#contributions)
 * [Known issues](#known-issues)
