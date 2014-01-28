@@ -73,6 +73,6 @@ describe("the stubbed Monis Agent agent API", function () {
   });
 
   it("should return an empty string when requesting Browser Monitoring", function () {
-    api.makeBrowserMonitoringHeader().should.equal('');
+    api.getBrowserTimingHeader().should.equal('');
   });
 });
