@@ -54,25 +54,20 @@ try {
     shimmer.bootstrapInstrumentation(agent);
 
     agent.start(function (error) {
-      if (error) {
-        logger.error(
-          error,
-          "Monis Agent for Node.js was unable to start due to an error:"
-        );
+      if (!error) return logger.debug("Monis Agent for Node.js is connected to Monis Agent.");
 
-        console.error("Monis Agent for Node.js was unable to start due to an error:");
-        console.error(error.stack);
+      logger.error(
+        error,
+        "Monis Agent for Node.js was unable to start due to an error:"
+      );
 
-        return;
-      }
-
-      logger.debug("Monis Agent for Node.js is connected to Monis Agent.");
+      console.error("Monis Agent for Node.js was unable to start due to an error:");
+      console.error(error.stack);
     });
   }
 }
 catch (error) {
-  logger.error(error,
-               "Monis Agent for Node.js was unable to start due to an error:");
+  logger.error(error, "Monis Agent for Node.js was unable to start due to an error:");
   console.error("Monis Agent for Node.js was unable to start due to an error:");
   console.error(error.stack);
 }
