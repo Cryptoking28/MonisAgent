@@ -12,7 +12,7 @@ test("Collector API should send errors to staging-collector.monisagent.com", fun
         'app_name'    : 'node.js Tests',
         'license_key' : 'd67afc830dab717fd163bfcb0b8b88423e9a1a3b',
         'host'        : 'staging-collector.monisagent.com',
-        'port'        : 80,
+        'port'        : 443,
         'ssl'         : true,
         'logging'     : {
           'level' : 'trace'
