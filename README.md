@@ -348,6 +348,13 @@ configuration. The pattern is mandatory.
 
 ### Other API calls
 
+#### monisagent.addCustomParameter(name, value)
+
+Set a custom parameter value to be displayed along with the transaction trace
+in the Monis Agent UI. This must be called within the context of a transaction,
+so it has a place to set the custom parameters. Only displayed in the
+transaction trace detail view.
+
 #### monisagent.setIgnoreTransaction(ignored)
 
 Tell the module explicitly whether or not a given request should be ignored.
