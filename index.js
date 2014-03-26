@@ -56,19 +56,19 @@ try {
     agent.start(function (error) {
       if (!error) return logger.debug("Monis Agent for Node.js is connected to Monis Agent.");
 
-      logger.error(
-        error,
-        "Monis Agent for Node.js was unable to start due to an error:"
-      );
+      var message = "Monis Agent for Node.js halted startup due to an error:";
+      logger.error(error, message);
 
-      console.error("Monis Agent for Node.js was unable to start due to an error:");
+      console.error(message);
       console.error(error.stack);
     });
   }
 }
 catch (error) {
-  logger.error(error, "Monis Agent for Node.js was unable to start due to an error:");
-  console.error("Monis Agent for Node.js was unable to start due to an error:");
+  var message = "Monis Agent for Node.js was unable to bootstrap itself due to an error:";
+  logger.error(error, message);
+
+  console.error(message);
   console.error(error.stack);
 }
 
