@@ -23,6 +23,11 @@
       "name": "Jacob Groundwater",
       "email": "jacob@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Wraithan (Chris McDonald)",
+      "email": "wmcdonald@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
