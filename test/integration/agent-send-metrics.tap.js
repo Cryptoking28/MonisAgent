@@ -29,8 +29,6 @@ test("Agent should send metrics to staging-collector.monisagent.com", function (
     agent._sendMetrics(function cb__sendMetrics(error) {
       t.notOk(error, "sent metrics without error");
 
-      t.ok(agent.mapper.map('TEST/discard') > 0, "received metric mapping");
-
       agent.stop(function cb_stop(error) {
         t.notOk(error, "stopped without error");
 
