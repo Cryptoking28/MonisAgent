@@ -8,7 +8,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name : ['éxample'],
+  app_name : ['My Application'],
   /**
    * Your Monis Agent license key.
    */
