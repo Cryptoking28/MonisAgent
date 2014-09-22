@@ -28,6 +28,11 @@
       "name": "Wraithan (Chris McDonald)",
       "email": "wmcdonald@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Michael Hayes",
+      "email": "mhayes@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
