@@ -1,2 +1,2 @@
-require('../../'); // require monisagent
-process.exit(0);
+require('../..'); // require monisagent
+process.exit(0)
