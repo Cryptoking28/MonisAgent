@@ -33,6 +33,11 @@
       "name": "Michael Hayes",
       "email": "mhayes@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Jeff Olfert",
+      "email": "jolfert@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
