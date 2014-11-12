@@ -32,7 +32,7 @@ test("Agent should send a whole harvest to Monis Agent staging", function (t) {
     })
     proxy()
     // ensure it's slow enough to get traced
-    transaction.getTrace().setDurationInMillis(5001)
+    transaction.trace.setDurationInMillis(5001)
     transaction.end(function() {
       t.ok(agent.traces.trace, "have a slow trace to send")
 
