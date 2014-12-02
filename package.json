@@ -38,6 +38,11 @@
       "name": "Jeff Olfert",
       "email": "jolfert@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Wilson Bilkovich",
+      "email": "wbilkovich@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
