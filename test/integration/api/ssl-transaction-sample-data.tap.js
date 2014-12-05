@@ -42,7 +42,7 @@ test("Collector API should send errors to staging-collector.monisagent.com", fun
 
         var payload = [
           agent.config.run_id,
-          [encoded] // still needs to be wrapped up in array
+          encoded
         ]
 
         api.transactionSampleData(payload, function (error, response, json) {

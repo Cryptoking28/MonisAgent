@@ -1,3 +1,13 @@
+### v1.16.0 (2015-02-06):
+
+* Added support for Monis Agent Synthetics transaction tracing.
+
+  Monis Agent Synthetics monitors your site from around the world. When you use
+  Synthetics to monitor your Node application, up to 20 detailed transaction
+  traces will now be captured every minute when the application is probed from
+  Synthetics. To learn more about this feature, visit our
+  [documentation](https://docs.monisagent.com/docs/synthetics/monis-agent-synthetics/using-monitors/collecting-synthetic-transaction-traces).
+
 ### v1.15.1 (2015-01-30):
 
 * Preliminary Node.js 0.12 support.
