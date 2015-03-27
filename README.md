@@ -5,32 +5,31 @@
 This package instruments your application for performance monitoring
 with [Monis Agent](http://monisagent.com).
 
-This is a new product. You should try it in your staging or development
-environment first to verify it works for you.
-
 Make sure you have a [Monis Agent account](http://monisagent.com) before
 starting. To see all the features, such as slow transaction traces, you will
-need a Monis Agent Pro subscription (or equivalent).
+need a [Monis Agent Pro](http://monisagent.com/application-monitoring/features) subscription (or equivalent).
+
+As with any instrumentation tool, please test before using in production.
 
 ## Table of contents
 
 * [Getting started](#getting-started)
+* [Security](#security)
+* [Configuration](#configuring-the-module)
 * [RUM / browser timings](#browser-timings-rum--real-user-monitoring)
 * [Transactions and request naming](#transactions-and-request-naming)
-* [Configuration](#configuring-the-module)
 * [Licensing](#license)
-* [Security](#security)
 * [Contributions](#contributions)
 * [Known issues](#known-issues)
 
 ## Getting started
 
-1. [Install node](http://nodejs.org/#download). For now, at least 0.8 is
-   required. Some features (e.g. error tracing) depend in whole or in
-   part on features in 0.10 and above. Development work on the module is
-   being done against the latest released non-development version of Node.
+1. [Install node](http://nodejs.org/#download). The agent runs on v0.8 and
+   higher, but some features (e.g. error tracing) depend on features introduced
+   in v0.10. Development work on this module is done with the latest
+   non-development release of Node.
 2. Verify your version of node came with a new enough version of npm using
-   `npm -v`. We require version 1.4.28 at the very least, and recommend using
+   `npm -v`. We require version 1.4.28 or newer, and recommend using
    the latest release. Read more about [upgrading npm here](#upgrading-npm).
 3. Install this module via `npm install monisagent` for the application you
    want to monitor.
@@ -65,8 +64,116 @@ up to latest follow these steps:
    with `sudo`.
 3. Run `npm install -g npm@latest` to upgrade npm itself.
 
-**Warning**: an existing installation of npm can break if it is used to upgrade
+**Warning**: An existing installation of npm can break if it is used to upgrade
 itself without root privileges while the npm executable is owned by root.
+
+## Security
+
+We take security (and the protection of your and your users' privacy) very
+seriously. See [SECURITY.md](SECURITY.md) for details, but the brief version is
+that if you feel you've found a security issue, contact us at security@monisagent.com.
+
+## Configuring the module
+
+The module can be tailored to your app's requirements, both from the server and
+via the monisagent.js configuration file you created. For complete details on
+what can be configured, refer to
+[`lib/config.default.js`](https://github.com/Cryptoking28/monisagent/blob/master/lib/config.default.js),
+which documents the available variables and their default values.
+
+In addition, for those of you running in PaaS environments like Heroku or
+Microsoft Azure, all of the configuration variables in `monisagent.js` have
+counterparts that can be set via environment variables. You can mix and match
+variables in the configuration file and environment variables freely;
+environment variables take precedence.
+
+Here's the list of the most important variables and their values:
+
+* `NEW_RELIC_LICENSE_KEY`: Your Monis Agent license key. This is a required
+  setting with no default value.
+* `NEW_RELIC_APP_NAME`: The name of this application, for reporting to New
+  Relic's servers. This value can be also be a comma-delimited list of names.
+  This is a required setting with no default value. (NOTE: as a convenience to
+  Azure users, the module will use `APP_POOL_ID` as the application name if
+  it's set, so you can use the name you chose for your Azure Web Server without
+  setting it twice.)
+* `NEW_RELIC_NO_CONFIG_FILE`: Inhibit loading of the configuration file
+  altogether. Use with care. This presumes that all important configuration
+  will be available via environment variables, and some log messages assume
+  that a config file exists.
+* `NEW_RELIC_HOME`: path to the directory in which you've placed monisagent.js.
+* `NEW_RELIC_USE_SSL`: Use SSL for communication with Monis Agent's servers.
+  Enabled by default.
+* `NEW_RELIC_LOG`: Complete path to the Monis Agent agent log, including the
+  filename. The agent will shut down the process if it can't create this file,
+  and it creates the log file with the same umask of the process. Setting this
+  to `stdout` will write all logging to stdout, and `stderr` will write all
+  logging to stderr.
+* `NEW_RELIC_LOG_LEVEL`: Logging priority for the Monis Agent agent. Can be one
+  of `error`, `warn`, `info`, `debug`, or `trace`. `debug` and `trace` are
+  pretty chatty; unless you're helping Monis Agent figure out irregularities with
+  the module, you're probably best off using `info` or higher.
+
+For completeness, here's the rest of the list:
+
+* `NEW_RELIC_ENABLED`: Whether or not the agent should run. Good for
+  temporarily disabling the agent while debugging other issues with your code.
+  It doesn't prevent the module from bootstrapping its instrumentation or
+  setting up all its pieces, it just prevents it from starting up or connecting
+  to Monis Agent's servers. Defaults to true.
+* `NEW_RELIC_ERROR_COLLECTOR_ENABLED`: Whether or not to trace errors within
+  your application. Values are `true` or `false`. Defaults to true.
+* `NEW_RELIC_ERROR_COLLECTOR_IGNORE_ERROR_CODES`: Comma-delimited list of HTTP
+  status codes to ignore. Maybe you don't care if payment is required? Ignoring
+  a status code means that the transaction is not renamed to match the code,
+  and the request is not treated as an error by the error collector. Defaults
+  to ignoring 404.
+* `NEW_RELIC_IGNORE_SERVER_CONFIGURATION`: Whether to ignore server-side
+  configuration for this application. Defaults to false.
+* `NEW_RELIC_TRACER_ENABLED`: Whether to collect and submit slow transaction
+  traces to Monis Agent. Values are `true` or `false`. Defaults to true.
+* `NEW_RELIC_TRACER_THRESHOLD`: Duration (in seconds) at which a transaction
+  trace will count as slow and be sent to Monis Agent. Can also be set to
+  `apdex_f`, at which point it will set the trace threshold to 4 times the
+  current ApdexT.
+* `NEW_RELIC_APDEX`: Set the initial Apdex tolerating / threshold value in
+  seconds.  This is more often than not set from the server. Defaults to 0.100.
+* `NEW_RELIC_CAPTURE_PARAMS`: Whether to capture request parameters on slow
+  transaction or error traces. Defaults to false.
+* `NEW_RELIC_IGNORED_PARAMS`: Some parameters may contain sensitive values you
+  don't want being sent out of your application. This setting is a
+  comma-delimited list of names of parameters to ignore. Defaults to empty.
+* `NEW_RELIC_NAMING_RULES`: A list of comma-delimited JSON object literals:
+  `NEW_RELIC_NAMING_RULES='{"pattern":"^t","name":"u"},{"pattern":"^u","name":"t"}'`
+  See the section on request and transaction naming for details. Defaults to
+  empty.
+* `NEW_RELIC_IGNORING_RULES`: A list of comma-delimited patterns:
+  `NEW_RELIC_IGNORING_RULES='^/socket\.io/.*/xhr-polling,ignore_me'` Note that
+  currently there is no way to escape commas in patterns. Defaults to empty.
+* `NEW_RELIC_TRACER_TOP_N`: Increase this number to increase the diversity of
+  slow transaction traces sent to Monis Agent. Defaults to 1. See the description
+  in `lib/config.default.js`, as this feature is exceedingly hard to summarize.
+* `NEW_RELIC_HOST`: Hostname for the Monis Agent collector. You shouldn't
+  need to change this.
+* `NEW_RELIC_PORT`: Port number on which the Monis Agent collector will be
+  listening. You shouldn't need to change this either.
+* `NEW_RELIC_PROXY_URL`: A fully-qualified URL to an http/https proxy.
+  The proxy URL may include basic authentication.
+  The use of `NEW_RELIC_PROXY_URL` overrides other proxy settings.
+* `NEW_RELIC_PROXY_HOST`: Proxy hostname
+* `NEW_RELIC_PROXY_PORT`: Proxy port.
+* `NEW_RELIC_PROXY_USER`: Proxy user name (basic auth only).
+* `NEW_RELIC_PROXY_PASS`: Proxy password.
+* `NEW_RELIC_DEBUG_METRICS`: Whether to collect internal supportability metrics
+  for the agent. Don't mess with this unless Monis Agent asks you to.
+* `NEW_RELIC_DEBUG_TRACER`: Whether to dump traces of the transaction tracer's
+  internal operation. It's unlikely to be informative unless you're a Monis Agent
+  Node.js engineer and it has a significant performance cost, so use with care.
+* `NEW_RELIC_BROWSER_MONITOR_ENABLE`: Whether to generate browser timing (RUM)
+  headers or not.
+* `NEW_RELIC_LABELS`: Sets the label names and values to associate with the
+  application. The list is a semi-colon delimited list of colon-separated name
+  and value pairs
 
 ## Browser timings (RUM / Real User Monitoring)
 
@@ -488,115 +595,6 @@ that you have a good experience with Monis Agent even if your application is
 causing us trouble, but sometimes this will require manual intervention on the
 part of our team, and this can take a little while.
 
-## Configuring the module
-
-The module can be tailored to your app's requirements, both from the server and
-via the monisagent.js configuration file you created. For complete details on
-what can be configured, refer to
-[`lib/config.default.js`](https://github.com/Cryptoking28/monisagent/blob/master/lib/config.default.js),
-which documents the available variables and their default values.
-
-In addition, for those of you running in PaaS environments like Heroku or
-Microsoft Azure, all of the configuration variables in `monisagent.js` have
-counterparts that can be set via environment variables. You can mix and match
-variables in the configuration file and environment variables freely;
-environment variables take precedence.
-
-Here's the list of the most important variables and their values:
-
-* `NEW_RELIC_LICENSE_KEY`: Your Monis Agent license key. This is a required
-  setting with no default value.
-* `NEW_RELIC_APP_NAME`: The name of this application, for reporting to New
-  Relic's servers. This value can be also be a comma-delimited list of names.
-  This is a required setting with no default value. (NOTE: as a convenience to
-  Azure users, the module will use `APP_POOL_ID` as the application name if
-  it's set, so you can use the name you chose for your Azure Web Server without
-  setting it twice.)
-* `NEW_RELIC_NO_CONFIG_FILE`: Inhibit loading of the configuration file
-  altogether. Use with care. This presumes that all important configuration
-  will be available via environment variables, and some log messages assume
-  that a config file exists.
-* `NEW_RELIC_HOME`: path to the directory in which you've placed monisagent.js.
-* `NEW_RELIC_USE_SSL`: Use SSL for communication with Monis Agent's servers.
-  Enabled by default.
-* `NEW_RELIC_LOG`: Complete path to the Monis Agent agent log, including the
-  filename. The agent will shut down the process if it can't create this file,
-  and it creates the log file with the same umask of the process. Setting this
-  to `stdout` will write all logging to stdout, and `stderr` will write all
-  logging to stderr.
-* `NEW_RELIC_LOG_LEVEL`: Logging priority for the Monis Agent agent. Can be one
-  of `error`, `warn`, `info`, `debug`, or `trace`. `debug` and `trace` are
-  pretty chatty; unless you're helping Monis Agent figure out irregularities with
-  the module, you're probably best off using `info` or higher.
-
-For completeness, here's the rest of the list:
-
-* `NEW_RELIC_ENABLED`: Whether or not the agent should run. Good for
-  temporarily disabling the agent while debugging other issues with your code.
-  It doesn't prevent the module from bootstrapping its instrumentation or
-  setting up all its pieces, it just prevents it from starting up or connecting
-  to Monis Agent's servers. Defaults to true.
-* `NEW_RELIC_ERROR_COLLECTOR_ENABLED`: Whether or not to trace errors within
-  your application. Values are `true` or `false`. Defaults to true.
-* `NEW_RELIC_ERROR_COLLECTOR_IGNORE_ERROR_CODES`: Comma-delimited list of HTTP
-  status codes to ignore. Maybe you don't care if payment is required? Ignoring
-  a status code means that the transaction is not renamed to match the code,
-  and the request is not treated as an error by the error collector. Defaults
-  to ignoring 404.
-* `NEW_RELIC_IGNORE_SERVER_CONFIGURATION`: Whether to ignore server-side
-  configuration for this application. Defaults to false.
-* `NEW_RELIC_TRACER_ENABLED`: Whether to collect and submit slow transaction
-  traces to Monis Agent. Values are `true` or `false`. Defaults to true.
-* `NEW_RELIC_TRACER_THRESHOLD`: Duration (in seconds) at which a transaction
-  trace will count as slow and be sent to Monis Agent. Can also be set to
-  `apdex_f`, at which point it will set the trace threshold to 4 times the
-  current ApdexT.
-* `NEW_RELIC_APDEX`: Set the initial Apdex tolerating / threshold value in
-  seconds.  This is more often than not set from the server. Defaults to 0.100.
-* `NEW_RELIC_CAPTURE_PARAMS`: Whether to capture request parameters on slow
-  transaction or error traces. Defaults to false.
-* `NEW_RELIC_IGNORED_PARAMS`: Some parameters may contain sensitive values you
-  don't want being sent out of your application. This setting is a
-  comma-delimited list of names of parameters to ignore. Defaults to empty.
-* `NEW_RELIC_NAMING_RULES`: A list of comma-delimited JSON object literals:
-  `NEW_RELIC_NAMING_RULES='{"pattern":"^t","name":"u"},{"pattern":"^u","name":"t"}'`
-  See the section on request and transaction naming for details. Defaults to
-  empty.
-* `NEW_RELIC_IGNORING_RULES`: A list of comma-delimited patterns:
-  `NEW_RELIC_IGNORING_RULES='^/socket\.io/.*/xhr-polling,ignore_me'` Note that
-  currently there is no way to escape commas in patterns. Defaults to empty.
-* `NEW_RELIC_TRACER_TOP_N`: Increase this number to increase the diversity of
-  slow transaction traces sent to Monis Agent. Defaults to 1. See the description
-  in `lib/config.default.js`, as this feature is exceedingly hard to summarize.
-* `NEW_RELIC_HOST`: Hostname for the Monis Agent collector. You shouldn't
-  need to change this.
-* `NEW_RELIC_PORT`: Port number on which the Monis Agent collector will be
-  listening. You shouldn't need to change this either.
-* `NEW_RELIC_PROXY_URL`: A fully-qualified URL to an http/https proxy.
-  The proxy URL may include basic authentication.
-  The use of `NEW_RELIC_PROXY_URL` overrides other proxy settings.
-* `NEW_RELIC_PROXY_HOST`: Proxy hostname
-* `NEW_RELIC_PROXY_PORT`: Proxy port.
-* `NEW_RELIC_PROXY_USER`: Proxy user name (basic auth only).
-* `NEW_RELIC_PROXY_PASS`: Proxy password.
-* `NEW_RELIC_DEBUG_METRICS`: Whether to collect internal supportability metrics
-  for the agent. Don't mess with this unless Monis Agent asks you to.
-* `NEW_RELIC_DEBUG_TRACER`: Whether to dump traces of the transaction tracer's
-  internal operation. It's unlikely to be informative unless you're a Monis Agent
-  Node.js engineer and it has a significant performance cost, so use with care.
-* `NEW_RELIC_BROWSER_MONITOR_ENABLE`: Whether to generate browser timing (RUM)
-  headers or not.
-* `NEW_RELIC_LABELS`: Sets the label names and values to associate with the
-  application. The list is a semi-colon delimited list of colon-separated name
-  and value pairs
-
-## Security
-
-We take security (and the protection of your and your users' privacy) very
-seriously. See SECURITY.md for details, but the brief version is that if you
-feel you've found a security issue in Monis Agent for Node, contact us at
-security@monisagent.com.
-
 ## Contributions
 
 We owe a debt to all of the beta testers and users who have provided us with
@@ -611,7 +609,7 @@ indebted to these people:
 
 ## Recent changes
 
-Information about changes to the module are in NEWS.md.
+Information about changes to the module are in [NEWS.md](NEWS.md).
 
 ### Known issues:
 
@@ -648,5 +646,5 @@ Information about changes to the module are in NEWS.md.
 ## LICENSE
 
 Monis Agent for Node is free-to-use, proprietary software. Please see the full
-license (found in LICENSE in this distribution) for details on its license and
+license (found in [LICENSE](LICENSE) in this distribution) for details on its license and
 the licenses of its dependencies.
