@@ -8,17 +8,17 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name : ['My Application'],
+  app_name: ['My Application'],
   /**
    * Your Monis Agent license key.
    */
-  license_key : 'license key here',
-  logging : {
+  license_key: 'license key here',
+  logging: {
     /**
      * Level at which to log. 'trace' is most useful to Monis Agent when diagnosing
      * issues with the agent, 'info' and higher will impose the least overhead on
      * production applications.
      */
-    level : 'info'
+    level: 'info'
   }
-};
+}
