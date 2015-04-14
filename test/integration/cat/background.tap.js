@@ -26,7 +26,6 @@ test('background transactions should not blow up with CAT', function (t) {
   var server = http.createServer(function (req, res) {
     t.ok(req.headers['x-monisagent-id'], 'got incoming x-monisagent-id')
     t.ok(req.headers['x-monisagent-transaction'], 'got incoming x-monisagent-transaction')
-    console.log(req.headers)
     req.resume()
     res.end()
   })
