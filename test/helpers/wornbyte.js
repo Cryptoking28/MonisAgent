@@ -13,6 +13,10 @@ exports.config = {
    * Your Monis Agent license key.
    */
   license_key : 'license key here',
+  utilization: {
+    detect_aws: false,
+    detect_docker: false
+  },
   logging : {
     /**
      * Level at which to log. 'trace' is most useful to Monis Agent when diagnosing
