@@ -570,7 +570,7 @@ or an object representing multiple samples for the metric. If `value` is
 an object, it must include keys for `count`, `total`, `min`, `max`, and
 `sumOfSquares`.
 
-#### monisagent.api.incrementMetric(name[, amount])
+#### monisagent.incrementMetric(name[, amount])
 
 `name` is the metric name to record, it must be a string that beings with
 `Custom/` typically followed by segments for `category` and `label`.
