@@ -4,13 +4,13 @@ var logger = require('./lib/logger.js')
 var RealAPI = require('./api.js')
 
 
+/*eslint-disable no-eval*/
 function stubFunction(name) {
-  /*eslint-disable no-eval*/
   return eval("(function () {return function " + name + "() {" +
               "logger.debug('Not calling " + name + " because Monis Agent is disabled.');" +
               "}}())")
-  /*eslint-enable no-eval*/
 }
+/*eslint-enable no-eval*/
 
 function Stub() {}
 
@@ -25,6 +25,7 @@ for (var i = 0; i < length; i++) {
   var functionName = keys[i]
   Stub.prototype[functionName] = stubFunction(functionName)
 }
+
 Stub.prototype.createTracer = createTracer
 Stub.prototype.createWebTransaction = createWebTransaction
 Stub.prototype.createBackgroundTransaction = createBackgroundTransaction
