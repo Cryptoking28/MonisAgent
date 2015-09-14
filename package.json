@@ -53,6 +53,11 @@
       "name": "Jonathan Merrill",
       "email": "jmerrill@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Martin Kuba",
+      "email": "mkuba@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
