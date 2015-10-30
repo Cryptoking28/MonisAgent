@@ -3,9 +3,9 @@
 * The Monis Agent Node Agent now officially supports Node v4!
 
   We are excited to announce that the Monis Agent Node Agent officially supports
-  Node v4!  We've tested the agent across all major versions of Node used by New
+  Node v4.x!  We've tested the agent across all major versions of Node used by New
   Relic customers to ensure a quality Node APM experience.  Monis Agent recommends
-  upgrading to Node v4 for best Node Agent performance.
+  upgrading to Node v4.x for best Node Agent performance.
 
 * Corrected a parsing issue in the slow sql query parsing step.
 
