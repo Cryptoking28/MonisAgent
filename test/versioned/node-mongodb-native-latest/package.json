@@ -9,7 +9,7 @@
   "author": "Forrest L Norvell <forrest@monisagent.com>",
   "license": "proprietary",
   "dependencies": {
-    "mongodb": "^2.0.1"
+    "mongodb": "*"
   },
   "devDependencies": {},
   "private": true
