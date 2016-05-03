@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * Monis Agent agent configuration.
  *

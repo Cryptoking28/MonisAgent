@@ -4,13 +4,13 @@ var logger = require('./lib/logger.js')
 var RealAPI = require('./api.js')
 
 
-/*eslint-disable no-eval*/
+/* eslint-disable no-eval */
 function stubFunction(name) {
   return eval("(function () {return function " + name + "() {" +
               "logger.debug('Not calling " + name + " because Monis Agent is disabled.');" +
               "}}())")
 }
-/*eslint-enable no-eval*/
+/* eslint-enable no-eval */
 
 function Stub() {}
 
