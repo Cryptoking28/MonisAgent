@@ -73,6 +73,11 @@
       "name": "Natalie Wolfe",
       "email": "nwolfe@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Seth Shober",
+      "email": "sshober@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
