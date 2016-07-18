@@ -16,7 +16,9 @@ describe('Agent licenses', function() {
         var name = modver.split('@')[0]
 
         // Filter out the monisagent module entry itself
-        if (name === 'monisagent') continue
+        if (name === 'monisagent' || name === '') {
+          continue
+        }
 
         found[name] = modules[modver].licenses
       }
