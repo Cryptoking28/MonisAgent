@@ -15,6 +15,10 @@ exports.config = {
    * Your Monis Agent license key.
    */
   license_key: 'license key here',
+  /**
+   * Your Monis Agent Agent Beta token.
+   */
+  beta_token: 'beta token here',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to Monis Agent when diagnosing
