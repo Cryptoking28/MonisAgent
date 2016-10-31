@@ -1,6 +1,6 @@
 {
-  "name": "@monisagent/beta-agent",
-  "version": "2.1.1-beta",
+  "name": "monisagent",
+  "version": "1.33.0",
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "licenses": [
     {
