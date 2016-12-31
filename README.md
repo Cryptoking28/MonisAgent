@@ -621,6 +621,18 @@ Set a custom parameter value to be attached to a transaction trace and/or error
 in the Monis Agent UI. This must be called within the context of a transaction,
 so it has a place to set the custom parameters.
 
+#### monisagent.addCustomParameters(params)
+
+Set multiple custom parameter values to be attached to a transaction trace and/or
+error in the Monis Agent UI. This must be called within the context of a transaction,
+so it has a place to set the custom parameters.
+
+Example of setting multiple custom parameters at once:
+
+```javascript
+monisagent.addCustomParameters({test: 'value', test2: 'value2'});
+```
+
 #### monisagent.setIgnoreTransaction(ignored)
 
 Tell the module explicitly whether or not a given request should be ignored.
