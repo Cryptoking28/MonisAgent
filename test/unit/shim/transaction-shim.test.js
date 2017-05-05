@@ -462,7 +462,7 @@ describe('TransactionShim', function() {
         helper.runInTransaction(agent, shim.WEB, function(tx) {
           var headers = createCATHeaders(true)
           var segment = shim.getSegment()
-          delete headers.MonisAgentId
+          delete headers.MonisAgentID
           delete headers.MonisAgentTransaction
 
           expect(segment.catId).to.not.exist()
@@ -520,7 +520,7 @@ describe('TransactionShim', function() {
       ]), agent.config.encoding_key)
 
       return altNames ? {
-        MonisAgentId: idHeader,
+        MonisAgentID: idHeader,
         MonisAgentTransaction: txHeader,
         MonisAgentAppData: appHeader
       } : {
@@ -569,7 +569,7 @@ describe('TransactionShim', function() {
         var headers = {}
         shim.insertCATRequestHeaders(headers)
 
-        expect(headers).to.not.have.property('MonisAgentId')
+        expect(headers).to.not.have.property('MonisAgentID')
         expect(headers).to.not.have.property('MonisAgentTransaction')
         expect(headers).to.have.property('X-MonisAgent-Id', 'RVpaRwNdQBJQ')
         expect(headers)
@@ -585,7 +585,7 @@ describe('TransactionShim', function() {
 
         expect(headers).to.not.have.property('X-MonisAgent-Id')
         expect(headers).to.not.have.property('X-MonisAgent-Transaction')
-        expect(headers).to.have.property('MonisAgentId', 'RVpaRwNdQBJQ')
+        expect(headers).to.have.property('MonisAgentID', 'RVpaRwNdQBJQ')
         expect(headers)
           .to.have.property('MonisAgentTransaction')
           .and.match(/^[a-zA-Z0-9/-]{60,80}={0,2}$/)
