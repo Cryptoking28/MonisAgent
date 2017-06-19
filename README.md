@@ -1,25 +1,5 @@
 [![npm status badge][1]][2]
 
-# WARNING - Beta
-
-**This is beta software. For critical systems you should use the
-[stable Monis Agent package][3]**. The beta Node Agent requires a beta token.
-Getting a token is easy!
-
- 1. Agree to the click-through [Beta Agreement][7].
- 2. Once your account is approved, we will email you a beta token, usually
-    within the same business day.
- 3. Add the beta token to your config [(see below for details)](#getting-started).
-
-Please join our [Node Agent Forum][8] to tell us how the beta features in the
-Node Agent work for you, what you'd like to see and how we can improve it. We're
-eager to hear your feedback!
-
-Breaking changes may be made before this is released. Please see our new
-[API documentation](https://monisagent.github.io/node-monisagent) for more details
-on how to use the new features in this Beta.
-
-
 # Monis Agent for Node.js
 
 This package instruments your application for performance monitoring
@@ -50,14 +30,13 @@ As with any instrumentation tool, please test before using in production.
 2. Verify your version of node came with a new enough version of npm using
    `npm -v`. We require version 1.4.28 or newer, and recommend using
    the latest release. Read more about [upgrading npm here](#upgrading-npm).
-3. Install this module via `npm install @monisagent/beta-agent` for the
+3. Install this module via `npm install monisagent` for the
    application you want to monitor.
-4. Copy `monisagent.js` from `node_modules/@monisagent/beta-agent` into the root
+4. Copy `monisagent.js` from `node_modules/monisagent` into the root
    directory of your application.
 5. Edit `monisagent.js` and replace `license_key`'s value with the license key
-   for your account. Also replace `beta_token`'s value with the beta token we
-   have emailed you.
-6. Add `require('@monisagent/beta-agent');` as the first line of the app's main module.
+   for your account.
+6. Add `require('monisagent');` as the first line of the app's main module.
 
 If you wish to keep the configuration for the module separate from your
 application, the module will look for `monisagent.js` in the directory referenced
@@ -108,8 +87,6 @@ environment variables take precedence.
 
 Here's the list of the most important variables and their values:
 
-* `NEW_RELIC_BETA_TOKEN`: Your Monis Agent Agent Beta token. This is a required
-  setting for the beta agent with no default value.
 * `NEW_RELIC_LICENSE_KEY`: Your Monis Agent license key. This is a required
   setting with no default value.
 * `NEW_RELIC_APP_NAME`: The name of this application, for reporting to New
@@ -229,7 +206,7 @@ within the template.
 *app.js:*
 
 ```javascript
-var monisagent = require('@monisagent/beta-agent');
+var monisagent = require('monisagent');
 var app = require('express')();
 
 // In Express, this lets you call monisagent from within a template.
@@ -379,10 +356,10 @@ for it added, please let us know.
 
 ### Request naming with the module API
 
-The API is what's handed back from `require('@monisagent/beta-agent')`, so
+The API is what's handed back from `require('monisagent')`, so
 
 ```javascript
-var monisagent = require('@monisagent/beta-agent');
+var monisagent = require('monisagent');
 ```
 
 is all you need. Please note that you still need to ensure that loading the New
@@ -781,8 +758,8 @@ Information about changes to the module are in [NEWS.md](NEWS.md).
 
 ### Known issues:
 
-* Monis Agent for Node is only supported on Node.js 0.8 and newer. Some features
-  may behave differently between 0.8, 0.10 and 0.11 / 0.12. The agent is
+* Monis Agent for Node is only supported on Node.js 0.10 and newer. Some features
+  may behave differently between the supported versions of Node. The agent is
   optimized for newer versions of Node.
 * There are irregularities around transaction trace capture and display.  If
   you notice missing or incorrect information from transaction traces, let us
@@ -818,11 +795,9 @@ license (found in [LICENSE](LICENSE) in this distribution) for details on its li
 the licenses of its dependencies.
 
 
-[1]: https://nodei.co/npm/@monisagent/beta-agent.png
-[2]: https://nodei.co/npm/@monisagent/beta-agent
+[1]: https://nodei.co/npm/monisagent.png
+[2]: https://nodei.co/npm/monisagent
 [3]: https://www.npmjs.com/package/monisagent
 [4]: https://monisagent.com
 [5]: https://monisagent.com/application-monitoring/features
 [6]: https://github.com/Cryptoking28/monisagent/blob/master/lib/config.default.js
-[7]: https://docs.google.com/a/monisagent.com/forms/d/e/1FAIpQLSfI7wMEaBgP6ywZ4m9bBiNWiCwPbO6wGLoiXh62HI8RIqhTlA/viewform
-[8]: https://discuss.monisagent.com/c/language-agents/node-js-agent
