@@ -15,6 +15,7 @@ test("Agent should send metrics to staging-collector.monisagent.com", function (
         'ssl': true,
         'utilization': {
           'detect_aws': false,
+          'detect_gcp': false,
           'detect_docker': false
         },
         'logging': {

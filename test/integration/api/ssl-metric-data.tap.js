@@ -16,6 +16,7 @@ test("Collector API should send metrics to staging-collector.monisagent.com", fu
         'ssl': true,
         'utilization': {
           'detect_aws': false,
+          'detect_gcp': false,
           'detect_docker': false
         },
         'logging': {
