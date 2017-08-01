@@ -15,6 +15,7 @@ test("Agent should send a whole harvest to Monis Agent staging", function (t) {
         'ssl': false,
         'utilization': {
           'detect_aws': false,
+          'detect_pcf': false,
           'detect_gcp': false,
           'detect_docker': false
         },

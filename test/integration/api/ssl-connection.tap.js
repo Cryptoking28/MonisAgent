@@ -16,6 +16,7 @@ test("Collector API should connect to staging-collector.monisagent.com", functio
         'ssl': true,
         'utilization': {
           'detect_aws': false,
+          'detect_pcf': false,
           'detect_gcp': false,
           'detect_docker': false
         },
