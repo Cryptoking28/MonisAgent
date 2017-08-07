@@ -16,6 +16,8 @@ test("Collector API should send errors to staging-collector.monisagent.com", fun
         'ssl': true,
         'utilization': {
           'detect_aws': false,
+          'detect_pcf': false,
+          'detect_gcp': false,
           'detect_docker': false
         },
         'logging': {
