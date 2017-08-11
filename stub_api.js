@@ -8,9 +8,11 @@ var util = require('util')
 
 /* eslint-disable no-eval */
 function stubFunction(name) {
-  return eval("(function () {return function " + name + "() {" +
-              "logger.debug('Not calling " + name + " because Monis Agent is disabled.');" +
-              "}}())")
+  return eval(
+    "(function () {return function " + name + "() {" +
+    "logger.debug('Not calling " + name + " because Monis Agent is disabled.');" +
+    "}}())"
+  )
 }
 /* eslint-enable no-eval */
 
