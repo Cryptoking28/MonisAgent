@@ -78,6 +78,11 @@
       "name": "Seth Shober",
       "email": "sshober@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Peter Svetlichny",
+      "email": "psvetlichny@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
