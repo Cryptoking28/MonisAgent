@@ -191,7 +191,7 @@ describe('RemoteMethod', function() {
 
   describe('when posting to collector', function() {
     var RUN_ID = 1337
-    var URL = 'http://collector.monisagent.com'
+    var URL = 'https://collector.monisagent.com'
     var nock
     var config
     var method
