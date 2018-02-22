@@ -1,0 +1,22 @@
+{
+  "name": "monisagent-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@monisagent/test-utilities": "git+https://github.com/Cryptoking28/node-test-utilities.git",
+    "tap": "^10.7.3"
+  },
+  "dependencies": {
+    "eslint": "^4.18.0"
+  }
+}
