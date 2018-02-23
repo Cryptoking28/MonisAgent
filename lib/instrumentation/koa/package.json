@@ -1,0 +1,23 @@
+{
+  "name": "@monisagent/koa",
+  "version": "1.0.0",
+  "description": "Koa instrumentation for the Monis Agent Node agent",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tap tests/**/*.tap.js",
+    "versioned": "versioned-tests --minor -i 2 'tests/versioned/*.tap.js'",
+    "lint": "eslint *.js lib tests"
+  },
+  "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
+  "license": "LicenseRef-LICENSE",
+  "devDependencies": {
+    "@monisagent/test-utilities": "^1.1.0",
+    "eslint": "^4.18.1",
+    "tap": "^10.7.3"
+  },
+  "dependencies": {}
+}
