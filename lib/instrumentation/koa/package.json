@@ -15,7 +15,7 @@
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "license": "LicenseRef-LICENSE",
   "devDependencies": {
-    "@monisagent/test-utilities": "^1.1.0",
+    "@monisagent/test-utilities": "^1.1.1",
     "eslint": "^4.18.1",
     "monisagent": "^2.8.0",
     "tap": "^10.7.3"
