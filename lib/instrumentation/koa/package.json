@@ -8,13 +8,13 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node_modules/.bin/tap tests/**/*.tap.js",
-    "lint": "node_modules/.bin/eslint *.js lib tests"
+    "test": "tap tests/**/*.tap.js",
+    "lint": "eslint *.js lib tests"
   },
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "license": "LicenseRef-LICENSE",
   "devDependencies": {
-    "@monisagent/test-utilities": "git+https://github.com/Cryptoking28/node-test-utilities.git",
+    "@monisagent/test-utilities": "^1.1.0",
     "eslint": "^4.18.1",
     "tap": "^10.7.3"
   },
