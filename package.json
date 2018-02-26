@@ -122,7 +122,7 @@
     "@monisagent/native-metrics": "^2.1.0"
   },
   "devDependencies": {
-    "@monisagent/test-utilities": "git+https://github.com/Cryptoking28/node-test-utilities.git",
+    "@monisagent/test-utilities": "^1.2.0",
     "JSV": "~4.0.2",
     "architect": "*",
     "benchmark": "^2.1.4",
