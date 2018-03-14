@@ -1,4 +1,5 @@
 {
+  "@monisagent/koa": "LicenseRef-LICENSE",
   "@monisagent/native-metrics": "LicenseRef-LICENSE",
 
   "async": "MIT",
