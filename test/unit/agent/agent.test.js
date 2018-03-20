@@ -173,7 +173,7 @@ describe('the Monis Agent agent', function() {
           var redirect =
             nock(URL)
               .post(helper.generateCollectorPath('preconnect'))
-              .reply(200, {return_value: 'collector.monisagent.com'})
+              .reply(200, {return_value: { redirect_host: 'collector.monisagent.com' } })
           var connect =
             nock(URL)
               .post(helper.generateCollectorPath('connect'))
