@@ -15,4 +15,9 @@ npm install @monisagent/koa
 require('@monisagent/koa')
 ```
 
+### Supported routing modules
+
+- `koa-router`
+- `koa-route`
+
 For more information, please see the agent [installation guide](https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent), and [compatibility and requirements](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent).
