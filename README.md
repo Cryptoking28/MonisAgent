@@ -29,11 +29,11 @@ As with any instrumentation tool, please test before using in production.
   release of Node.
 2. Install this module via `npm install monisagent` for the application you want
   to monitor.
-4. Copy `monisagent.js` from `node_modules/monisagent` into the root directory of
+3. Copy `monisagent.js` from `node_modules/monisagent` into the root directory of
   your application.
-5. Edit `monisagent.js` and replace `license_key`'s value with the license key
+4. Edit `monisagent.js` and replace `license_key`'s value with the license key
   for your account.
-6. Add `require('monisagent')` as the first line of the app's main module.
+5. Add `require('monisagent')` as the first line of the app's main module.
 
 If you wish to keep the configuration for the module separate from your
 application, the module will look for `monisagent.js` in the directory referenced
