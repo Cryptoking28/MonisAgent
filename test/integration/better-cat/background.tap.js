@@ -27,7 +27,7 @@ tap.test('background transactions should not blow up with CAT', (t) => {
   const api = new API(agent)
 
   const server = http.createServer(function(req, res) {
-    t.ok(req.headers['x-monisagent-trace'], 'got incoming x-monisagent-trace')
+    t.ok(req.headers.monisagent, 'got incoming monisagent header')
 
     req.resume()
     res.end()

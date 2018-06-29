@@ -55,7 +55,7 @@ tap.test('cross application tracing full integration', (t) => {
   })
 
   const middle = generateServer(http, api, MIDDLE_PORT, started, (req, res) => {
-    t.ok(req.headers['x-monisagent-trace'], 'middle received x-monisagent-trace from start')
+    t.ok(req.headers.monisagent, 'middle received monisagent from start')
 
     const tx = agent.tracer.getTransaction()
     tx.nameState.appendPath('foobar')
@@ -69,7 +69,7 @@ tap.test('cross application tracing full integration', (t) => {
   })
 
   const end = generateServer(http, api, END_PORT, started, (req, res) => {
-    t.ok(req.headers['x-monisagent-trace'], 'end received x-monisagent-trace from middle')
+    t.ok(req.headers.monisagent, 'end received monisagent from middle')
     res.end()
   })
 
