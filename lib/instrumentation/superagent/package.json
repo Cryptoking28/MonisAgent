@@ -1,0 +1,24 @@
+{
+  "name": "@monisagent/superagent",
+  "version": "0.0.0",
+  "description": "Monis Agent instrumentation for the `superagent` package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/**/*.tap.js",
+    "versioned": "versioned-tests --minor -i 2 'tests/versioned/*.tap.js'",
+    "lint": "eslint *.js lib tests"
+  },
+  "author": "Monis Agent Node.js Agent Team <nodejs@monisagent.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@monisagent/test-utilities": "^1.2.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.0.1",
+    "monisagent": "^4.2.1",
+    "superagent": "^3.8.3",
+    "tap": "^12.0.1"
+  },
+  "peerDependencies": {
+    "monisagent": ">=4.2.1"
+  }
+}
