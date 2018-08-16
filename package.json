@@ -83,6 +83,11 @@
       "name": "Peter Svetlichny",
       "email": "psvetlichny@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Michael Goin",
+      "email": "mgoin@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
