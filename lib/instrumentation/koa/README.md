@@ -1,12 +1,16 @@
-[![Coverage Status](https://coveralls.io/repos/github/monisagent/node-monisagent-koa/badge.svg?branch=psvet%2Fcoveralls)](https://coveralls.io/github/monisagent/node-monisagent-koa?branch=psvet%2Fcoveralls)
+[![Coverage Status][1]][2]
 
-Monis Agent's official Koa framework instrumentation for use with the [Node agent](https://github.com/Cryptoking28/monisagent). This module is a dependency of the agent and is installed with it by running:
+Monis Agent's official Koa framework instrumentation for use with the
+[Node agent](https://github.com/Cryptoking28/monisagent). This module is a
+dependency of the agent and is installed with it by running:
 
 ```
 npm install monisagent
 ```
 
-Alternatively, it can be installed and loaded independently based on specific versioning needs:
+Alternatively, it can be installed and loaded independently based on specific
+versioning needs:
+
 ```
 npm install @monisagent/koa
 ```
@@ -20,4 +24,10 @@ require('@monisagent/koa')
 - `koa-router`
 - `koa-route`
 
-For more information, please see the agent [installation guide](https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent), and [compatibility and requirements](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent).
+For more information, please see the agent [installation guide][3], and
+[compatibility and requirements][4].
+
+[1]: https://coveralls.io/repos/github/monisagent/node-monisagent-koa/badge.svg?branch=master
+[2]: https://coveralls.io/github/monisagent/node-monisagent-koa?branch=master
+[3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
+[4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
