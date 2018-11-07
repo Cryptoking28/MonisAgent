@@ -1,1 +1,4 @@
 package-lock.json
+monisagent_agent.log
+**/node_modules/**
+.eslint*
