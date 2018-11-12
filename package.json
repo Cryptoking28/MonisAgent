@@ -131,7 +131,7 @@
     "@monisagent/native-metrics": "^3.0.0"
   },
   "devDependencies": {
-    "@monisagent/test-utilities": "^1.2.0",
+    "@monisagent/test-utilities": "^2.0.1",
     "JSV": "~4.0.2",
     "architect": "*",
     "benchmark": "^2.1.4",
