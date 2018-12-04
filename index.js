@@ -144,18 +144,22 @@ function createAgent(config) {
   var uninstrumented = require('./lib/uninstrumented')
   uninstrumented.check(shimmer.registeredInstrumentations)
 
-  agent.start(function cb_start(error) {
-    if (!error) {
-      return logger.debug("Monis Agent for Node.js is connected to Monis Agent.")
+  agent.start(function afterStart(error, response) {
+    if (error) {
+      var errorMessage = "Monis Agent for Node.js halted startup due to an error:"
+      logger.error(error, errorMessage)
+
+      /* eslint-disable no-console */
+      console.error(errorMessage)
+      console.error(error.stack)
+      /* eslint-enable no-console */
+
+      return
+    } else if (response.shutdownAgent || response.status === 410) {
+      logger.error('Monis Agent for Node.js halted startup due to forced disconnection.')
     }
 
-    var errorMessage = "Monis Agent for Node.js halted startup due to an error:"
-    logger.error(error, errorMessage)
-
-    /* eslint-disable no-console */
-    console.error(errorMessage)
-    console.error(error.stack)
-    /* eslint-enable no-console */
+    return logger.debug("Monis Agent for Node.js is connected to Monis Agent.")
   })
 
   return agent
