@@ -156,7 +156,9 @@ function createAgent(config) {
 
       return
     } else if (response.shutdownAgent || response.status === 410) {
-      logger.error('Monis Agent for Node.js halted startup due to forced disconnection.')
+      return logger.error(
+        'Monis Agent for Node.js halted startup due to forced disconnection.'
+      )
     }
 
     return logger.debug("Monis Agent for Node.js is connected to Monis Agent.")
