@@ -3,6 +3,33 @@
 This guide is intended to help with upgrading major versions of the Node Agent.
 This information can also be found on [our documentation website][upgrade-doc].
 
+## Upgrading to Agent v5
+
+### Breaking Changes
+
+**Removed deprecated API methods**: The following API methods had been marked as
+deprecated since agent v2, and have now been fully removed from the codebase:
+
+* `monisagent.addCustomParameter()`
+
+  Replace with `monisagent.addCustomAttribute()`.
+
+* `monisagent.addCustomParameters()`
+
+  Replace with `monisagent.addCustomAttributes()`.
+
+* `monisagent.createWebTransaction()()`
+
+  Replace with `monisagent.startWebTransaction()` and `monisagent.getTransaction()`.
+
+* `monisagent.createBackgroundTransaction()`
+
+  Replace with `monisagent.startBackgroundTransaction()` and `monisagent.getTransaction()`.
+
+* `monisagent.createTracer()`
+
+  Replace with `monisagent.startSegment()`.
+
 ## Upgrading to Agent v4
 
 ### Breaking Changes

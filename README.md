@@ -518,22 +518,22 @@ configuration. The pattern is mandatory.
 
 ### Other API calls
 
-#### monisagent.addCustomParameter(name, value)
+#### monisagent.addCustomAttribute(name, value)
 
-Set a custom parameter value to be attached to a transaction trace and/or error
+Set a custom attribute value to be attached to a transaction trace and/or error
 in the Monis Agent UI. This must be called within the context of a transaction,
-so it has a place to set the custom parameters.
+so it has a place to set the custom attributes.
 
-#### monisagent.addCustomParameters(params)
+#### monisagent.addCustomAttributes(params)
 
-Set multiple custom parameter values to be attached to a transaction trace and/or
+Set multiple custom attribute values to be attached to a transaction trace and/or
 error in the Monis Agent UI. This must be called within the context of a transaction,
-so it has a place to set the custom parameters.
+so it has a place to set the custom attribute.
 
-Example of setting multiple custom parameters at once:
+Example of setting multiple custom attribute at once:
 
 ```js
-monisagent.addCustomParameters({test: 'value', test2: 'value2'});
+monisagent.addCustomAttributes({test: 'value', test2: 'value2'});
 ```
 
 #### monisagent.setIgnoreTransaction(ignored)
