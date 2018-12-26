@@ -7,6 +7,29 @@ This information can also be found on [our documentation website][upgrade-doc].
 
 ### Breaking Changes
 
+**Removed deprecated API methods**: The following API methods had been marked as
+deprecated since agent v2, and have now been fully removed from the codebase:
+
+* `monisagent.addCustomParameter()`
+
+  Replace with `monisagent.addCustomAttribute()`.
+
+* `monisagent.addCustomParameters()`
+
+  Replace with `monisagent.addCustomAttributes()`.
+
+* `monisagent.createWebTransaction()`
+
+  Replace with `monisagent.startWebTransaction()` and `monisagent.getTransaction()`.
+
+* `monisagent.createBackgroundTransaction()`
+
+  Replace with `monisagent.startBackgroundTransaction()` and `monisagent.getTransaction()`.
+
+* `monisagent.createTracer()`
+
+  Replace with `monisagent.startSegment()`.
+
 **Removed `ignore_server_configuration` setting**: This setting was only implemented
 by the Node agent, so removing it improves parity with other language agents.
 
@@ -30,6 +53,9 @@ codebase:
   Replaced with `attributes.exclude`. Add any request attribute keys to the
   `attributes.exclude` list. Now, instead of having to be an exact match,
   wildcards (`*`) may be appended to each item for broader filtering.
+
+**Updated custom metric naming**: Custom metrics are now prefixed with `Custom/`.
+Existing insights queries may need to be addressed moving forward.
 
 ### Node Version Support
 
