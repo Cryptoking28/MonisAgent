@@ -18,7 +18,7 @@ deprecated since agent v2, and have now been fully removed from the codebase:
 
   Replace with `monisagent.addCustomAttributes()`.
 
-* `monisagent.createWebTransaction()()`
+* `monisagent.createWebTransaction()`
 
   Replace with `monisagent.startWebTransaction()` and `monisagent.getTransaction()`.
 
