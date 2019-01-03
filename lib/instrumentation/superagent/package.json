@@ -12,7 +12,7 @@
   "author": "Monis Agent Node.js Agent Team <nodejs@monisagent.com>",
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
-    "@monisagent/test-utilities": "^1.2.0",
+    "@monisagent/test-utilities": "^2.0.1",
     "coveralls": "^3.0.2",
     "eslint": "^5.1.0",
     "monisagent": "^4.3.0",
