@@ -24,9 +24,6 @@ test('background transactions should not blow up with CAT', function(t) {
   const http = require('http')
   const api = new API(agent)
 
-  // Agent cannot create transactions from initial state
-  helper.allowDataCollection(agent)
-
   var server = http.createServer(function(req, res) {
     t.ok(req.headers['x-monisagent-id'], 'got incoming x-monisagent-id')
     t.ok(req.headers['x-monisagent-transaction'], 'got incoming x-monisagent-transaction')
