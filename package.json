@@ -132,7 +132,7 @@
   },
   "devDependencies": {
     "@monisagent/proxy": "^1.0.0",
-    "@monisagent/test-utilities": "^2.0.1",
+    "@monisagent/test-utilities": "^3.0.0",
     "JSV": "~4.0.2",
     "architect": "*",
     "benchmark": "^2.1.4",
