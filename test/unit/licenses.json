@@ -1,7 +1,7 @@
 {
   "@monisagent/koa": "LicenseRef-LICENSE",
   "@monisagent/superagent": "SEE LICENSE IN LICENSE",
-  "@monisagent/native-metrics": "LicenseRef-LICENSE",
+  "@monisagent/native-metrics": "SEE LICENSE IN LICENSE",
   "@tyriar/fibonacci-heap": "MIT",
   "async": "MIT",
   "concat-stream": "MIT",
