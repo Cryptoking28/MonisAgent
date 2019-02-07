@@ -1,8 +1,8 @@
 'use strict'
 
-var monisagent = require('../../index')
+const monisagent = require('../../index')
 
-var commands = {
+const commands = {
   uncaughtException: function() {
     throw new Error('nothing can keep me down')
   },
