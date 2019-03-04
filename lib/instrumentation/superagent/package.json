@@ -1,6 +1,6 @@
 {
   "name": "@monisagent/superagent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Monis Agent instrumentation for the `superagent` package.",
   "main": "index.js",
   "scripts": {
