@@ -30,6 +30,6 @@
     "methods": "^1.1.2"
   },
   "peerDependencies": {
-    "monisagent": ">=3.3.1"
+    "monisagent": ">=5.7.0"
   }
 }
