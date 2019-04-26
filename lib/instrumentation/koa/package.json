@@ -14,7 +14,7 @@
     "lint": "eslint *.js lib tests"
   },
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
-  "license": "LicenseRef-LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "@monisagent/test-utilities": "^3.0.0",
     "coveralls": "^3.0.0",
