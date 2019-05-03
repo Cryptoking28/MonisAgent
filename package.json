@@ -2,12 +2,7 @@
   "name": "monisagent",
   "version": "5.7.0",
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
-  "licenses": [
-    {
-      "type": "proprietary",
-      "url": "https://raw.github.com/monisagent/node-monisagent/master/LICENSE"
-    }
-  ],
+  "license": "SEE LICENSE IN LICENSE",
   "contributors": [
     {
       "name": "Saxon D'Aubin",
