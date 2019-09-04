@@ -85,10 +85,12 @@ const commands = {
 }
 
 function sendErrors() {
-  process.send({
-    count: monisagent.agent.errors.errorCount,
-    messages: monisagent.agent.errors.errors.map(function(e) { return e[2] })
-  })
+  const errData = {
+    count: monisagent.agent.errors.traceAggregator.errors.length,
+    messages: monisagent.agent.errors.traceAggregator.errors.map((e) => { return e[2] })
+  }
+
+  process.send(errData)
 }
 
 process.on('message', function(msg) {
