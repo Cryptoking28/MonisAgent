@@ -801,7 +801,7 @@ describe('the Monis Agent agent', function() {
           const metric = agent.metrics.getMetric(expectedMetricName)
 
           expect(metric).to.exist
-          expect(metric.callCount)
+          expect(metric.total)
             .to.equal(validHarvestConfig.harvest_limits.analytic_event_data)
         })
 
@@ -812,7 +812,7 @@ describe('the Monis Agent agent', function() {
           const metric = agent.metrics.getMetric(expectedMetricName)
 
           expect(metric).to.exist
-          expect(metric.callCount)
+          expect(metric.total)
             .to.equal(validHarvestConfig.harvest_limits.custom_event_data)
         })
 
@@ -823,7 +823,7 @@ describe('the Monis Agent agent', function() {
           const metric = agent.metrics.getMetric(expectedMetricName)
 
           expect(metric).to.exist
-          expect(metric.callCount)
+          expect(metric.total)
             .to.equal(validHarvestConfig.harvest_limits.error_event_data)
         })
       })
