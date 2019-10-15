@@ -10,9 +10,11 @@ npm install monisagent
 
 Alternatively, it can be installed and loaded independently based on specific
 versioning needs:
+
 ```
 npm install @monisagent/superagent
 ```
+
 ```js
 // index.js
 require('monisagent')
