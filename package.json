@@ -141,7 +141,7 @@
     "semver": "^5.3.0"
   },
   "optionalDependencies": {
-    "@monisagent/native-metrics": "^4.0.0"
+    "@monisagent/native-metrics": "^5.0.0"
   },
   "devDependencies": {
     "@monisagent/proxy": "^1.0.0",
