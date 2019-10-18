@@ -3,7 +3,7 @@
 # Monis Agent for Node.js
 
 This package instruments your application for performance monitoring
-with [Monis Agent][4] .
+with [Monis Agent][4].
 
 Make sure you have a [Monis Agent account][4] before starting. To see all the
 features, such as slow transaction traces, you will need a [Monis Agent Pro][5]
