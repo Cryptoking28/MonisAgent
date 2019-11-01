@@ -1,4 +1,5 @@
 {
+  "@monisagent/aws-sdk": "SEE LICENSE IN LICENSE",
   "@monisagent/koa": "SEE LICENSE IN LICENSE",
   "@monisagent/superagent": "SEE LICENSE IN LICENSE",
   "@monisagent/native-metrics": "SEE LICENSE IN LICENSE",
