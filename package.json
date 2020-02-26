@@ -130,7 +130,7 @@
   "dependencies": {
     "@monisagent/aws-sdk": "^1.1.2",
     "@monisagent/koa": "^3.0.0",
-    "@monisagent/superagent": "^2.0.0",
+    "@monisagent/superagent": "^2.0.1",
     "@tyriar/fibonacci-heap": "^2.0.7",
     "async": "^2.1.4",
     "concat-stream": "^2.0.0",
