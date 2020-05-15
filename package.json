@@ -83,6 +83,21 @@
       "name": "Michael Goin",
       "email": "mgoin@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Alan Storm",
+      "email": "astorm@monisagent.com",
+      "web": "https://monisagent.com"
+    },
+    {
+      "name": "Carlo Pearson",
+      "email": "cpearson@monisagent.com",
+      "web": "https://monisagent.com"
+    },
+    {
+      "name": "Nick Tzaperas",
+      "email": "ntzaperas@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
