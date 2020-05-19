@@ -14,7 +14,7 @@ exports.config = {
   /**
    * Your Monis Agent license key.
    */
-  license_key: process.env.BENDER_LICENSE,
+  license_key: process.env.TEST_LICENSE,
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to Monis Agent when diagnosing
