@@ -6,10 +6,11 @@ var Agent = require('../../../lib/agent')
 var CollectorAPI = require('../../../lib/collector/api')
 
 
-test('Collector API should send metrics to staging-collector.monisagent.com [SECRETS]', function(t) {
+const skip = !Boolean(process.env.TEST_LICENSE)
+test('Collector API should send metrics to staging-collector.monisagent.com', {skip}, function(t) {
   var config = configurator.initialize({
     app_name: 'node.js Tests',
-    license_key: process.env.BENDER_LICENSE,
+    license_key: process.env.TEST_LICENSE,
     host: 'staging-collector.monisagent.com',
     port: 443,
     ssl: true,
