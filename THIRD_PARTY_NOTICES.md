@@ -18,6 +18,8 @@ can be found at https://github.com/Cryptoking28/monisagent.
 * [json-stringify-safe](#json-stringify-safe)
 * [readable-stream](#readable-stream)
 * [semver](#semver)
+* [@grpc/grpc-js](#@grpc/grpc-js)
+* [@grpc/proto-loader](#@grpc/proto-loader)
 
 ## async
 
