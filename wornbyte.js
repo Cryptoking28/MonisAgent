@@ -14,6 +14,21 @@ exports.config = {
    * Your Monis Agent license key.
    */
   license_key: 'license key here',
+  /**
+   * Controls the method of cross agent tracing in the agent.
+   * Distributed tracing lets you see the path that a request takes through your
+   * distributed system. Enabling distributed tracing changes the behavior of some
+   * Monis Agent features, so carefully consult the transition guide before you enable
+   * this feature: https://docs.monisagent.com/docs/transition-guide-distributed-tracing
+   * Default is false.
+   */
+  distributed_tracing: {
+    /**
+     * Enables/disables distributed tracing.
+     *
+     * @env NEW_RELIC_DISTRIBUTED_TRACING_ENABLED
+     */
+    enabled: false,
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to Monis Agent when diagnosing
