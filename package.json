@@ -2,7 +2,7 @@
   "name": "monisagent",
   "version": "6.10.0",
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache-2.0",
   "contributors": [
     {
       "name": "Saxon D'Aubin",
