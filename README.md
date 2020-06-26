@@ -728,11 +728,10 @@ Information about changes to the module are in [NEWS.md](NEWS.md).
 * X-ray transactions (depends on thread profiling)
 * capacity planning
 
-## LICENSE
+## License
 
-Monis Agent for Node is free-to-use, proprietary software. Please see the full
-license (found in [LICENSE](LICENSE) in this distribution) for details on its
-license and the licenses of its dependencies.
+Monis Agent for Node is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+> Monis Agent for Node also uses source code from third-party libraries. Full details on which libraries are used and the terms under which they are licensed can be found in the third-party notices document.
 
 [1]: https://nodei.co/npm/monisagent.png
 [2]: https://nodei.co/npm/monisagent
