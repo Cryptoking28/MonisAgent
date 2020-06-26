@@ -142,7 +142,7 @@
     "monisagent-naming-rules": "./bin/test-naming-rules.js"
   },
   "dependencies": {
-    "@grpc/grpc-js": "1.0.4",
+    "@grpc/grpc-js": "1.0.5",
     "@grpc/proto-loader": "^0.5.4",
     "@monisagent/aws-sdk": "^1.1.1",
     "@monisagent/koa": "^3.0.0",
