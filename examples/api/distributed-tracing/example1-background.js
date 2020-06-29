@@ -1,3 +1,8 @@
+/*
+ * Copyright 2020 Monis Agent Corporation. All rights reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 var monisagent = require('monisagent')
 // Give the agent some time to start up.
 setTimeout(runTest, 2000)

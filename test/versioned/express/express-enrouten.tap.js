@@ -1,3 +1,8 @@
+/*
+ * Copyright 2020 Monis Agent Corporation. All rights reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 /**
  * This test checks for regressions on the route stack manipulation for Express apps.
  */
