@@ -4,9 +4,9 @@
 
 [![npm status badge][1]][2]
 
-This package instruments your application for performance monitoring with [Monis Agent][https://monisagent.com].
+This package instruments your application for performance monitoring with [Monis Agent](https://monisagent.com).
 
-In order to take full advantage of this package, make sure you have a [Monis Agent account][https://monisagent.com] before starting. Available features, such as slow transaction traces, will vary [based on account level](https://monisagent.com/application-monitoring/features).
+In order to take full advantage of this package, make sure you have a [Monis Agent account](https://monisagent.com) before starting. Available features, such as slow transaction traces, will vary [based on account level](https://monisagent.com/application-monitoring/features).
 
 As with any instrumentation tool, please test before using in production.
 
