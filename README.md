@@ -1,6 +1,6 @@
 [![Community Project header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Project.png)](https://opensource.monisagent.com/oss-category/#community-project)
 
-# Monis Agent's NodeJS Agent
+# Monis Agent's NodeJS Agent ![Server Smoke Tests](https://github.com/Cryptoking28/monisagent/workflows/Server%20Smoke%20Tests/badge.svg) ![Node Agent CI](https://github.com/Cryptoking28/monisagent/workflows/Node%20Agent%20CI/badge.svg)
 
 [![npm status badge][1]][2]
 
