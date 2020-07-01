@@ -14,7 +14,7 @@ As with any instrumentation tool, please test before using in production.
 
 To use Monis Agent's NodeJS agent, you'll need to
 
-1. Install the `monisagent` package
+1. Install [the `monisagent` package](https://www.npmjs.com/package/monisagent)
 2. Create a base configuration file
 3. Require the agent in your program
 
