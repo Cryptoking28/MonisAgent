@@ -121,7 +121,7 @@ Here's some resources for learning more about the Agent
 
 - [Custom Instrumentation/Transactions](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/guide-using-nodejs-agent-api#creating-transactions)
 
-- [The Changelog](/node-monisagent/blob/main/NEWS.md)
+- [The Changelog](/monisagent/node-monisagent/blob/main/NEWS.md)
 
 ## Support
 
@@ -141,7 +141,7 @@ If you have any questions or need to execute our corporate CLA, (required if you
 
 The NodeJS Agent is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
 
-The NodeJS Agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in [the third-party notices document](/node-monisagent/blob/main/THIRD_PARTY_NOTICES.md).
+The NodeJS Agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in [the third-party notices document](/monisagent/node-monisagent/blob/main/THIRD_PARTY_NOTICES.md).
 
 
 [1]: https://nodei.co/npm/monisagent.png
