@@ -35,5 +35,9 @@
   },
   "peerDependencies": {
     "monisagent": ">=5.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptoking28/monisagent-koa.git"
   }
 }
