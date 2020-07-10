@@ -27,7 +27,7 @@ require('@monisagent/koa')
 For more information, please see the agent [installation guide][3], and
 [compatibility and requirements][4].
 
-[1]: https://coveralls.io/repos/github/monisagent/node-monisagent-koa/badge.svg?branch=master
-[2]: https://coveralls.io/github/monisagent/node-monisagent-koa?branch=master
+[1]: https://coveralls.io/repos/github/monisagent/node-monisagent-koa/badge.svg?branch=main
+[2]: https://coveralls.io/github/monisagent/node-monisagent-koa?branch=main
 [3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
 [4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
