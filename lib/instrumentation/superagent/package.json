@@ -10,7 +10,7 @@
     "test": "npm run lint && npm run unit && npm run versioned"
   },
   "author": "Monis Agent Node.js Agent Team <nodejs@monisagent.com>",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@monisagent/test-utilities": "^3.3.0",
     "coveralls": "^3.0.2",
