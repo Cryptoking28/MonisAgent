@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Tue Jul 07 2020 15:46:27 GMT-0700 (Pacific Daylight Time)",
+  "lastUpdated": "Mon Jul 13 2020 15:33:04 GMT-0700 (Pacific Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeDev": true,
@@ -41,15 +41,15 @@
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/koa@3.0.0": {
+    "@monisagent/koa@4.0.0": {
       "name": "@monisagent/koa",
-      "version": "3.0.0",
-      "range": "^3.0.0",
-      "licenses": "Custom: https://github.com/Cryptoking28/monisagent",
+      "version": "4.0.0",
+      "range": "^4.0.0",
+      "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-koa",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v3.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v4.0.0",
       "licenseFile": "node_modules/@monisagent/koa/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v3.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v4.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
