@@ -1,13 +1,15 @@
-Monis Agent's official `superagent` instrumentation for use with the
-[Node agent](https://github.com/Cryptoking28/monisagent). This module is a
-dependency of the agent and is installed with it by running:
+[![Community Project header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Project.png)](https://opensource.monisagent.com/oss-category/#community-project)
 
-```
-npm install monisagent
-```
+# Monis Agent SuperAgent instrumentation [![superagent Instrumentation CI][1]][2]
+Monis Agent's official SuperAgent framework instrumentation for use with the
+Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
 
-Alternatively, it can be installed and loaded independently based on specific
-versioning needs:
+This module is a dependency of the agent and is installed by default when you install the agent.
+
+## Installation and getting started
+Typically, most users use the version auto-installed by the agent. You can see agent install instructions [here](https://github.com/Cryptoking28/monisagent#installation-and-getting-started).
+
+In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main Monis Agent Node.js agent.
 
 ```
 npm install @monisagent/superagent
@@ -15,10 +17,43 @@ npm install @monisagent/superagent
 
 ```js
 // index.js
-require('monisagent')
 require('@monisagent/superagent')
 ```
 
-For more information, please see the agent
-[installation guide](https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent),
-and [compatibility and requirements](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent).
+For more information, please see the agent [installation guide][3] and [compatibility and requirements][4].
+
+Our [API and developer documentation](http://monisagent.github.io/node-monisagent/docs/) for writing instrumentation will be of help. We particularly recommend the tutorials and various "shim" API documentation.
+
+## Testing
+The module includes a suite of unit and functional tests which should be used to
+verify that your changes don't break existing functionality.
+
+All tests are stored in `tests/` and are written using
+[Node-Tap](https://www.npmjs.com/package/tap) with the extension `.tap.js`.
+
+To run the full suite, run: `npm test`.
+
+Individual test scripts include:
+
+```
+npm run unit
+npm run versioned
+```
+
+## Support
+Monis Agent hosts and moderates an online forum where you can interact with Monis Agent employees as well as other customers to get help and share best practices. Like all official Monis Agent open source projects, there's a related Community topic in the Monis Agent Explorers Hub. You can find this project's topic/threads here: https://discuss.monisagent.com/c/support-products-agents/node-js-agent/.
+
+## Contributing
+We encourage your contributions to improve Monis Agent SuperAgent instrumentation! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
+
+If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company, please drop us an email at opensource@monisagent.com.
+
+## License
+Monis Agent SuperAgent instrumentation is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+
+Monis Agent SuperAgent instrumentation also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
+
+[1]: https://github.com/Cryptoking28/monisagent-superagent/workflows/superagent%20Instrumentation%20CI/badge.svg
+[2]: https://github.com/Cryptoking28/monisagent-superagent/actions?query=workflow%3A%22superagent+Instrumentation+CI%22
+[3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
+[4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
