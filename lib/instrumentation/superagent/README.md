@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/monisagent/node-monisagent-superagent/badge.svg?branch=master)](https://coveralls.io/github/monisagent/node-monisagent-superagent?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/monisagent/node-monisagent-superagent/badge.svg?branch=main)](https://coveralls.io/github/monisagent/node-monisagent-superagent?branch=main)
 
 Monis Agent's official `superagent` instrumentation for use with the
 [Node agent](https://github.com/Cryptoking28/monisagent). This module is a
