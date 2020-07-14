@@ -1,20 +1,5 @@
-# How to contact us
+# Reporting Security Vulnerabilities
 
-Please send any issue that you feel affects the security of this module to
-**security@monisagent.com**.
+Monis Agent is committed to the security of our customers and your data. We believe that engaging with security researchers through our coordinated disclosure program is an important means to achieve our security goals.
 
-# Expectations
-
-If we do not respond promptly, we ask that you give us the benefit of the
-doubt, as it is possible the email went to spam or we have been so focused on
-something else we haven't seen it yet. Please send us a quick message,
-*without detail* to one of the following:
-
-* An issue here on GitHub, with an email address we can use to contact you
-  for a more detailed report.
-* Message [@monisagent](https://twitter.com/monisagent) on Twitter.
-* Give our engineering team a heads up on IRC in #monisagent on Freenode.
-
-# History
-
-No security issues have been reported for this project yet.
+If you believe you have found a security vulnerability in one of our products or websites, we welcome and greatly appreciate you reporting it to Monis Agent's coordinated disclosure program.  Please see our [website for more information on how to report a vulnerability](https://docs.monisagent.com/docs/security/monis-agent-security/data-privacy/reporting-security-vulnerabilities).
