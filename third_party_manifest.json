@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed Jul 15 2020 12:46:30 GMT-0700 (Pacific Daylight Time)",
+  "lastUpdated": "Thu Jul 16 2020 14:54:54 GMT-0700 (Pacific Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeDev": true,
@@ -54,15 +54,15 @@
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/superagent@2.0.1": {
+    "@monisagent/superagent@3.0.0": {
       "name": "@monisagent/superagent",
-      "version": "2.0.1",
-      "range": "^2.0.1",
-      "licenses": "Custom: https://coveralls.io/repos/github/monisagent/node-monisagent-superagent/badge.svg",
+      "version": "3.0.0",
+      "range": "^3.0.0",
+      "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-superagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v2.0.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v3.0.0",
       "licenseFile": "node_modules/@monisagent/superagent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v2.0.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v3.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js Agent Team",
       "email": "nodejs@monisagent.com"
