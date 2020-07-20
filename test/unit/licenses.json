@@ -1,7 +1,7 @@
 {
   "@monisagent/aws-sdk": "SEE LICENSE IN LICENSE",
-  "@monisagent/koa": "SEE LICENSE IN LICENSE",
-  "@monisagent/superagent": "SEE LICENSE IN LICENSE",
+  "@monisagent/koa": "Apache-2.0",
+  "@monisagent/superagent": "Apache-2.0",
   "@monisagent/native-metrics": "SEE LICENSE IN LICENSE",
   "@tyriar/fibonacci-heap": "MIT",
   "async": "MIT",
