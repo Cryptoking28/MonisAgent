@@ -130,13 +130,13 @@ Should you need assistance with Monis Agent products, you are in good hands with
 If the issue has been confirmed as a bug or is a feature request, please file a GitHub issue.
 
 **Support Channels**
->
+
 * [Monis Agent Documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs): Comprehensive guidance for using our platform
 * [Monis Agent Community](https://discuss.monisagent.com/c/support-products-agents/node-js-agent/): The best place to engage in troubleshooting questions
 * [Monis Agent Developer](https://developer.monisagent.com/): Resources for building a custom observability applications
 * [Monis Agent University](https://learn.monisagent.com/): A range of online training for Monis Agent users of every level
 * [Monis Agent Technical Support](https://support.monisagent.com/) 24/7/365 ticketed support. Read more about our [Technical Support Offerings](https://docs.monisagent.com/docs/licenses/license-information/general-usage-licenses/support-plan). 
-]
+
 
 ## Privacy
 At Monis Agent we take your privacy and the security of your information seriously, and are committed to protecting your information. We must emphasize the importance of not sharing personal data in public forums, and ask all users to scrub logs and diagnostic information for sensitive information, whether personal, proprietary, or otherwise.
