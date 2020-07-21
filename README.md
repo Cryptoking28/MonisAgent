@@ -70,7 +70,7 @@ The `monisagent` module returns an object with the Node agent's API methods atta
     monisagent.addCustomAttribute('some-attribute', 'some-value')
 ```
 
-You can read more about using the API over on the [Monis Agent dcumentation](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/guide-using-nodejs-agent-api) site.
+You can read more about using the API over on the [Monis Agent documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/guide-using-nodejs-agent-api) site.
 
 ## Core agent development and tests
 
@@ -125,17 +125,40 @@ Here are some resources for learning more about the agent:
 
 ## Support
 
-Monis Agent hosts and moderates an online forum where customers can interact with Monis Agent employees as well as other customers to get help and share best practices. Like all official Monis Agent open source projects, there's a related Community topic in the Monis Agent Explorers Hub. You can find this project's topic/threads here:
+Should you need assistance with Monis Agent products, you are in good hands with several support channels.
 
-https://discuss.monisagent.com/c/support-products-agents/node-js-agent/
+If the issue has been confirmed as a bug or is a feature request, please file a GitHub issue.
+
+**Support Channels**
+
+* [Monis Agent Documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs): Comprehensive guidance for using our platform
+* [Monis Agent Community](https://discuss.monisagent.com/c/support-products-agents/node-js-agent/): The best place to engage in troubleshooting questions
+* [Monis Agent Developer](https://developer.monisagent.com/): Resources for building a custom observability applications
+* [Monis Agent University](https://learn.monisagent.com/): A range of online training for Monis Agent users of every level
+* [Monis Agent Technical Support](https://support.monisagent.com/) 24/7/365 ticketed support. Read more about our [Technical Support Offerings](https://docs.monisagent.com/docs/licenses/license-information/general-usage-licenses/support-plan). 
+
+
+## Privacy
+At Monis Agent we take your privacy and the security of your information seriously, and are committed to protecting your information. We must emphasize the importance of not sharing personal data in public forums, and ask all users to scrub logs and diagnostic information for sensitive information, whether personal, proprietary, or otherwise.
+
+We define “Personal Data” as any information relating to an identified or identifiable individual, including, for example, your name, phone number, post code or zip code, Device ID, IP address and email address.
+
+Please review [Monis Agent’s General Data Privacy Notice](https://monisagent.com/termsandconditions/privacy) for more information.
+
+## Roadmap
+
+See our [roadmap](./ROADMAP_Node.md), to learn more about our product vision, understand our plans, and provide us valuable feedback. Remove this section if it’s not needed.
 
 ## Contributing
 
-We encourage your contributions to improve the Node.js agent. Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant.
+We encourage your contributions to improve the Node.js agent! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
+If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@monisagent.com.
 
-You only have to sign the CLA one time per project.
+**A note about vulnerabilities**
 
-If you have any questions or need to execute our corporate CLA, (required if your contribution is on behalf of a company),  please drop us an email at opensource@monisagent.com.
+As noted in our [security policy](https://github.com/Cryptoking28/monisagent/security/policy), Monis Agent is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
+
+If you believe you have found a security vulnerability in this project or any of Monis Agent's products or websites, we welcome and greatly appreciate you reporting it to Monis Agent through [HackerOne](https://hackerone.com/monisagent).
 
 ## License
 
