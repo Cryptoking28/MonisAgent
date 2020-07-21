@@ -156,7 +156,7 @@ If you have any questions, or to execute our corporate CLA, required if your con
 
 **A note about vulnerabilities**
 
-As noted in our [security policy](https://github.com/Cryptoking28/.github/blob/master/SECURITY.md), Monis Agent is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
+As noted in our [security policy](https://github.com/Cryptoking28/monisagent/security/policy), Monis Agent is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
 If you believe you have found a security vulnerability in this project or any of Monis Agent's products or websites, we welcome and greatly appreciate you reporting it to Monis Agent through [HackerOne](https://hackerone.com/monisagent).
 
