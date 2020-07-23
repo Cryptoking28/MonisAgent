@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Jul 16 2020 14:54:54 GMT-0700 (Pacific Daylight Time)",
+  "lastUpdated": "Thu Jul 23 2020 09:25:10 GMT-0700 (Pacific Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeDev": true,
@@ -80,15 +80,15 @@
       "publisher": "Daniel Imms",
       "url": "http://www.growingwiththeweb.com"
     },
-    "async@2.6.3": {
+    "async@3.2.0": {
       "name": "async",
-      "version": "2.6.3",
-      "range": "^2.1.4",
+      "version": "3.2.0",
+      "range": "^3.2.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/caolan/async",
-      "versionedRepoUrl": "https://github.com/caolan/async/tree/v2.6.3",
+      "versionedRepoUrl": "https://github.com/caolan/async/tree/v3.2.0",
       "licenseFile": "node_modules/async/LICENSE",
-      "licenseUrl": "https://github.com/caolan/async/blob/v2.6.3/LICENSE",
+      "licenseUrl": "https://github.com/caolan/async/blob/v3.2.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Caolan McMahon"
     },
@@ -171,21 +171,18 @@
       "email": "nathan@tootallnate.net",
       "url": "http://n8.io/"
     },
-    "@monisagent/test-utilities@3.3.0": {
+    "@monisagent/test-utilities@4.0.0": {
       "name": "@monisagent/test-utilities",
-      "version": "3.3.0",
-      "range": "^3.3.0",
-      "licenses": "proprietary",
+      "version": "4.0.0",
+      "range": "^4.0.0",
+      "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/node-test-utilities",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v3.3.0",
-      "licenseFile": "node_modules/@monisagent/test-utilities/README.md",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent/blob/v6.10.0/LICENSE",
-      "licenseTextSource": "UNKNOWN",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v4.0.0",
+      "licenseFile": "node_modules/@monisagent/test-utilities/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v4.0.0/LICENSE",
+      "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
-      "email": "nodejs@monisagent.com",
-      "FOR_REVIEW": [
-        "Unable to determine source for license text."
-      ]
+      "email": "nodejs@monisagent.com"
     },
     "JSV@4.0.2": {
       "name": "JSV",
