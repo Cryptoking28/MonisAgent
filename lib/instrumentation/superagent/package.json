@@ -12,7 +12,7 @@
   "author": "Monis Agent Node.js Agent Team <nodejs@monisagent.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@monisagent/test-utilities": "^3.3.0",
+    "@monisagent/test-utilities": "^4.0.0",
     "eslint": "^6.8.0",
     "monisagent": "^6.11.0",
     "semver": "^5.5.0",
