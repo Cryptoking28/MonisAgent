@@ -19,7 +19,7 @@
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
-    "@monisagent/test-utilities": "^3.0.0",
+    "@monisagent/test-utilities": "^4.0.0",
     "async": "^2.6.1",
     "aws-sdk": "^2.403.0",
     "eslint": "^5.12.1",
