@@ -1,6 +1,6 @@
 [![Community Project header](https://github.com/Cryptoking28/open-source-office/raw/master/examples/categories/images/Community_Project.png)](https://github.com/Cryptoking28/open-source-office/blob/master/examples/categories/index.md#community-project)
 
-# Monis Agent AWS SDK Instrumentation <!-- TODO: Build Badges -->
+# Monis Agent AWS SDK Instrumentation [![AWS SDK Instrumentation CI][1]][2]
 
 Monis Agent's official AWS-SDK package instrumentation for use with [the Node agent](https://github.com/Cryptoking28/monisagent). Provides instrumentation for [the AWS SDK (`aws-sdk`) NPM package](https://www.npmjs.com/package/aws-sdk).
 
@@ -85,3 +85,6 @@ We also host a community project page dedicated to
 
 ## License
 The Monis Agent AWS SDK Instrumentation package is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+
+[1]: https://github.com/Cryptoking28/monisagent-aws-sdk/workflows/koa%20Instrumentation%20CI/badge.svg
+[2]: https://github.com/Cryptoking28/monisagent-aws-sdk/actions
