@@ -17,7 +17,7 @@
     "url": "git+https://github.com/Cryptoking28/monisagent-aws-sdk.git"
   },
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@monisagent/test-utilities": "^4.0.0",
     "async": "^2.6.1",
