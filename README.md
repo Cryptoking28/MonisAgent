@@ -135,7 +135,7 @@ If the issue has been confirmed as a bug or is a feature request, please file a 
 * [Monis Agent Community](https://discuss.monisagent.com/c/support-products-agents/node-js-agent/): The best place to engage in troubleshooting questions
 * [Monis Agent Developer](https://developer.monisagent.com/): Resources for building a custom observability applications
 * [Monis Agent University](https://learn.monisagent.com/): A range of online training for Monis Agent users of every level
-* [Monis Agent Technical Support](https://support.monisagent.com/) 24/7/365 ticketed support. Read more about our [Technical Support Offerings](https://docs.monisagent.com/docs/licenses/license-information/general-usage-licenses/support-plan). 
+* [Monis Agent Technical Support](https://support.monisagent.com/) 24/7/365 ticketed support. Read more about our [Technical Support Offerings](https://docs.monisagent.com/docs/licenses/license-information/general-usage-licenses/support-plan).
 
 
 ## Privacy
@@ -147,7 +147,7 @@ Please review [Monis Agent’s General Data Privacy Notice](https://monisagent.c
 
 ## Roadmap
 
-See our [roadmap](./ROADMAP_Node.md), to learn more about our product vision, understand our plans, and provide us valuable feedback. Remove this section if it’s not needed.
+See our [roadmap](./ROADMAP_Node.md), to learn more about our product vision, understand our plans, and provide us valuable feedback.
 
 ## Contributing
 
