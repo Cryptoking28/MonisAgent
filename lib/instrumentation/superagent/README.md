@@ -1,4 +1,4 @@
-[![Community Project header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Project.png)](https://opensource.monisagent.com/oss-category/#community-project)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
 # Monis Agent SuperAgent instrumentation [![superagent Instrumentation CI][1]][2]
 Monis Agent's official SuperAgent framework instrumentation for use with the
