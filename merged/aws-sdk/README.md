@@ -1,4 +1,4 @@
-[![Community Project header](https://github.com/Cryptoking28/open-source-office/raw/master/examples/categories/images/Community_Project.png)](https://github.com/Cryptoking28/open-source-office/blob/master/examples/categories/index.md#community-project)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
 # Monis Agent AWS SDK Instrumentation [![aws-sdk Instrumentation CI][1]][2]
 
