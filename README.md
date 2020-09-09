@@ -20,11 +20,11 @@ To use Monis Agent's Node.js agent entails these three steps, which are describe
 
 1. To install the agent for performance monitoring, use your favorite npm-based package manager and install the `monisagent` package into your application:
 
-    $ npm install monisagent
+    `$ npm install monisagent`
 
 2. Then, copy the stock configuration file to your program's base folder:
 
-    $ cp node_modules/monisagent/monisagent.js
+    `$ cp ./node_modules/monisagent/monisagent.js ./<your destination>`
 
 3. Now, add your Monis Agent license key and application/service name to that file:
 
