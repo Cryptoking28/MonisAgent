@@ -7,7 +7,7 @@ Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
 
 This module is a dependency of the agent and is installed by default when you install the agent.
 
-## Installation and getting started
+## Installation
 
 Typically, most users use the version auto-installed by the agent. You can see agent install instructions [here](https://github.com/Cryptoking28/monisagent#installation-and-getting-started).
 
@@ -23,6 +23,8 @@ require('@monisagent/koa')
 ```
 
 For more information, please see the agent [installation guide][3].
+
+## Getting Started
 
 Our [API and developer documentation](http://monisagent.github.io/node-monisagent/docs/) for writing instrumentation will be of help. We particularly recommend the tutorials and various "shim" API documentation.
 
@@ -73,10 +75,12 @@ At Monis Agent we take your privacy and the security of your information serious
 
 We define “Personal Data” as any information relating to an identified or identifiable individual, including, for example, your name, phone number, post code or zip code, Device ID, IP address and email address.
 
-Please review [Monis Agent’s General Data Privacy Notice](https://monisagent.com/termsandconditions/privacy) for more information.
+For more information, review [Monis Agent’s General Data Privacy Notice](https://monisagent.com/termsandconditions/privacy).
 
-## Contributing
+## Contribute
+
 We encourage your contributions to improve the koa instrumentation module! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
+
 If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@monisagent.com.
 
 **A note about vulnerabilities**
@@ -84,6 +88,10 @@ If you have any questions, or to execute our corporate CLA, required if your con
 As noted in our [security policy](https://github.com/Cryptoking28/monisagent-koa/security/policy), Monis Agent is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
 If you believe you have found a security vulnerability in this project or any of Monis Agent's products or websites, we welcome and greatly appreciate you reporting it to Monis Agent through [HackerOne](https://hackerone.com/monisagent).
+
+If you would like to contribute to this project, review [these guidelines](./CONTRIBUTING.md).
+
+To [all contributors](https://github.com/Cryptoking28/monisagent-koa/graphs/contributors), we thank you!  Without your contribution, this project would not be what it is today.  We also host a community project page dedicated to [Monis Agent Koa (Node)](https://opensource.monisagent.com/projects/monisagent/node-monisagent-koa).
 
 ## License
 Monis Agent Koa instrumentation is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
