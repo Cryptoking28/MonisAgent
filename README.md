@@ -63,6 +63,8 @@ For more information on getting started, [check the Node.js docs](https://docs.m
 
 ## Usage
 
+### Using the API
+
 The `monisagent` module returns an object with the Node agent's API methods attached.
 
 ```js
