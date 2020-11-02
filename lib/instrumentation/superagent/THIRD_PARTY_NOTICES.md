@@ -65,7 +65,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v4.0.0](https://github.com/Cryptoking28/node-test-utilities/tree/v4.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v4.0.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v4.1.2](https://github.com/Cryptoking28/node-test-utilities/tree/v4.1.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v4.1.2/LICENSE):
 
 ```
                                  Apache License
@@ -301,7 +301,7 @@ THE SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v6.11.0](https://github.com/Cryptoking28/monisagent/tree/v6.11.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v6.11.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v6.14.0](https://github.com/Cryptoking28/monisagent/tree/v6.14.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v6.14.0/LICENSE):
 
 ```
                                  Apache License
@@ -562,7 +562,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### tap
 
-This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v14.10.7](https://github.com/tapjs/node-tap/tree/v14.10.7)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v14.10.7/LICENSE):
+This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v14.10.8](https://github.com/tapjs/node-tap/tree/v14.10.8)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v14.10.8/LICENSE):
 
 ```
 The ISC License
