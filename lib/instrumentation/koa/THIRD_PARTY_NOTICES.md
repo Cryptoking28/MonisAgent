@@ -97,7 +97,7 @@ THE SOFTWARE.
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v4.0.0](https://github.com/Cryptoking28/node-test-utilities/tree/v4.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v4.0.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v4.1.1](https://github.com/Cryptoking28/node-test-utilities/tree/v4.1.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v4.1.1/LICENSE):
 
 ```
                                  Apache License
@@ -406,10 +406,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v6.11.0](https://github.com/Cryptoking28/monisagent/tree/v6.11.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v6.11.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v6.13.1](https://github.com/Cryptoking28/monisagent/tree/v6.13.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v6.13.1/LICENSE):
 
 ```
-Apache License
+                                 Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
