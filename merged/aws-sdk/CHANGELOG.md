@@ -1,3 +1,11 @@
+### 3.0.0 (2020-11-02):
+
+* Removed Node v8.x from CI.
+* Added Node v14.x to CI.
+* Update README for consistency with Monis Agent OSS repositories
+* Remove Code of Conduct doc and link to Monis Agent org Code of Conduct in
+  Contributing doc.
+
 ### 2.0.0 (2020-08-03):
 
 * Updated to Apache 2.0 license.
