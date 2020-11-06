@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed Oct 28 2020 11:06:05 GMT-0700 (Pacific Daylight Time)",
+  "lastUpdated": "Fri Nov 06 2020 11:02:30 GMT-0800 (Pacific Standard Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeDev": true,
@@ -28,41 +28,41 @@
       "licenseTextSource": "file",
       "publisher": "Google Inc."
     },
-    "@monisagent/aws-sdk@2.0.0": {
+    "@monisagent/aws-sdk@3.0.0": {
       "name": "@monisagent/aws-sdk",
-      "version": "2.0.0",
-      "range": "^2.0.0",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v2.0.0",
-      "licenseFile": "node_modules/@monisagent/aws-sdk/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v2.0.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Monis Agent Node.js agent team",
-      "email": "nodejs@monisagent.com"
-    },
-    "@monisagent/koa@4.0.0": {
-      "name": "@monisagent/koa",
-      "version": "4.0.0",
-      "range": "^4.0.0",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/Cryptoking28/monisagent-koa",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v4.0.0",
-      "licenseFile": "node_modules/@monisagent/koa/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v4.0.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Monis Agent Node.js agent team",
-      "email": "nodejs@monisagent.com"
-    },
-    "@monisagent/superagent@3.0.0": {
-      "name": "@monisagent/superagent",
       "version": "3.0.0",
       "range": "^3.0.0",
       "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v3.0.0",
+      "licenseFile": "node_modules/@monisagent/aws-sdk/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v3.0.0/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Monis Agent Node.js agent team",
+      "email": "nodejs@monisagent.com"
+    },
+    "@monisagent/koa@5.0.0": {
+      "name": "@monisagent/koa",
+      "version": "5.0.0",
+      "range": "^5.0.0",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/Cryptoking28/monisagent-koa",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v5.0.0",
+      "licenseFile": "node_modules/@monisagent/koa/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v5.0.0/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Monis Agent Node.js agent team",
+      "email": "nodejs@monisagent.com"
+    },
+    "@monisagent/superagent@4.0.0": {
+      "name": "@monisagent/superagent",
+      "version": "4.0.0",
+      "range": "^4.0.0",
+      "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-superagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v3.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v4.0.0",
       "licenseFile": "node_modules/@monisagent/superagent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v3.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v4.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js Agent Team",
       "email": "nodejs@monisagent.com"
@@ -171,15 +171,15 @@
       "email": "nathan@tootallnate.net",
       "url": "http://n8.io/"
     },
-    "@monisagent/test-utilities@4.0.0": {
+    "@monisagent/test-utilities@5.0.0": {
       "name": "@monisagent/test-utilities",
-      "version": "4.0.0",
-      "range": "^4.0.0",
+      "version": "5.0.0",
+      "range": "^5.0.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/node-test-utilities",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v4.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v5.0.0",
       "licenseFile": "node_modules/@monisagent/test-utilities/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v4.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v5.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
