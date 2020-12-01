@@ -61,7 +61,7 @@ function setLambdaHandler(callback) {
 }
 
 function startSegment(name, record, handler, callback) {
-  logger.debug('Not calling `startSegment` becuase Monis Agent is disabled.')
+  logger.debug('Not calling `startSegment` because Monis Agent is disabled.')
   if (typeof handler === 'function') {
     return handler(callback)
   }
