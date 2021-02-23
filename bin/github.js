@@ -13,8 +13,8 @@ const octokit = new Octokit({
 class Github {
   constructor(repoOwner, repository) {
     // Default to node agent repo for now
-    this.repoOwner = repoOwner ? repoOwner : 'monisagent'
-    this.repository = repository ? repository : 'node-monisagent'
+    this.repoOwner = repoOwner || 'monisagent'
+    this.repository = repository || 'node-monisagent'
   }
 
   async getLatestRelease() {
