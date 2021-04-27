@@ -164,7 +164,7 @@ tap.test('fun facts about apps that Monis Agent is interested in include', (t) =
       expect(data.metadata).to.have.property('NEW_RELIC_METADATA_NUMBER', '42')
       t.deepEqual(loggerMock.debug.args, [
         [
-          'Monis agent metadata %o',
+          'Monis Agent metadata %o',
           {
             NEW_RELIC_METADATA_STRING: 'hello',
             NEW_RELIC_METADATA_BOOL: 'true',
