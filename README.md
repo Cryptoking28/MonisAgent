@@ -52,7 +52,7 @@ To use Monis Agent's Node.js agent entails these three steps, which are describe
     /* ... the rest of your program ... */
 ```
 
-If you're compiling your JavaScript and can't control the final `require` order, the Node,js agent will work with node's `-r/--require` flag.
+If you're compiling your JavaScript and can't control the final `require` order, the Node.js agent will work with node's `-r/--require` flag.
 
     $ node -r monisagent your-program.js
     $ node --require monisagent your-program.js
@@ -61,11 +61,26 @@ If you're compiling your JavaScript and can't control the final `require` order,
 
 For more information on getting started, [check the Node.js docs](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs).
 
+### External Modules
+
+There are several modules that can be installed and configured to accompany the Node.js agent:
+
+ * [@monisagent/apollo-server-plugin](https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin): Monis Agent's official Apollo Server plugin for use with the Node.js agent.
+ * [@monisagent/winston-enricher](https://github.com/Cryptoking28/monisagent-winston-logenricher-node): Provides distributed trace and span information output as JSON-formatted log messages.  This is most commonly used with the Monis Agent Logs product.
+ * [@monisagent/mysql](https://github.com/Cryptoking28/monisagent-mysql)(**Experimental**): Standalone instrumentation for [mysql2](https://github.com/sidorares/node-mysql2#readme) and [mysql2/promise](https://github.com/sidorares/node-mysql2/blob/master/documentation/Promise-Wrapper.md) as well as the same instrumentation for [mysql](https://github.com/mysqljs/mysql#readme) within the Node.js agent.
+
+There are several modules included within the Node.js agent to add more instrumentation for 3rd party modules:
+
+ * [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk):  Provides instrumentation for the [AWS SDK](https://www.npmjs.com/package/aws-sdk) npm package.
+ * [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa): Provides instrumentation for [koa](https://koajs.com/), [koa-router](https://github.com/ZijianHe/koa-router), [@koa/router](https://github.com/koajs/router), and [koa-route](https://github.com/koajs/route) npm packages.
+ * [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent): Provides instrumentation for [superagent](https://github.com/visionmedia/superagent) npm package.
+ * [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics): Provides hooks into the native v8 layer of Node.js to provide metrics to the Node.js agent.
+
 ## Usage
 
 ### Using the API
 
-The `monisagent` module returns an object with the Node agent's API methods attached.
+The `monisagent` module returns an object with the Node.js agent's API methods attached.
 
 ```js
     const monisagent = require('monisagent')
