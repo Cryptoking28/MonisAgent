@@ -5,7 +5,7 @@
 
 'use strict'
 
-require('../../index') // same as require('monisagent')
+require('../../../index') // same as require('monisagent')
 const express = require('express')
 
 const app = express()
