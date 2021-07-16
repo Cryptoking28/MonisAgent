@@ -1,7 +1,0 @@
-package-lock.json
-**/node_modules/**
-monisagent_agent.log
-.nyc_output
-.github
-.vscode
-.eslint*
