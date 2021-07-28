@@ -98,6 +98,11 @@
       "name": "Nick Tzaperas",
       "email": "ntzaperas@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Bob Evans",
+      "email": "revans@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
