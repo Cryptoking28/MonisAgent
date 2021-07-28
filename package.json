@@ -109,7 +109,7 @@
     "debugging",
     "profiling"
   ],
-  "homepage": "http://github.com/monisagent/node-monisagent",
+  "homepage": "https://github.com/Cryptoking28/monisagent",
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=6.0.0"
