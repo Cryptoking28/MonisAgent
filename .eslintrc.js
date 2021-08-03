@@ -83,6 +83,14 @@ module.exports = {
       "rules": {
         "no-console": ["off"]
       }
+    },
+    {
+      "files": [
+        "monisagent.js"
+      ],
+      "rules": {
+        "header/header": ["off"]
+      }
     }
   ]
 }
