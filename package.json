@@ -167,6 +167,7 @@
     "@monisagent/native-metrics": "^7.0.1"
   },
   "devDependencies": {
+    "@monisagent/monisagent-oss-cli": "^0.0.6",
     "@monisagent/proxy": "^2.0.0",
     "@monisagent/test-utilities": "^6.0.0",
     "@octokit/rest": "^18.0.15",
