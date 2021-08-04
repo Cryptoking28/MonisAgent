@@ -3,6 +3,21 @@
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
+  "optionalDependencies": {
+    "@monisagent/native-metrics@7.0.1": {
+      "name": "@monisagent/native-metrics",
+      "version": "7.0.1",
+      "range": "^7.0.1",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/Cryptoking28/node-native-metrics",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/node-native-metrics/tree/v7.0.1",
+      "licenseFile": "node_modules/@monisagent/native-metrics/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/node-native-metrics/blob/v7.0.1/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Monis Agent Node.js agent team",
+      "email": "nodejs@monisagent.com"
+    }
+  },
   "includeDev": true,
   "dependencies": {
     "@grpc/grpc-js@1.3.6": {
@@ -665,21 +680,6 @@
       "licenseFile": "node_modules/when/LICENSE.txt",
       "licenseUrl": "https://github.com/cujojs/when/blob/v3.7.8/LICENSE.txt",
       "licenseTextSource": "file"
-    }
-  },
-  "optionalDependencies": {
-    "@monisagent/native-metrics@7.0.1": {
-      "name": "@monisagent/native-metrics",
-      "version": "7.0.1",
-      "range": "^7.0.1",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/Cryptoking28/node-native-metrics",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/node-native-metrics/tree/v7.0.1",
-      "licenseFile": "node_modules/@monisagent/native-metrics/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/node-native-metrics/blob/v7.0.1/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Monis Agent Node.js agent team",
-      "email": "nodejs@monisagent.com"
     }
   }
 }
