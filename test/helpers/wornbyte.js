@@ -15,11 +15,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name : ['My Application'],
+  app_name: ['My Application'],
   /**
    * Your Monis Agent license key.
    */
-  license_key : 'license key here',
+  license_key: 'license key here',
   utilization: {
     detect_aws: false,
     detect_pcf: false,
@@ -27,13 +27,13 @@ exports.config = {
     detect_gcp: false,
     detect_docker: false
   },
-  logging : {
+  logging: {
     /**
      * Level at which to log. 'trace' is most useful to Monis Agent when diagnosing
      * issues with the agent, 'info' and higher will impose the least overhead on
      * production applications.
      */
-    level : 'trace'
+    level: 'trace'
   },
   cross_application_tracer: {
     enabled: false
