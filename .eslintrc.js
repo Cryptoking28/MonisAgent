@@ -7,6 +7,9 @@
 
 module.exports = {
   extends: '@monisagent',
+  rules: {
+    'consistent-return': 'off'
+  },
   overrides: [
     {
       files: [
