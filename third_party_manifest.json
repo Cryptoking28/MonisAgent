@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri Aug 06 2021 15:00:50 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Fri Aug 06 2021 16:21:48 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -173,16 +173,16 @@
     }
   },
   "devDependencies": {
-    "@monisagent/monisagent-oss-cli@0.1.0": {
+    "@monisagent/monisagent-oss-cli@0.1.1": {
       "name": "@monisagent/monisagent-oss-cli",
-      "version": "0.1.0",
-      "range": "^0.1.0",
+      "version": "0.1.1",
+      "range": "^0.1.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-oss-cli",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-oss-cli/tree/v0.1.0",
-      "licenseFile": "node_modules/@monisagent/monisagent-oss-cli/README.md",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-oss-cli/blob/v0.1.0/README.md",
-      "licenseTextSource": "spdx",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-oss-cli/tree/v0.1.1",
+      "licenseFile": "node_modules/@monisagent/monisagent-oss-cli/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-oss-cli/blob/v0.1.1/LICENSE",
+      "licenseTextSource": "file",
       "publisher": "Monis Agent"
     },
     "@monisagent/proxy@2.0.0": {
