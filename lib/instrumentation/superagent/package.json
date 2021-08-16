@@ -15,6 +15,7 @@
   "author": "Monis Agent Node.js Agent Team <nodejs@monisagent.com>",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@monisagent/eslint-config": "^0.0.1",
     "@monisagent/test-utilities": "^5.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
