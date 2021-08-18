@@ -1,17 +1,11 @@
 /*
- * Copyright 2020 Monis Agent Corporation. All rights reserved.
+ * Copyright 2021 Monis Agent Corporation. All rights reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
 'use strict'
 module.exports = {
-  "env": {
-    "mocha": true
-  },
-  "rules": {
-    "max-nested-callbacks": "off",
-    "func-names": "off",
-    "no-shadow": ["warn", {"allow": ["cb", "t", "shim", "error", "err"]}],
-    "brace-style": ["error", "1tbs", {"allowSingleLine": true}]
+  env: {
+    mocha: true
   }
 }
