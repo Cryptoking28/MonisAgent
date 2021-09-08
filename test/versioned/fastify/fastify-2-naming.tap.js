@@ -8,17 +8,12 @@
 const tap = require('tap')
 const requestClient = require('request')
 const helper = require('../../lib/agent_helper')
-const semver = require('semver')
 
 let callCount = 0
-const loadMiddleware = async (fastify, pkgVersion) => {
+const loadMiddleware = async (fastify) => {
   function testMiddleware(req, res, next) {
     callCount++
     next()
-  }
-
-  if (semver.satisfies(pkgVersion, '>=3')) {
-    await fastify.register(require('middie'))
   }
 
   fastify.use(testMiddleware)
@@ -29,7 +24,7 @@ const loadMiddleware = async (fastify, pkgVersion) => {
  *
  * @todo Would this be better closer to test, or is it good here
  */
-const configureFastifyServer = async (fastify, pkgVersion) => {
+const configureFastifyServer = async (fastify) => {
   /**
    * Route's callback is an async function, and response is returned
    */
@@ -61,7 +56,7 @@ const configureFastifyServer = async (fastify, pkgVersion) => {
     done()
   }, {})
 
-  await loadMiddleware(fastify, pkgVersion)
+  await loadMiddleware(fastify)
 }
 
 let testCount = 0
@@ -101,8 +96,7 @@ tap.test('Test Transaction Naming', (test) => {
       }
     })
     fastify = require('fastify')()
-    const { version: pkgVersion } = require('fastify/package')
-    await configureFastifyServer(fastify, pkgVersion)
+    await configureFastifyServer(fastify)
   })
 
   test.afterEach(() => {
