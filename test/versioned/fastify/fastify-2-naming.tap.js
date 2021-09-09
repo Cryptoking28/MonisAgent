@@ -16,9 +16,6 @@ const loadMiddleware = async (fastify) => {
     next()
   }
 
-  // If fastify version is >=3, .use() will fail unless a plugin adds it
-  fastify.use((_, __, next) => next())
-
   fastify.use(testMiddleware)
 }
 
