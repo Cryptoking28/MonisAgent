@@ -1335,7 +1335,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### @monisagent/eslint-config
 
-This product includes source derived from [@monisagent/eslint-config](https://github.com/Cryptoking28/eslint-config-monisagent) ([v0.0.2](https://github.com/Cryptoking28/eslint-config-monisagent/tree/v0.0.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/eslint-config-monisagent/blob/v0.0.2/LICENSE):
+This product includes source derived from [@monisagent/eslint-config](https://github.com/Cryptoking28/eslint-config-monisagent) ([v0.0.3](https://github.com/Cryptoking28/eslint-config-monisagent/tree/v0.0.3)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/eslint-config-monisagent/blob/v0.0.3/LICENSE):
 
 ```
                                  Apache License
