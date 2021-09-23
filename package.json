@@ -103,6 +103,11 @@
       "name": "Bob Evans",
       "email": "revans@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Diana Thayer",
+      "email": "dthayer@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
