@@ -5,7 +5,39 @@
 
 'use strict'
 
-var monisagent = require('monisagent')
+const monisagent = require('monisagent')
+
+/**
+ * We'll stub out an async task that runs as part of monitoring a segment
+ */
+async function myAsyncTask() {
+  await new Promise((resolve) => {
+    setTimeout(resolve, 1)
+  })
+  return 'hello world'
+}
+
+/**
+ * Then we stub out the task that handles that task's result,
+ * to show how the result is passed throughthe segment handler.
+ *
+ * @param greetings
+ */
+async function myNextTask(greetings) {
+  await new Promise((resolve) => {
+    setTimeout(resolve, 1)
+  })
+  return `${greetings}, it's me!`
+}
+
+/**
+ * This task will be run as its own segment within our transaction handler
+ */
+async function someTask() {
+  const result = await myAsyncTask()
+  const output = await myNextTask(result)
+  return output
+}
 
 // Segments can only be created inside of transactions. They could be automatically
 // generated HTTP transactions or custom transactions.
@@ -16,12 +48,6 @@ monisagent.startBackgroundTransaction('bg-tx', async function transHandler() {
   // Since `async` functions just return a promise, they are covered just the
   // same as the promise example.
 
-  var output = await monisagent.startSegment('myCustomSegment', false, someTask)
+  const output = await monisagent.startSegment('myCustomSegment', false, someTask)
   console.log(output)
 })
-
-async function someTask() {
-  var result = await myAsyncTask()
-  var output = await myNextTask(result)
-  return output
-}

@@ -5,7 +5,7 @@
 
 'use strict'
 
-const monisagent = require('monisagent') // eslint-disable-line node/no-extraneous-require
+const monisagent = require('monisagent')
 
 /*
 `addCustomAttribute` adds a custom attribute to an existing transaction.
