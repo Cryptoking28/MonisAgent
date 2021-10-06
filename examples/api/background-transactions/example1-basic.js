@@ -5,9 +5,9 @@
 
 'use strict'
 
-var monisagent = require('monisagent')
+const monisagent = require('monisagent')
 
-var transactionName = 'myCustomTransaction'
+const transactionName = 'myCustomTransaction'
 
 // `startBackgroundTransaction()` takes a name, group, and a handler function to
 // execute. The group is optional. The last parameter is the function performing
@@ -24,13 +24,17 @@ var transactionName = 'myCustomTransaction'
 
 // Here is an example for the first case.
 monisagent.startBackgroundTransaction(transactionName, function handle() {
-  var transaction = monisagent.getTransaction()
+  const transaction = monisagent.getTransaction()
   doSomeWork(function cb() {
     transaction.end()
   })
 })
 
-// Function to simulate async work.
+/**
+ * Function to simulate async work.
+ *
+ * @param callback
+ */
 function doSomeWork(callback) {
   setTimeout(function work() {
     callback()
