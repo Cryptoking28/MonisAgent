@@ -44,18 +44,19 @@ To use Monis Agent's Node.js agent entails these three steps, which are describe
     }
 ```
 
-4. Finally, load the `monisagent` module _before any other module_ in your program.
+4. Finally, run your program with the `monisagent` module loaded first by using node's `-r/--require` flag.
+
+```
+ $ node -r monisagent your-program.js
+```
+
+If you cannot control how your program is run, you can load the `monisagent` module _before any other module_ in your program.
 
 ```js
     const monisagent = require('monisagent')
 
     /* ... the rest of your program ... */
 ```
-
-If you're compiling your JavaScript and can't control the final `require` order, the Node.js agent will work with node's `-r/--require` flag.
-
-    $ node -r monisagent your-program.js
-    $ node --require monisagent your-program.js
 
 ## Getting Started
 
