@@ -13,3 +13,4 @@
 const monisagent = require('monisagent')
 monisagent.instrumentConglomerate('aws-sdk', require('./lib/instrumentation'))
 monisagent.instrumentMessages('@aws-sdk/client-sns', require('./lib/v3-sns'))
+monisagent.instrumentMessages('@aws-sdk/client-sqs', require('./lib/v3-sqs'))
