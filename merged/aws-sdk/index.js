@@ -12,8 +12,11 @@
  */
 const monisagent = require('monisagent')
 monisagent.instrumentConglomerate('aws-sdk', require('./lib/instrumentation'))
-monisagent.instrumentMessages('@aws-sdk/client-sns', require('./lib/v3-sns'))
 monisagent.instrument({
   moduleName: '@aws-sdk/smithy-client',
   onResolved: require('./lib/smithy-client')
+})
+monisagent.instrumentMessages({
+  moduleName: '@aws-sdk/client-sns',
+  onResolved: require('./lib/v3-sns')
 })
