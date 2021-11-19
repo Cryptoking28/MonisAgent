@@ -18,7 +18,7 @@ monisagent.instrumentMessages({
 })
 monisagent.instrumentMessages({
   moduleName: '@aws-sdk/client-dynamodb',
-  onResolved: require('./lib/v3-dynamo-ddb')
+  onResolved: require('./lib/v3-client-dynamodb')
 })
 monisagent.instrument({
   moduleName: '@aws-sdk/smithy-client',
