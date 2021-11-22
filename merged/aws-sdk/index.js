@@ -20,3 +20,11 @@ monisagent.instrumentMessages({
   moduleName: '@aws-sdk/client-sns',
   onResolved: require('./lib/v3-sns')
 })
+monisagent.instrumentDatastore({
+  moduleName: '@aws-sdk/client-dynamodb',
+  onResolved: require('./lib/v3-client-dynamodb')
+})
+monisagent.instrumentDatastore({
+  moduleName: '@aws-sdk/lib-dynamodb',
+  onResolved: require('./lib/v3-dynamodb-doc-client')
+})
