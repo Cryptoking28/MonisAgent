@@ -12,5 +12,23 @@
  */
 const monisagent = require('monisagent')
 monisagent.instrumentConglomerate('aws-sdk', require('./lib/instrumentation'))
-monisagent.instrumentMessages('@aws-sdk/client-sns', require('./lib/v3-sns'))
-monisagent.instrumentMessages('@aws-sdk/client-sqs', require('./lib/v3-sqs'))
+monisagent.instrument({
+  moduleName: '@aws-sdk/smithy-client',
+  onResolved: require('./lib/smithy-client')
+})
+monisagent.instrumentMessages({
+  moduleName: '@aws-sdk/client-sns',
+  onResolved: require('./lib/v3-sns')
+})
+monisagent.instrumentMessages({
+  moduleName: '@aws-sdk/client-sqs',
+  onResolved: require('./lib/v3-sqs')
+})
+monisagent.instrumentDatastore({
+  moduleName: '@aws-sdk/client-dynamodb',
+  onResolved: require('./lib/v3-client-dynamodb')
+})
+monisagent.instrumentDatastore({
+  moduleName: '@aws-sdk/lib-dynamodb',
+  onResolved: require('./lib/v3-dynamodb-doc-client')
+})
