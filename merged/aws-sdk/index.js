@@ -30,5 +30,5 @@ monisagent.instrumentDatastore({
 })
 monisagent.instrumentDatastore({
   moduleName: '@aws-sdk/lib-dynamodb',
-  onResolved: require('./lib/v3/dynamodb-doc-client')
+  onResolved: require('./lib/v3/lib-dynamodb')
 })
