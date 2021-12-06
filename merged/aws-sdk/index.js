@@ -11,24 +11,24 @@
  * then the supportability metrics for custom instrumentation will trigger.
  */
 const monisagent = require('monisagent')
-monisagent.instrumentConglomerate('aws-sdk', require('./lib/instrumentation'))
+monisagent.instrumentConglomerate('aws-sdk', require('./lib/v2/instrumentation'))
 monisagent.instrument({
   moduleName: '@aws-sdk/smithy-client',
-  onResolved: require('./lib/smithy-client')
+  onResolved: require('./lib/v3/smithy-client')
 })
 monisagent.instrumentMessages({
   moduleName: '@aws-sdk/client-sns',
-  onResolved: require('./lib/v3-sns')
+  onResolved: require('./lib/v3/sns')
 })
 monisagent.instrumentMessages({
   moduleName: '@aws-sdk/client-sqs',
-  onResolved: require('./lib/v3-sqs')
+  onResolved: require('./lib/v3/sqs')
 })
 monisagent.instrumentDatastore({
   moduleName: '@aws-sdk/client-dynamodb',
-  onResolved: require('./lib/v3-client-dynamodb')
+  onResolved: require('./lib/v3/client-dynamodb')
 })
 monisagent.instrumentDatastore({
   moduleName: '@aws-sdk/lib-dynamodb',
-  onResolved: require('./lib/v3-dynamodb-doc-client')
+  onResolved: require('./lib/v3/lib-dynamodb')
 })
