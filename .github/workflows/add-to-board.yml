@@ -9,5 +9,3 @@ on:
 jobs:
   add-to-board:
     uses: monisagent/node-monisagent/.github/workflows/board.yml@main
-    secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
