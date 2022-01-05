@@ -4,36 +4,56 @@
  */
 
 'use strict'
+const monisagent = require('monisagent')
+const semver = require('semver')
+const agentVersion = monisagent && monisagent.agent && monisagent.agent.version
 
-module.exports = [
+const instrumentations = [
   {
     type: 'conglomerate',
     moduleName: 'aws-sdk',
     onRequire: require('./lib/v2/instrumentation')
-  },
-  {
-    type: 'generic',
-    moduleName: '@aws-sdk/smithy-client',
-    onResolved: require('./lib/v3/smithy-client')
-  },
-  {
-    type: 'message',
-    moduleName: '@aws-sdk/client-sns',
-    onResolved: require('./lib/v3/sns')
-  },
-  {
-    type: 'message',
-    moduleName: '@aws-sdk/client-sqs',
-    onResolved: require('./lib/v3/sqs')
-  },
-  {
-    type: 'datastore',
-    moduleName: '@aws-sdk/client-dynamodb',
-    onResolved: require('./lib/v3/client-dynamodb')
-  },
-  {
-    type: 'datastore',
-    moduleName: '@aws-sdk/lib-dynamodb',
-    onResolved: require('./lib/v3/lib-dynamodb')
   }
 ]
+
+// TODO: Remove this semver check and semver module when we ship Node 18 support
+// A bug existed in 8.6.0 when we introduced the `onResolved` hook.
+// See: https://github.com/Cryptoking28/monisagent/pull/986
+// To avoid unnecessary support issues we will require agent version >= 8.7.0 to
+// register AWS SDK v3 instrumentation
+if (semver.satisfies(agentVersion, '>=8.7.0')) {
+  instrumentations.push(
+    {
+      type: 'generic',
+      moduleName: '@aws-sdk/smithy-client',
+      onResolved: require('./lib/v3/smithy-client')
+    },
+    {
+      type: 'message',
+      moduleName: '@aws-sdk/client-sns',
+      onResolved: require('./lib/v3/sns')
+    },
+    {
+      type: 'message',
+      moduleName: '@aws-sdk/client-sqs',
+      onResolved: require('./lib/v3/sqs')
+    },
+    {
+      type: 'datastore',
+      moduleName: '@aws-sdk/client-dynamodb',
+      onResolved: require('./lib/v3/client-dynamodb')
+    },
+    {
+      type: 'datastore',
+      moduleName: '@aws-sdk/lib-dynamodb',
+      onResolved: require('./lib/v3/lib-dynamodb')
+    }
+  )
+} else {
+  monisagent.shim.logger.warn(
+    'The Monis Agent Node.js agent must be >= 8.7.0 to instrument AWS SDK v3, current version: %s',
+    agentVersion
+  )
+}
+
+module.exports = instrumentations
