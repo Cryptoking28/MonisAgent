@@ -1,6 +1,6 @@
 {
   "name": "@monisagent/aws-sdk",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Monis Agent instrumentation of the aws-sdk package.",
   "main": "index.js",
   "scripts": {
