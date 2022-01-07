@@ -1,0 +1,9 @@
+name: Create Release
+
+on: [workflow_dispatch]
+
+jobs:
+  tag-and-publish:
+    uses: monisagent/node-monisagent/.github/workflows/release-creation.yml@main
+    with:
+      changelog_file: CHANGELOG.md
