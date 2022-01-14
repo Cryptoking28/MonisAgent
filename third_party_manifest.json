@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Jan 13 2022 11:55:16 GMT-0500 (Eastern Standard Time)",
+  "lastUpdated": "Fri Jan 14 2022 12:26:49 GMT-0800 (Pacific Standard Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -44,15 +44,15 @@
       "licenseTextSource": "file",
       "publisher": "Google Inc."
     },
-    "@monisagent/aws-sdk@4.0.1": {
+    "@monisagent/aws-sdk@4.1.1": {
       "name": "@monisagent/aws-sdk",
-      "version": "4.0.1",
-      "range": "^4.0.1",
+      "version": "4.1.1",
+      "range": "^4.1.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v4.0.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v4.1.1",
       "licenseFile": "node_modules/@monisagent/aws-sdk/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v4.0.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v4.1.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
