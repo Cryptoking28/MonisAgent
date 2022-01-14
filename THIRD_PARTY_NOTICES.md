@@ -504,7 +504,7 @@ This product includes source derived from [@grpc/proto-loader](https://github.co
 
 ### @monisagent/aws-sdk
 
-This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v4.0.1](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v4.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v4.0.1/LICENSE):
+This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v4.1.1](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v4.1.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v4.1.1/LICENSE):
 
 ```
                                  Apache License
