@@ -67,7 +67,8 @@ For more information on getting started, [check the Node.js docs](https://docs.m
 There are several modules that can be installed and configured to accompany the Node.js agent:
 
  * [@monisagent/apollo-server-plugin](https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin): Monis Agent's official Apollo Server plugin for use with the Node.js agent.
- * [@monisagent/winston-enricher](https://github.com/Cryptoking28/monisagent-winston-logenricher-node): Provides distributed trace and span information output as JSON-formatted log messages.  This is most commonly used with the Monis Agent Logs product.
+ * [@monisagent/winston-enricher](https://github.com/Cryptoking28/monisagent-node-log-extensions/tree/main/packages/winston-log-enricher): Provides distributed trace and span information output as JSON-formatted log messages in Winston.  This is most commonly used with the Monis Agent Logs product.
+ * [@monisagent/pino-enricher](https://github.com/Cryptoking28/monisagent-node-log-extensions/tree/main/packages/pino-log-enricher): Provides distributed trace and span information output as JSON-formatted log messages in Pino.  This is most commonly used with the Monis Agent Logs product.
  * [@monisagent/mysql](https://github.com/Cryptoking28/monisagent-mysql)(**Experimental**): Standalone instrumentation for [mysql2](https://github.com/sidorares/node-mysql2#readme) and [mysql2/promise](https://github.com/sidorares/node-mysql2/blob/master/documentation/Promise-Wrapper.md) as well as the same instrumentation for [mysql](https://github.com/mysqljs/mysql#readme) within the Node.js agent.
 
 There are several modules included within the Node.js agent to add more instrumentation for 3rd party modules:
