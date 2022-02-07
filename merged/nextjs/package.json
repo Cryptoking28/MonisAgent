@@ -1,0 +1,42 @@
+{
+  "name": "@monisagent/next",
+  "version": "0.1.0",
+  "description": "Next.js instrumentation for the Monis Agent Node.js agent. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit && npm run versioned",
+    "lint": "eslint *.js lib tests",
+    "unit": "tap --test-regex='(\\/|^tests\\/unit\\/.*\\.test\\.js)$' --no-coverage",
+    "versioned": "npm run versioned:npm7",
+    "versioned:major": "versioned-tests --major --all -i 2 'tests/versioned/*.tap.js'",
+    "versioned:npm6": "versioned-tests --minor -i 2 'tests/versioned/*.tap.js'",
+    "versioned:npm7": "versioned-tests --minor --all -i 2 'tests/versioned/*.tap.js'"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/monisagent/monisagent-node-nextjs.git"
+  },
+  "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Cryptoking28/monisagent-node-nextjs/issues"
+  },
+  "homepage": "https://github.com/Cryptoking28/monisagent-node-nextjs#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "@monisagent/eslint-config": "^0.0.4",
+    "@monisagent/test-utilities": "^6.4.0",
+    "eslint": "^8.8.0",
+    "monisagent": "^8.7.1",
+    "tap": "^15.1.6"
+  },
+  "peerDependencies": {
+    "monisagent": ">=8"
+  }
+}
