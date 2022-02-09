@@ -5,5 +5,6 @@
 
 'use strict'
 module.exports = {
-  extends: '@monisagent'
+  extends: '@monisagent',
+  ignorePatterns: ['tests/versioned/app']
 }
