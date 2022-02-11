@@ -35,7 +35,6 @@
     "@monisagent/eslint-config": "^0.0.4",
     "@monisagent/monisagent-oss-cli": "^0.1.2",
     "@monisagent/test-utilities": "^6.4.0",
-    "eslint": "^8.8.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.3",
     "monisagent": "^8.7.1",
