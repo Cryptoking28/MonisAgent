@@ -160,7 +160,7 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.2.11",
-    "@grpc/proto-loader": "^0.5.6",
+    "@grpc/proto-loader": "^0.6.9",
     "@monisagent/aws-sdk": "^4.1.1",
     "@monisagent/koa": "^6.0.1",
     "@monisagent/superagent": "^5.0.1",
