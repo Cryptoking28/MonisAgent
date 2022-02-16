@@ -14,3 +14,4 @@ const monisagent = require('monisagent')
 
 monisagent.instrumentWebframework('./next-server', require('./lib/next-server'))
 monisagent.instrumentWebframework('./render', require('./lib/render'))
+monisagent.instrumentWebframework('./context', require('./lib/context'))
