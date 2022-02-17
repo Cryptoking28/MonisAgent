@@ -712,7 +712,7 @@ This product includes source derived from [@monisagent/aws-sdk](https://github.c
 
 ### @monisagent/koa
 
-This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v6.0.1](https://github.com/Cryptoking28/monisagent-koa/tree/v6.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v6.0.1/LICENSE):
+This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v6.1.0](https://github.com/Cryptoking28/monisagent-koa/tree/v6.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v6.1.0/LICENSE):
 
 ```
 Apache License
@@ -921,7 +921,7 @@ Apache License
 
 ### @monisagent/superagent
 
-This product includes source derived from [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent) ([v5.0.1](https://github.com/Cryptoking28/monisagent-superagent/tree/v5.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-superagent/blob/v5.0.1/LICENSE):
+This product includes source derived from [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent) ([v5.1.0](https://github.com/Cryptoking28/monisagent-superagent/tree/v5.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-superagent/blob/v5.1.0/LICENSE):
 
 ```
                                  Apache License
@@ -3377,7 +3377,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @monisagent/native-metrics
 
-This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v7.0.1](https://github.com/Cryptoking28/node-native-metrics/tree/v7.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v7.0.1/LICENSE):
+This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v7.1.1](https://github.com/Cryptoking28/node-native-metrics/tree/v7.1.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v7.1.1/LICENSE):
 
 ```
                                  Apache License
