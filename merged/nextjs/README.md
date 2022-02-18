@@ -1,4 +1,4 @@
-[![Community Plus header](https://github.com/Cryptoking28//raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
 # Monis Agent Next.js Instrumentation [![Next.js Instrumentation CI][1]][2]
 
