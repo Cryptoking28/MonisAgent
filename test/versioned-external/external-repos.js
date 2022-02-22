@@ -23,6 +23,11 @@ const repos = [
     branch: 'main'
   },
   {
+    name: 'next',
+    repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
+    branch: 'main'
+  },
+  {
     name: 'superagent',
     repository: 'https://github.com/Cryptoking28/monisagent-superagent.git',
     branch: 'main'
