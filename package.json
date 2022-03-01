@@ -162,7 +162,7 @@
     "@grpc/grpc-js": "^1.5.5",
     "@grpc/proto-loader": "^0.6.9",
     "@monisagent/aws-sdk": "^4.1.1",
-    "@monisagent/koa": "^6.1.0",
+    "@monisagent/koa": "^6.1.1",
     "@monisagent/superagent": "^5.1.0",
     "@tyriar/fibonacci-heap": "^2.0.7",
     "async": "^3.2.3",
