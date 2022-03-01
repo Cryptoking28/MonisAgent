@@ -1,14 +1,14 @@
 [![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent Next.js Instrumentation [![Next.js Instrumentation CI][1]][2]
+# Monis Agent Next.js instrumentation [![Next.js Instrumentation CI][1]][2]
 
-Monis Agent's official Next.js framework instrumentation for use with the Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
+This is Monis Agent's official Next.js framework instrumentation for use with the Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
 
 This module is a dependency of the agent and is installed by default when you install the agent.
 
-This module provides instrumentation for Server-Side Rendering via [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props), [Middleware](https://nextjs.org/docs/middleware), and Monis Agent Transaction naming for both page and server requests. It does not provide any instrumentation for actions occurring during build, client-side code.  If you want telemetry data on actions occurring on client(browser), you can [inject the browser agent](./docs/inject-browser-agent.md).
+This module provides instrumentation for server-side rendering via [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props), [middleware](https://nextjs.org/docs/middleware), and Monis Agent transaction naming for both page and server requests. It does not provide any instrumentation for actions occurring during build or in client-side code.  If you want telemetry data on actions occurring on the client (browser), you can [inject the browser agent](./docs/inject-browser-agent.md).
 
-Here are documents for more in-depth explanation around [transaction naming](./docs/transactions.md), [segments/spans](./docs/segments-and-spans.md), and [injecting browser agent](./docs/inject-browser-agent.md).
+Here are documents for more in-depth explanations about [transaction naming](./docs/transactions.md), [segments/spans](./docs/segments-and-spans.md), and [injecting the browser agent](./docs/inject-browser-agent.md).
 
 **Note**: The minimum supported Next.js version is [12.0.9](https://github.com/vercel/next.js/releases/tag/v12.0.9).
 
@@ -16,7 +16,7 @@ Here are documents for more in-depth explanation around [transaction naming](./d
 
 Typically, most users use the version auto-installed by the agent. You can see agent install instructions [here](https://github.com/Cryptoking28/monisagent#installation-and-getting-started).
 
-In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main Monis Agent Node.js Agent.
+In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main Monis Agent Node.js agent.
 
 ```
 npm install @monisagent/next
@@ -26,8 +26,7 @@ npm install @monisagent/next
 NODE_OPTIONS='-r @monisagent/next' next your-program.js
 ```
 
-
-If you cannot control how your program is run, you can load the `@monisagent/next` module before any other module in your program. However, we strongly suggest you avoid this method at all costs.  We found bundling when running `next build` causes problems and also will make your bundle unncessarily large.
+If you cannot control how your program is run, you can load the `@monisagent/next` module before any other module in your program. However, we strongly suggest you avoid this method at all costs.  We found bundling when running `next build` causes problems and also will make your bundle unnecessarily large.
 
 ```js
 require('@monisagent/next')
@@ -36,6 +35,7 @@ require('@monisagent/next')
 ```
 
 ### Custom Next.js servers
+
 If you are using next as a [custom server](https://nextjs.org/docs/advanced-features/custom-server), you're probably not running your application with the `next` CLI.  In that scenario we recommend running the Next.js instrumentation as follows.
 
 ```js
@@ -50,7 +50,7 @@ Our [API and developer documentation](http://monisagent.github.io/node-monisagen
 
 ## Client-side Instrumentation
 
-Next.js is a full stack React Framework.  This module augments the Node.js Monis Agent agent, thus any client-side actions will not be instrumented. However, below is a method of adding the [Monis Agent Browser agent](https://docs.monisagent.com/docs/browser/browser-monitoring/getting-started/introduction-browser-monitoring/) to get more information on client-side actions.
+Next.js is a full stack React Framework. This module augments the Node.js Monis Agent agent, thus any client-side actions will not be instrumented. However, below is a method of adding the [Monis Agent Browser agent](https://docs.monisagent.com/docs/browser/browser-monitoring/getting-started/introduction-browser-monitoring/) to get more information on client-side actions.
 
 ```js
 import Head from 'next/head'
@@ -118,9 +118,7 @@ npm run versioned
 
 ## Support
 
-Monis Agent hosts and moderates an online forum where customers can interact with Monis Agent employees as well as other customers to get help and share best practices. Like all official Monis Agent open source projects, there's a related Community topic in the Monis Agent Explorers Hub. You can find this project's topic/threads here:
-
-**Support Channels**
+Monis Agent hosts and moderates an online forum where you can interact with Monis Agent employees as well as other customers to get help and share best practices. Like all official Monis Agent open source projects, there's a related community topic in the Monis Agent Explorers Hub. You can find this project's topic/threads here:
 
 * [Monis Agent Documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs): Comprehensive guidance for using our platform
 * [Monis Agent Community](https://discuss.monisagent.com/tags/c/telemetry-data-platform/agents/nodeagent): The best place to engage in troubleshooting questions
@@ -130,9 +128,9 @@ Monis Agent hosts and moderates an online forum where customers can interact wit
 
 ## Contribute
 
-We encourage your contributions to improve Next.js instrumentation module! Keep in mind that when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
+We encourage your contributions to improve the Next.js instrumentation module! Keep in mind that when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 
-If you have any questions, or to execute our corporate CLA (which is required if your contribution is on behalf of a company), drop us an email at opensource@monisagent.com.
+If you have any questions, or want to execute our corporate CLA (which is required if your contribution is on behalf of a company), drop us an email at opensource@monisagent.com.
 
 **A note about vulnerabilities**
 
@@ -146,7 +144,8 @@ To all contributors, we thank you!  Without your contribution, this project woul
 
 ## License
 Monis Agent Next.js instrumentation is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
-Monis Agent Next.js instrumentation also uses source code from third-party libraries. Full details on which libraries are used and the terms under which they are licensed can be found in the third-party notices document.
+
+Monis Agent Next.js instrumentation also uses source code from third-party libraries. You can find the full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
 
 [1]: https://github.com/Cryptoking28/monisagent-node-nextjs/workflows/Next.js%20Instrumentation%20CI/badge.svg
 [2]: https://github.com/Cryptoking28/monisagent-nextjs/actions
