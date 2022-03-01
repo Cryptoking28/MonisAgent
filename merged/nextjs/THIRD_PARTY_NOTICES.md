@@ -20,7 +20,6 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 * [@monisagent/eslint-config](#monisagenteslint-config)
 * [@monisagent/monisagent-oss-cli](#monisagentmonisagent-oss-cli)
 * [@monisagent/test-utilities](#monisagenttest-utilities)
-* [eslint](#eslint)
 * [husky](#husky)
 * [lint-staged](#lint-staged)
 * [monisagent](#monisagent)
@@ -658,33 +657,6 @@ This product includes source derived from [@monisagent/test-utilities](https://g
 
 ```
 
-### eslint
-
-This product includes source derived from [eslint](https://github.com/eslint/eslint) ([v8.8.0](https://github.com/eslint/eslint/tree/v8.8.0)), distributed under the [MIT License](https://github.com/eslint/eslint/blob/v8.8.0/LICENSE):
-
-```
-Copyright OpenJS Foundation and other contributors, <www.openjsf.org>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-```
-
 ### husky
 
 This product includes source derived from [husky](https://github.com/typicode/husky) ([v7.0.4](https://github.com/typicode/husky/tree/v7.0.4)), distributed under the [MIT License](https://github.com/typicode/husky/blob/v7.0.4/LICENSE):
@@ -745,7 +717,7 @@ SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v8.7.1](https://github.com/Cryptoking28/monisagent/tree/v8.7.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v8.7.1/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v8.8.0](https://github.com/Cryptoking28/monisagent/tree/v8.8.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v8.8.0/LICENSE):
 
 ```
                                  Apache License
