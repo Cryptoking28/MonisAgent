@@ -23,7 +23,7 @@ npm install @monisagent/next
 ```
 
 ```js
-NODE_OPTIONS='-r @monisagent/next' next start your-program.js
+NODE_OPTIONS='-r @monisagent/next' next start
 ```
 
 If you cannot control how your program is run, you can load the `@monisagent/next` module before any other module in your program. However, we strongly suggest you avoid this method at all costs.  We found bundling when running `next build` causes problems and also will make your bundle unnecessarily large.
