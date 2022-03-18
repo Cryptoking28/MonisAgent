@@ -145,6 +145,8 @@ Here are some resources for learning more about the agent:
 
 - [The changelog](https://github.com/Cryptoking28/monisagent/blob/main/NEWS.md)
 
+- [Example applications](https://github.com/Cryptoking28/monisagent-node-examples) - Working examples of Monis Agent features in Node.js.
+
 ## Support
 
 Should you need assistance with Monis Agent products, you are in good hands with several support channels.
