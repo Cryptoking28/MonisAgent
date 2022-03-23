@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "Wed Feb 16 2022 15:50:08 GMT-0800 (Pacific Standard Time)",
+  "lastUpdated": "Tue Mar 22 2022 11:50:22 GMT-0400 (GMT-04:00)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
   "optionalDependencies": {
-    "@monisagent/native-metrics@7.1.1": {
+    "@monisagent/native-metrics@8.0.0": {
       "name": "@monisagent/native-metrics",
-      "version": "7.1.1",
-      "range": "^7.1.1",
+      "version": "8.0.0",
+      "range": "^8.0.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/node-native-metrics",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/node-native-metrics/tree/v7.1.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/node-native-metrics/tree/v8.0.0",
       "licenseFile": "node_modules/@monisagent/native-metrics/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/node-native-metrics/blob/v7.1.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/node-native-metrics/blob/v8.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
@@ -57,15 +57,15 @@
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/koa@6.1.0": {
+    "@monisagent/koa@6.1.1": {
       "name": "@monisagent/koa",
-      "version": "6.1.0",
-      "range": "^6.1.0",
+      "version": "6.1.1",
+      "range": "^6.1.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-koa",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v6.1.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v6.1.1",
       "licenseFile": "node_modules/@monisagent/koa/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v6.1.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v6.1.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
