@@ -1,6 +1,6 @@
 {
   "name": "@monisagent/next",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Next.js instrumentation for the Monis Agent Node.js agent. ",
   "main": "index.js",
   "scripts": {
