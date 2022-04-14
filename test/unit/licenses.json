@@ -2,6 +2,7 @@
   "@monisagent/aws-sdk": "Apache-2.0",
   "@monisagent/koa": "Apache-2.0",
   "@monisagent/superagent": "Apache-2.0",
+  "@monisagent/winston-enricher": "Apache-2.0",
   "@monisagent/native-metrics": "Apache-2.0",
   "@tyriar/fibonacci-heap": "MIT",
   "async": "MIT",
