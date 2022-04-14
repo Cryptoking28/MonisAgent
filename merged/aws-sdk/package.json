@@ -28,7 +28,6 @@
     "@monisagent/eslint-config": "^0.0.2",
     "@monisagent/monisagent-oss-cli": "^0.1.2",
     "@monisagent/test-utilities": "^6.1.1",
-    "async": "^2.6.1",
     "aws-sdk": "^2.403.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
