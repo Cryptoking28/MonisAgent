@@ -34,13 +34,6 @@ exports.config = {
        * Toggles whether the agent gathers log records for sending to Monis Agent.
        */
       enabled: true
-    },
-    local_decorating: {
-      /**
-       * Toggles whether the agent performs *Local Log Decoration* on standard
-       * log output.
-       */
-      enabled: true
     }
   },
   attributes: {
