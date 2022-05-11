@@ -1131,7 +1131,7 @@ This product includes source derived from [@monisagent/superagent](https://githu
 
 ### @monisagent/winston-enricher
 
-This product includes source derived from [@monisagent/winston-enricher](https://github.com/Cryptoking28/monisagent-node-log-extensions) ([v3.1.0](https://github.com/Cryptoking28/monisagent-node-log-extensions/tree/v3.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-node-log-extensions/blob/v3.1.0/LICENSE):
+This product includes source derived from [@monisagent/winston-enricher](https://github.com/Cryptoking28/monisagent-node-log-extensions) ([v3.1.1](https://github.com/Cryptoking28/monisagent-node-log-extensions/tree/v3.1.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-node-log-extensions/blob/v3.1.1/LICENSE):
 
 ```
                                  Apache License
