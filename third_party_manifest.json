@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed May 11 2022 16:38:07 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Fri May 20 2022 11:15:38 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -79,19 +79,6 @@
       "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v5.1.0",
       "licenseFile": "node_modules/@monisagent/superagent/LICENSE",
       "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v5.1.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Monis Agent Node.js Agent Team",
-      "email": "nodejs@monisagent.com"
-    },
-    "@monisagent/winston-enricher@3.1.1": {
-      "name": "@monisagent/winston-enricher",
-      "version": "3.1.1",
-      "range": "^3.1.1",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/Cryptoking28/monisagent-node-log-extensions",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-node-log-extensions/tree/v3.1.1",
-      "licenseFile": "node_modules/@monisagent/winston-enricher/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-node-log-extensions/blob/v3.1.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js Agent Team",
       "email": "nodejs@monisagent.com"
