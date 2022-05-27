@@ -450,7 +450,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.4.0](https://github.com/Cryptoking28/node-test-utilities/tree/v6.4.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.4.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.5.3](https://github.com/Cryptoking28/node-test-utilities/tree/v6.5.3)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.5.3/LICENSE):
 
 ```
                                  Apache License
@@ -659,7 +659,7 @@ This product includes source derived from [@monisagent/test-utilities](https://g
 
 ### husky
 
-This product includes source derived from [husky](https://github.com/typicode/husky) ([v7.0.4](https://github.com/typicode/husky/tree/v7.0.4)), distributed under the [MIT License](https://github.com/typicode/husky/blob/v7.0.4/LICENSE):
+This product includes source derived from [husky](https://github.com/typicode/husky) ([v8.0.1](https://github.com/typicode/husky/tree/v8.0.1)), distributed under the [MIT License](https://github.com/typicode/husky/blob/v8.0.1/LICENSE):
 
 ```
 MIT License
@@ -688,7 +688,7 @@ SOFTWARE.
 
 ### lint-staged
 
-This product includes source derived from [lint-staged](https://github.com/okonet/lint-staged) ([v12.3.3](https://github.com/okonet/lint-staged/tree/v12.3.3)), distributed under the [MIT License](https://github.com/okonet/lint-staged/blob/v12.3.3/LICENSE):
+This product includes source derived from [lint-staged](https://github.com/okonet/lint-staged) ([v12.4.2](https://github.com/okonet/lint-staged/tree/v12.4.2)), distributed under the [MIT License](https://github.com/okonet/lint-staged/blob/v12.4.2/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -717,7 +717,7 @@ SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v8.8.0](https://github.com/Cryptoking28/monisagent/tree/v8.8.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v8.8.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v8.13.0](https://github.com/Cryptoking28/monisagent/tree/v8.13.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v8.13.0/LICENSE):
 
 ```
                                  Apache License
@@ -925,7 +925,7 @@ This product includes source derived from [monisagent](https://github.com/Crypto
 
 ### tap
 
-This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.0.1](https://github.com/tapjs/node-tap/tree/v16.0.1)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.0.1/LICENSE):
+This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.2.0](https://github.com/tapjs/node-tap/tree/v16.2.0)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.2.0/LICENSE):
 
 ```
 The ISC License
