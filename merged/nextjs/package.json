@@ -39,11 +39,11 @@
   "devDependencies": {
     "@monisagent/eslint-config": "^0.0.4",
     "@monisagent/monisagent-oss-cli": "^0.1.2",
-    "@monisagent/test-utilities": "^6.4.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.3",
-    "monisagent": "^8.8.0",
-    "tap": "^16.0.1"
+    "@monisagent/test-utilities": "^6.5.3",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.2",
+    "monisagent": "^8.13.0",
+    "tap": "^16.2.0"
   },
   "peerDependencies": {
     "monisagent": ">=8.8.0"
