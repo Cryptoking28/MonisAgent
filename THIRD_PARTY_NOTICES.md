@@ -1801,7 +1801,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.5.3](https://github.com/Cryptoking28/node-test-utilities/tree/v6.5.3)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.5.3/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.5.4](https://github.com/Cryptoking28/node-test-utilities/tree/v6.5.4)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.5.4/LICENSE):
 
 ```
                                  Apache License
