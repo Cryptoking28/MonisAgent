@@ -131,7 +131,7 @@ Error.getInitialProps = ({ res, err }) => {
 export default Error;
 ```
 
-The example above assumes that both the Monis Agent Browser and Node agents are integrated. `getInitialProps` function's `if` statement checks whether an error was thrown on the server side (`typeof window === "undefined"`) and if it was the case, it `requires` Monis Agent Node agent and sends an `err` with `noticeError` method. Otherwise it assumes the error was throw on the front-end side, and uses the browser agent to send the error to Monis Agent by using `window.monisagent.noticeError(err)`.
+The example above assumes that both the Monis Agent Browser and Node.js agents are integrated. `getInitialProps` function's `if` statement checks whether an error was thrown on the server side (`typeof window === "undefined"`) and if it was the case, it `requires` Monis Agent Node.js agent and sends an `err` with `noticeError` method. Otherwise it assumes the error was throw on the front-end side, and uses the browser agent to send the error to Monis Agent by using `window.monisagent.noticeError(err)`.
 
 ## Testing
 
