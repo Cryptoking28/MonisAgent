@@ -6,7 +6,7 @@
 'use strict'
 
 const tap = require('tap')
-const helpers = require('../helpers')
+const helpers = require('./helpers')
 const utils = require('@monisagent/test-utilities')
 
 const DESTINATIONS = {
