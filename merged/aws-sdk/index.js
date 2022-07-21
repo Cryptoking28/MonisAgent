@@ -11,22 +11,7 @@
  * then the supportability metrics for custom instrumentation will trigger.
  */
 const monisagent = require('monisagent')
-const semver = require('semver')
-const agentVersion = monisagent && monisagent.agent && monisagent.agent.version
 monisagent.instrumentConglomerate('aws-sdk', require('./lib/v2/instrumentation'))
-
-// TODO: Remove this semver check and semver module when we ship Node 18 support
-// A bug existed in 8.6.0 when we introduced the `onResolved` hook.
-// See: https://github.com/Cryptoking28/monisagent/pull/986
-// To avoid unnecessary support issues we will require agent version >= 8.7.0 to
-// register AWS SDK v3 instrumentation
-if (!semver.satisfies(agentVersion, '>=8.7.0')) {
-  monisagent.shim.logger.warn(
-    'The Monis Agent Node.js agent must be >= 8.7.0 to instrument AWS SDK v3, current version: %s',
-    agentVersion
-  )
-  return
-}
 
 monisagent.instrument({
   moduleName: '@aws-sdk/smithy-client',
