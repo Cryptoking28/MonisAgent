@@ -37,7 +37,7 @@
     "node": ">=14.0"
   },
   "peerDependencies": {
-    "monisagent": ">=8.7.0"
+    "monisagent": ">=6.11.0"
   },
   "repository": {
     "type": "git",
