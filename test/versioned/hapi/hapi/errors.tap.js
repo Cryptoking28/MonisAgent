@@ -8,13 +8,13 @@
 const helper = require('../../../lib/agent_helper')
 const http = require('http')
 const tap = require('tap')
-const utils = require('./hapi-17-utils')
+const utils = require('./hapi-utils')
 
 let agent
 let server
 let port
 
-tap.test('Hapi v17 error handling', function (t) {
+tap.test('Hapi error handling', function (t) {
   t.autoend()
 
   t.beforeEach(function () {
@@ -185,7 +185,7 @@ tap.test('Hapi v17 error handling', function (t) {
 
     runTest(t, (errors, statusCode) => {
       t.equals(errors.length, 0, 'has no reported errors')
-      t.equals(statusCode, 200, 'has expected 200 status')
+      t.ok([200, 204].includes(statusCode), 'has expected 200 or 204 status code')
       t.end()
     })
   })

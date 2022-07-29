@@ -9,14 +9,14 @@ const tap = require('tap')
 const shims = require('../../../../lib/shim')
 const helper = require('../../../lib/agent_helper')
 const instrument = require('../../../../lib/instrumentation/hapi')
-const utils = require('./hapi-17-utils')
+const utils = require('./hapi-utils')
 
 tap.test('instrumentation of Hapi', function (t) {
   t.autoend()
 
   t.test('preserves server creation return', function (t) {
     const agent = helper.loadMockedAgent()
-    const hapi = require('hapi')
+    const hapi = require('@hapi/hapi')
     const returned = utils.getServer({ hapi: hapi })
 
     t.ok(returned != null, 'Hapi returns from server creation')
