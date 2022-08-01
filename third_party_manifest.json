@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri Jul 29 2022 15:12:25 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Mon Aug 01 2022 13:39:21 GMT-0700 (Pacific Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -44,41 +44,41 @@
       "licenseTextSource": "file",
       "publisher": "Google Inc."
     },
-    "@monisagent/aws-sdk@4.1.1": {
+    "@monisagent/aws-sdk@5.0.0": {
       "name": "@monisagent/aws-sdk",
-      "version": "4.1.1",
-      "range": "^4.1.1",
+      "version": "5.0.0",
+      "range": "^5.0.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v4.1.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v5.0.0",
       "licenseFile": "node_modules/@monisagent/aws-sdk/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v4.1.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v5.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/koa@6.1.1": {
+    "@monisagent/koa@7.0.0": {
       "name": "@monisagent/koa",
-      "version": "6.1.1",
-      "range": "^6.1.1",
+      "version": "7.0.0",
+      "range": "^7.0.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-koa",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v6.1.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v7.0.0",
       "licenseFile": "node_modules/@monisagent/koa/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v6.1.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v7.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/superagent@5.1.0": {
+    "@monisagent/superagent@6.0.0": {
       "name": "@monisagent/superagent",
-      "version": "5.1.0",
-      "range": "^5.1.0",
+      "version": "6.0.0",
+      "range": "^6.0.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-superagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v5.1.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v6.0.0",
       "licenseFile": "node_modules/@monisagent/superagent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v5.1.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v6.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js Agent Team",
       "email": "nodejs@monisagent.com"
