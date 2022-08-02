@@ -3380,7 +3380,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @monisagent/native-metrics
 
-This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v8.0.0](https://github.com/Cryptoking28/node-native-metrics/tree/v8.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v8.0.0/LICENSE):
+This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v9.0.0](https://github.com/Cryptoking28/node-native-metrics/tree/v9.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v9.0.0/LICENSE):
 
 ```
                                  Apache License
