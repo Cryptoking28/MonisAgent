@@ -504,7 +504,7 @@ This product includes source derived from [@grpc/proto-loader](https://github.co
 
 ### @monisagent/aws-sdk
 
-This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v4.1.1](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v4.1.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v4.1.1/LICENSE):
+This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v5.0.0](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v5.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v5.0.0/LICENSE):
 
 ```
                                  Apache License
@@ -712,7 +712,7 @@ This product includes source derived from [@monisagent/aws-sdk](https://github.c
 
 ### @monisagent/koa
 
-This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v6.1.1](https://github.com/Cryptoking28/monisagent-koa/tree/v6.1.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v6.1.1/LICENSE):
+This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v7.0.0](https://github.com/Cryptoking28/monisagent-koa/tree/v7.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v7.0.0/LICENSE):
 
 ```
 Apache License
@@ -921,7 +921,7 @@ Apache License
 
 ### @monisagent/superagent
 
-This product includes source derived from [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent) ([v5.1.0](https://github.com/Cryptoking28/monisagent-superagent/tree/v5.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-superagent/blob/v5.1.0/LICENSE):
+This product includes source derived from [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent) ([v6.0.0](https://github.com/Cryptoking28/monisagent-superagent/tree/v6.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-superagent/blob/v6.0.0/LICENSE):
 
 ```
                                  Apache License
@@ -3380,7 +3380,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @monisagent/native-metrics
 
-This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v8.0.0](https://github.com/Cryptoking28/node-native-metrics/tree/v8.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v8.0.0/LICENSE):
+This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v9.0.0](https://github.com/Cryptoking28/node-native-metrics/tree/v9.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v9.0.0/LICENSE):
 
 ```
                                  Apache License
