@@ -134,7 +134,7 @@ function createAgent(config) {
   if (appNames.length < 1) {
     const message =
       'Monis Agent requires that you name this application!\n' +
-      'Set app_name in your monisagent.js file or set environment variable\n' +
+      'Set app_name in your monisagent.js or monisagent.cjs file or set environment variable\n' +
       'NEW_RELIC_APP_NAME. Not starting!'
     logger.error(message)
     throw new Error(message)
