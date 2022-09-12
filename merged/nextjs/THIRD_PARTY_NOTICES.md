@@ -742,7 +742,7 @@ SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v8.13.0](https://github.com/Cryptoking28/monisagent/tree/v8.13.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v8.13.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v9.0.3](https://github.com/Cryptoking28/monisagent/tree/v9.0.3)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v9.0.3/LICENSE):
 
 ```
                                  Apache License
