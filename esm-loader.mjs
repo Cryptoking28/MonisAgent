@@ -27,7 +27,7 @@ const logger = loggingModule.child({ component: 'esm-loader' })
  * @returns {Promise} Promise object representing the resolution of a given specifier
  */
 export async function resolve(specifier, context, nextResolve) {
-  if (!monisagent.shim) {
+  if (!monisagent.agent) {
     return nextResolve(specifier)
   }
 
