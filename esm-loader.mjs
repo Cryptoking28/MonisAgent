@@ -13,9 +13,7 @@ const isSupportedVersion = () => semver.gte(process.version, 'v16.12.0')
 const logger = loggingModule.child({ component: 'esm-loader' })
 
 if (monisagent.agent) {
-  monisagent.agent.metrics
-    .getOrCreateMetric(`${NAMES.SUPPORTABILITY.FEATURES}/ESModuleLoader`)
-    .incrementCallCount()
+  monisagent.agent.metrics.getOrCreateMetric(NAMES.FEATURES.ESMLoader).incrementCallCount()
 }
 
 /**
