@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri Sep 16 2022 10:55:21 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Mon Sep 19 2022 14:27:44 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -174,15 +174,15 @@
     }
   },
   "devDependencies": {
-    "@monisagent/eslint-config@0.0.3": {
+    "@monisagent/eslint-config@0.1.0": {
       "name": "@monisagent/eslint-config",
-      "version": "0.0.3",
-      "range": "^0.0.3",
+      "version": "0.1.0",
+      "range": "^0.1.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/eslint-config-monisagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/eslint-config-monisagent/tree/v0.0.3",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/eslint-config-monisagent/tree/v0.1.0",
       "licenseFile": "node_modules/@monisagent/eslint-config/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/eslint-config-monisagent/blob/v0.0.3/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/eslint-config-monisagent/blob/v0.1.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
