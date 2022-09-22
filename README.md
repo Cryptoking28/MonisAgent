@@ -20,11 +20,15 @@ To use Monis Agent's Node.js agent entails these three steps, which are describe
 
 1. To install the agent for performance monitoring, use your favorite npm-based package manager and install the `monisagent` package into your application:
 
-    `$ npm install monisagent`
+    ```sh
+    $ npm install monisagent
+    ```
 
 2. Then, copy the stock configuration file to your program's base folder:
 
-    `$ cp ./node_modules/monisagent/monisagent.js ./<your destination>`
+    ```sh
+    $ cp ./node_modules/monisagent/monisagent.js ./<your destination>
+    ```
 
 3. Now, add your Monis Agent license key and application/service name to that file:
 
@@ -57,6 +61,28 @@ If you cannot control how your program is run, you can load the `monisagent` mod
 
     /* ... the rest of your program ... */
 ```
+
+## ECMAScript Modules
+
+If your application is written with `import` and `export` statements in javascript, you are using [ES Modules](https://nodejs.org/api/esm.html#modules-ecmascript-modules) and must bootstrap the agent in a different way.
+
+The Monis Agent Node.js agent includes ***_experimental_*** support for ES Modules. The agent is reliant on an experimental feature in Node.js in order to appropriately register instrumentation. Until the Node.js API for [ES Module Loaders](https://nodejs.org/api/esm.html#loaders) is stable, breaking changes may occur when updating Node.js. Lastly, the ESM loader does not follow the same [supported Node.js versions](https://docs.monisagent.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent#system) as the agent. The minimum supported version of Node.js is `v16.12.0`.
+
+### Setup
+
+ 1. If you rely on a configuration file to run the agent, you must rename the file from `monisagent.js` to `monisagent.cjs` so it can be properly loaded.  All the contents of the configuration file will behave the same once you rename. See [CommonJS modules in ESM](https://nodejs.org/api/modules.html#enabling) for more details.
+
+```sh
+$ mv monisagent.js monisagent.cjs
+```
+
+ 2. To use the monisagent ESM loader, start your program with node and use the `--experimental-loader` flag and a path to the loader file, like this:
+
+```sh
+$ node --experimental-loader monisagent/esm-loader.mjs your-program.js
+```
+
+**Note**: Unlike the CommonJS methods listed above, there are no alternatives to running the agent without the `--experimental-loader` flag.
 
 ## Getting Started
 
