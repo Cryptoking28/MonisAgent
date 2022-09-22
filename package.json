@@ -113,6 +113,16 @@
       "name": "Jordi Gutiérrez Hermoso",
       "email": "jgutierrezhermoso@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Maurice Rickard",
+      "email": "mrickard@monisagent.com",
+      "web": "https://monisagent.com"
+    },
+    {
+      "name": "Jessica Lopatta",
+      "email": "jlopatta@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
