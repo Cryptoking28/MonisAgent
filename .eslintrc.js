@@ -15,6 +15,17 @@ module.exports = {
   ignorePatterns: ['test/versioned-external'],
   overrides: [
     {
+      files: ['**/*.mjs'],
+      parserOptions: {
+        ecmaVersion: '2020'
+      },
+      rules: {
+        // TODO: remove this when we decide on how to address
+        // here: https://issues.monisagent.com/browse/NEWRELIC-3321
+        'node/no-unsupported-features/es-syntax': 'off'
+      }
+    },
+    {
       files: ['monisagent.js'],
       rules: {
         'header/header': ['off']
