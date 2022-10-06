@@ -86,10 +86,10 @@ $ node --experimental-loader monisagent/esm-loader.mjs your-program.js
 
 ### Custom Instrumentation
 
-The agent supports adding your own custom instrumentation to ES module applications. In order to load custom instrumentation in an ES module app, you'll need to update your monisagent.cjs file to include the following:
+The agent supports adding your own custom instrumentation to ES module applications. In order to load custom instrumentation in an ES module app, you'll need to update your `monisagent.cjs` file to include the following:
 
 ```js
-    /* File: monisagent.js */
+    /* File: monisagent.cjs */
     'use strict'
     /**
      * Monis Agent agent configuration.
@@ -105,6 +105,7 @@ The agent supports adding your own custom instrumentation to ES module applicati
             custom_instrumentation_entrypoint: '/path/to/my/instrumentation.js'
         }
       }
+      /* ... rest of configuration .. */
     }
 ```
 
