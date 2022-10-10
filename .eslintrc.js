@@ -6,8 +6,8 @@
 'use strict'
 
 module.exports = {
-  extends: ['@monisagent', 'plugin:jsdoc/recommended'],
-  plugins: ['jsdoc'],
+  extends: ['@monisagent', 'plugin:jsdoc/recommended', 'plugin:sonarjs/recommended'],
+  plugins: ['jsdoc', 'sonarjs'],
   rules: {
     'consistent-return': 'off',
     'jsdoc/require-jsdoc': 'off'
@@ -37,6 +37,16 @@ module.exports = {
       rules: {
         'jsdoc/require-jsdoc': 'warn'
       }
+    },
+    {
+      files: [
+        'test/**/**/**',
+        'tests/**/**/**'
+      ],
+      rules: {
+        'sonarjs/no-duplicate-string': 'off'
+      }
     }
+
   ]
 }
