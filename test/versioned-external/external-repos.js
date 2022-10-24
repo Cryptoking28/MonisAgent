@@ -12,11 +12,11 @@
  * additionalFiles: String array of files/folders to checkout in addition to lib and tests/versioned.
  */
 const repos = [
-  // {
-  //   name: 'aws-sdk',
-  //   repository: 'https://github.com/Cryptoking28/monisagent-aws-sdk.git',
-  //   branch: 'main'
-  // },
+  {
+    name: 'aws-sdk',
+    repository: 'https://github.com/Cryptoking28/monisagent-aws-sdk.git',
+    branch: 'main'
+  },
   {
     name: 'koa',
     repository: 'https://github.com/Cryptoking28/monisagent-koa.git',
