@@ -1,6 +1,6 @@
 [![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent's Node.js agent [![Server Smoke Tests][3]][4] [![Node Agent CI][5]][6]
+# Monis Agent's Node.js agent [![Server Smoke Tests][3]][4] [![Node Agent CI][5]][6] [![codecov](https://codecov.io/gh/monisagent/node-monisagent/branch/main/graph/badge.svg?token=e5l4jAFrK9)](https://codecov.io/gh/monisagent/node-monisagent)
 
 [![npm status badge][1]][2]
 
