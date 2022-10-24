@@ -1,6 +1,6 @@
 [![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent's Node.js agent [![Server Smoke Tests][3]][4] [![Node Agent CI][5]][6] [![codecov](https://codecov.io/gh/monisagent/node-monisagent/branch/main/graph/badge.svg?token=e5l4jAFrK9)](https://codecov.io/gh/monisagent/node-monisagent)
+# Monis Agent's Node.js agent [![Server Smoke Tests][3]][4] [![Node Agent CI][5]][6] [![codecov][7]][8]
 
 [![npm status badge][1]][2]
 
@@ -269,3 +269,6 @@ The Node.js agent also uses source code from third-party libraries. You can find
 [4]: https://github.com/Cryptoking28/monisagent/actions?query=workflow%3A%22Server+Smoke+Tests%22
 [5]: https://github.com/Cryptoking28/monisagent/workflows/Node%20Agent%20CI/badge.svg
 [6]: https://github.com/Cryptoking28/monisagent/actions?query=workflow%3A%22Node+Agent+CI%22
+[7]: https://codecov.io/gh/monisagent/node-monisagent/branch/main/graph/badge.svg
+[8]: https://codecov.io/gh/monisagent/node-monisagent
+
