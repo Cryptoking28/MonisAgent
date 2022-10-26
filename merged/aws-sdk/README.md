@@ -1,6 +1,7 @@
-[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent AWS SDK Instrumentation [![aws-sdk Instrumentation CI][1]][2]
+# Monis Agent AWS SDK Instrumentation
+[![npm status badge][5]][6] [![aws-sdk Instrumentation CI][1]][2] [![codecov][3]][4]
 
 Monis Agent's official AWS SDK package instrumentation for use with [the Node.js agent](https://github.com/Cryptoking28/monisagent). Provides instrumentation for the [AWS SDK (`aws-sdk`)](https://www.npmjs.com/package/aws-sdk) npm package.
 
@@ -86,3 +87,7 @@ The Monis Agent AWS SDK Instrumentation package is licensed under the [Apache 2.
 
 [1]: https://github.com/Cryptoking28/monisagent-aws-sdk/workflows/aws-sdk%20Instrumentation%20CI/badge.svg
 [2]: https://github.com/Cryptoking28/monisagent-aws-sdk/actions?query=workflow%3A%22aws-sdk+Instrumentation+CI%22
+[3]: https://codecov.io/gh/monisagent/node-monisagent-aws-sdk/branch/main/graph/badge.svg?token=26ZH9QhLNn
+[4]: https://codecov.io/gh/monisagent/node-monisagent-aws-sdk
+[5]: https://img.shields.io/npm/v/@monisagent/aws-sdk.svg
+[6]: https://www.npmjs.com/package/@monisagent/aws-sdk
