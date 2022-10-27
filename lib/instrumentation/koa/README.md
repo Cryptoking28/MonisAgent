@@ -1,6 +1,8 @@
-[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent Koa instrumentation [![koa instrumentation CI][1]][2]
+# Monis Agent Koa instrumentation
+
+[![npm status badge][5]][6] [![koa instrumentation CI][1]][2] [![codecov][7]][8]
 
 Monis Agent's official Koa framework instrumentation for use with the
 Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
@@ -103,3 +105,7 @@ Monis Agent Koa instrumentation also uses source code from third-party libraries
 [2]: https://github.com/Cryptoking28/monisagent-koa/actions
 [3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
 [4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
+[5]: https://img.shields.io/npm/v/@monisagent/koa.svg
+[6]: https://www.npmjs.com/package/@monisagent/koa
+[7]: https://codecov.io/gh/monisagent/node-monisagent-koa/branch/main/graph/badge.svg
+[8]: https://codecov.io/gh/monisagent/node-monisagent-koa
