@@ -1,6 +1,7 @@
-[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent Next.js instrumentation [![Next.js Instrumentation CI][1]][2]
+# Monis Agent Next.js instrumentation 
+[![npm status badge][5]][6] [![Next.js Instrumentation CI][1]][2] [![codecov][7]][8]
 
 This is Monis Agent's official Next.js framework instrumentation for use with the Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
 
@@ -201,3 +202,7 @@ Monis Agent Next.js instrumentation also uses source code from third-party libra
 [2]: https://github.com/Cryptoking28/monisagent-nextjs/actions
 [3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
 [4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
+[5]: https://img.shields.io/npm/v/@monisagent/next.svg 
+[6]: https://www.npmjs.com/package/@monisagent/next
+[7]: https://codecov.io/gh/monisagent/monisagent-node-nextjs/branch/main/graph/badge.svg?token=89T0ZLX43N
+[8]: https://codecov.io/gh/monisagent/monisagent-node-nextjs
