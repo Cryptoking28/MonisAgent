@@ -204,5 +204,5 @@ Monis Agent Next.js instrumentation also uses source code from third-party libra
 [4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
 [5]: https://img.shields.io/npm/v/@monisagent/next.svg 
 [6]: https://www.npmjs.com/package/@monisagent/next
-[7]: https://codecov.io/gh/monisagent/monisagent-node-nextjs/branch/main/graph/badge.svg?token=89T0ZLX43N
+[7]: https://codecov.io/gh/monisagent/monisagent-node-nextjs/branch/main/graph/badge.svg?token=UPO8LT1X4W 
 [8]: https://codecov.io/gh/monisagent/monisagent-node-nextjs
