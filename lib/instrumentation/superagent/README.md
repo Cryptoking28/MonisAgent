@@ -1,6 +1,9 @@
-[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
+[![Community Plus header](https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.monisagent.com/oss-category/#community-plus)
 
-# Monis Agent SuperAgent instrumentation [![superagent Instrumentation CI][1]][2]
+# Monis Agent SuperAgent instrumentation
+
+[![npm status badge][5]][6] [![superagent Instrumentation CI][1]][2] [![codecov][7]][8]
+
 Monis Agent's official SuperAgent framework instrumentation for use with the
 Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
 
@@ -87,3 +90,7 @@ Monis Agent SuperAgent instrumentation also uses source code from third-party li
 [2]: https://github.com/Cryptoking28/monisagent-superagent/actions?query=workflow%3A%22superagent+Instrumentation+CI%22
 [3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
 [4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
+[5]: https://img.shields.io/npm/v/@monisagent/superagent.svg
+[6]: https://www.npmjs.com/package/@monisagent/superagent
+[7]: https://codecov.io/gh/monisagent/node-monisagent-superagent/branch/main/graph/badge.svg
+[8]: https://codecov.io/gh/monisagent/node-monisagent-superagent
