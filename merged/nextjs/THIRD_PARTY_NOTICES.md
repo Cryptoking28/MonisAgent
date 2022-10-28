@@ -21,6 +21,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 * [@monisagent/eslint-config](#monisagenteslint-config)
 * [@monisagent/monisagent-oss-cli](#monisagentmonisagent-oss-cli)
 * [@monisagent/test-utilities](#monisagenttest-utilities)
+* [c8](#c8)
 * [husky](#husky)
 * [lint-staged](#lint-staged)
 * [monisagent](#monisagent)
@@ -32,7 +33,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.3.7](https://github.com/npm/node-semver/tree/v7.3.7)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.3.7/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.3.8](https://github.com/npm/node-semver/tree/v7.3.8)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.3.8/LICENSE):
 
 ```
 The ISC License
@@ -58,7 +59,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### @monisagent/eslint-config
 
-This product includes source derived from [@monisagent/eslint-config](https://github.com/Cryptoking28/eslint-config-monisagent) ([v0.0.4](https://github.com/Cryptoking28/eslint-config-monisagent/tree/v0.0.4)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/eslint-config-monisagent/blob/v0.0.4/LICENSE):
+This product includes source derived from [@monisagent/eslint-config](https://github.com/Cryptoking28/eslint-config-monisagent) ([v0.2.0](https://github.com/Cryptoking28/eslint-config-monisagent/tree/v0.2.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/eslint-config-monisagent/blob/v0.2.0/LICENSE):
 
 ```
                                  Apache License
@@ -475,7 +476,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.5.3](https://github.com/Cryptoking28/node-test-utilities/tree/v6.5.3)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.5.3/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.5.5](https://github.com/Cryptoking28/node-test-utilities/tree/v6.5.5)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.5.5/LICENSE):
 
 ```
                                  Apache License
@@ -682,6 +683,28 @@ This product includes source derived from [@monisagent/test-utilities](https://g
 
 ```
 
+### c8
+
+This product includes source derived from [c8](https://github.com/bcoe/c8) ([v7.12.0](https://github.com/bcoe/c8/tree/v7.12.0)), distributed under the [ISC License](https://github.com/bcoe/c8/blob/v7.12.0/LICENSE.txt):
+
+```
+Copyright (c) 2017, Contributors
+
+Permission to use, copy, modify, and/or distribute this software
+for any purpose with or without fee is hereby granted, provided
+that the above copyright notice and this permission notice
+appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE
+LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+```
+
 ### husky
 
 This product includes source derived from [husky](https://github.com/typicode/husky) ([v8.0.1](https://github.com/typicode/husky/tree/v8.0.1)), distributed under the [MIT License](https://github.com/typicode/husky/blob/v8.0.1/LICENSE):
@@ -713,7 +736,7 @@ SOFTWARE.
 
 ### lint-staged
 
-This product includes source derived from [lint-staged](https://github.com/okonet/lint-staged) ([v12.4.2](https://github.com/okonet/lint-staged/tree/v12.4.2)), distributed under the [MIT License](https://github.com/okonet/lint-staged/blob/v12.4.2/LICENSE):
+This product includes source derived from [lint-staged](https://github.com/okonet/lint-staged) ([v12.5.0](https://github.com/okonet/lint-staged/tree/v12.5.0)), distributed under the [MIT License](https://github.com/okonet/lint-staged/blob/v12.5.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -742,7 +765,7 @@ SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v9.0.3](https://github.com/Cryptoking28/monisagent/tree/v9.0.3)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v9.0.3/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v9.5.0](https://github.com/Cryptoking28/monisagent/tree/v9.5.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v9.5.0/LICENSE):
 
 ```
                                  Apache License
@@ -950,7 +973,7 @@ This product includes source derived from [monisagent](https://github.com/Crypto
 
 ### sinon
 
-This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v14.0.0](https://github.com/sinonjs/sinon/tree/v14.0.0)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v14.0.0/LICENSE):
+This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v14.0.1](https://github.com/sinonjs/sinon/tree/v14.0.1)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v14.0.1/LICENSE):
 
 ```
 (The BSD License)
@@ -985,7 +1008,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### tap
 
-This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.2.0](https://github.com/tapjs/node-tap/tree/v16.2.0)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.2.0/LICENSE):
+This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.3.0](https://github.com/tapjs/node-tap/tree/v16.3.0)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.3.0/LICENSE):
 
 ```
 The ISC License
