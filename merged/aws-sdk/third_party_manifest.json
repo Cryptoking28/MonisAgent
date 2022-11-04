@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed Oct 26 2022 16:16:10 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Fri Nov 04 2022 10:32:24 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent AWS-SDK Instrumentation",
   "projectUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk",
   "includeOptDeps": false,
@@ -31,15 +31,15 @@
       "licenseTextSource": "file",
       "publisher": "Monis Agent"
     },
-    "@monisagent/test-utilities@6.1.1": {
+    "@monisagent/test-utilities@7.1.1": {
       "name": "@monisagent/test-utilities",
-      "version": "6.1.1",
-      "range": "^6.1.1",
+      "version": "7.1.1",
+      "range": "^7.1.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/node-test-utilities",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v6.1.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v7.1.1",
       "licenseFile": "node_modules/@monisagent/test-utilities/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v6.1.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v7.1.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
