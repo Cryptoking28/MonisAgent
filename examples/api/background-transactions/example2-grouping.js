@@ -22,10 +22,9 @@ monisagent.startBackgroundTransaction(transactionName, groupName, function handl
   })
 })
 
-/**
+/*
  * Function to simulate async work.
  *
- * @param callback
  */
 function doSomeWork(callback) {
   setTimeout(function work() {
