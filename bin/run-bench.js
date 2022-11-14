@@ -1,9 +1,11 @@
 /*
- * Copyright 2020 Monis Agent Corporation. All rights reserved.
+ * Copyright 2022 Monis Agent Corporation. All rights reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
 'use strict'
+
+/* eslint sonarjs/cognitive-complexity: ["error", 21] -- TODO: https://issues.monisagent.com/browse/NEWRELIC-5252 */
 
 const a = require('async')
 const cp = require('child_process')
@@ -27,7 +29,7 @@ process.argv.slice(2).forEach(function forEachFileArg(file) {
   } else {
     globs.push(
       path.join(benchpath, file, '*.bench.js'),
-      path.join(benchpath, file + '*.bench.js'),
+      path.join(benchpath, `${file}*.bench.js`),
       path.join(benchpath, file, '**/*.bench.js')
     )
   }
