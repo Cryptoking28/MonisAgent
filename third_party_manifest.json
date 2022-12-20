@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri Dec 09 2022 12:21:54 GMT-0500 (Eastern Standard Time)",
+  "lastUpdated": "Tue Dec 20 2022 12:00:46 GMT-0500 (Eastern Standard Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -225,15 +225,15 @@
       "email": "nathan@tootallnate.net",
       "url": "http://n8.io/"
     },
-    "@monisagent/test-utilities@7.1.1": {
+    "@monisagent/test-utilities@7.2.0": {
       "name": "@monisagent/test-utilities",
-      "version": "7.1.1",
-      "range": "^7.1.1",
+      "version": "7.2.0",
+      "range": "^7.2.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/node-test-utilities",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v7.1.1",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/node-test-utilities/tree/v7.2.0",
       "licenseFile": "node_modules/@monisagent/test-utilities/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v7.1.1/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/node-test-utilities/blob/v7.2.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
