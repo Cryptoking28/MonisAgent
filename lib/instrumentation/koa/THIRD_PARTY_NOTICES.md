@@ -492,7 +492,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.3.0](https://github.com/Cryptoking28/node-test-utilities/tree/v6.3.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.3.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.2.0](https://github.com/Cryptoking28/node-test-utilities/tree/v7.2.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.2.0/LICENSE):
 
 ```
                                  Apache License
@@ -990,7 +990,7 @@ SOFTWARE.
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v8.1.0](https://github.com/Cryptoking28/monisagent/tree/v8.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v8.1.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v9.7.4](https://github.com/Cryptoking28/monisagent/tree/v9.7.4)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v9.7.4/LICENSE):
 
 ```
                                  Apache License
