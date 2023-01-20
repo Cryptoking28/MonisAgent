@@ -198,7 +198,7 @@ v3.
 
 ### New API Methods
 
-* [`monisagent.getTransaction()`](https://monisagent.github.io/node-monisagent/docs/API.html#getTransaction)
+* [`monisagent.getTransaction()`](https://monisagent.github.io/node-monisagent/API.html#getTransaction)
 
   This method gets a reference to the currently running transaction. It should
   be used in conjunction with `monisagent.startWebTransaction`,
@@ -206,17 +206,17 @@ v3.
   consumer services. See our [Trouble Shooting][messaging-troubleshooting-doc]
   documentation for more information on its usage.
 
-* [`monisagent.startWebTransaction()`](https://monisagent.github.io/node-monisagent/docs/API.html#startWebTransaction)
-  [`monisagent.startBackgroundTransaction()`](https://monisagent.github.io/node-monisagent/docs/API.html#startBackgroundTransaction)
+* [`monisagent.startWebTransaction()`](https://monisagent.github.io/node-monisagent/API.html#startWebTransaction)
+  [`monisagent.startBackgroundTransaction()`](https://monisagent.github.io/node-monisagent/API.html#startBackgroundTransaction)
 
   These new API methods replace the older `create*Transaction` methods. They
   are easier to use and seamlessly work with promises. Note that unlike the old
   method, the provided callback is invoked immediately.
 
-* [`monisagent.instrument()`](https://monisagent.github.io/node-monisagent/docs/API.html#instrument)
-  [`monisagent.instrumentDatastore()`](https://monisagent.github.io/node-monisagent/docs/API.html#instrumentDatastore)
-  [`monisagent.instrumentWebframework()`](https://monisagent.github.io/node-monisagent/docs/API.html#instrumentWebframework)
-  [`monisagent.instrumentMessages()`](https://monisagent.github.io/node-monisagent/docs/API.html#instrumentMessages)
+* [`monisagent.instrument()`](https://monisagent.github.io/node-monisagent/API.html#instrument)
+  [`monisagent.instrumentDatastore()`](https://monisagent.github.io/node-monisagent/API.html#instrumentDatastore)
+  [`monisagent.instrumentWebframework()`](https://monisagent.github.io/node-monisagent/API.html#instrumentWebframework)
+  [`monisagent.instrumentMessages()`](https://monisagent.github.io/node-monisagent/API.html#instrumentMessages)
 
   These methods can be used to add custom instrumentation for 3rd party modules,
   including those already instrumented by the Node Agent. See our
@@ -266,6 +266,6 @@ $ npm install --global npm@2
 
 [upgrade-doc]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/upgrade-node-agent-versions
 [messaging-troubleshooting-doc]: https://docs.monisagent.com/docs/agents/nodejs-agent/troubleshooting/troubleshoot-message-consumers
-[instrumentation-tutorial]: https://monisagent.github.io/node-monisagent/docs/tutorial-Instrumentation-Basics.html
+[instrumentation-tutorial]: https://monisagent.github.io/node-monisagent/tutorial-Instrumentation-Basics.html
 [node-lts-schedule]: https://github.com/nodejs/LTS/tree/2b4253#lts-schedule1
 [node-cassandra-cql]: https://www.npmjs.com/package/node-cassandra-cql

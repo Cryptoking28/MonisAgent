@@ -199,7 +199,7 @@ Here are some resources for learning more about the agent:
 
 - [Monis Agent's official Node.js agent documentation](https://docs.monisagent.com/docs/agents/nodejs-agent)
 
-- [Developer docs](http://monisagent.github.io/node-monisagent/docs/)
+- [Developer docs](http://monisagent.github.io/node-monisagent/)
 
 - [Configuring the agent using `monisagent.js` or environment variables](https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/nodejs-agent-configuration)
 
