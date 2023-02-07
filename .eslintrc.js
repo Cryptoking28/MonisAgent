@@ -6,8 +6,8 @@
 'use strict'
 
 module.exports = {
-  extends: ['@monisagent', 'plugin:jsdoc/recommended', 'plugin:sonarjs/recommended'],
-  plugins: ['jsdoc', 'sonarjs'],
+  extends: ['@monisagent', 'plugin:jsdoc/recommended'],
+  plugins: ['jsdoc'],
   rules: {
     'consistent-return': 'off',
     'jsdoc/require-jsdoc': 'off',
@@ -46,14 +46,6 @@ module.exports = {
       files: ['./lib/shim/*.js', 'lib/transaction/handle.js', 'api.js'],
       rules: {
         'jsdoc/require-jsdoc': 'warn'
-      }
-    },
-    {
-      files: ['test/**/**/**', 'tests/**/**/**'],
-      // TODO: remove these overrides as part of https://issues.monisagent.com/browse/NEWRELIC-5257
-      rules: {
-        'sonarjs/no-duplicate-string': 'off',
-        'sonarjs/cognitive-complexity': 'off'
       }
     }
   ]
