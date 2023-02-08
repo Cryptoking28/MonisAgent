@@ -1,4 +1,4 @@
-### v9.10.0 (2023-02-08)
+### v9.10.0 (2023-02-09)
 
 * Exposed a method on [API](https://monisagent.github.io/node-monisagent/API.html#obfuscateSql) to obfuscate sql: `monisagent.obfuscateSql`.
 
