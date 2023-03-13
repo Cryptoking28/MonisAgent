@@ -1,3 +1,10 @@
+### v9.12.0 (2023-03-13)
+* Added ability to mark errors as expected when using `monisagent.noticeError`, by adding an optional boolean: 
+  * `monisagent.noticeError(error, {customAttributes}, true|false)` when there are custom error attributes.
+  * `monisagent.noticeError(error, true|false)` if there are no custom error attributes.
+  * `expected` errors do not affect error metrics or Apdex. 
+* updated @grpc/grpc-js from 1.8.8 to 1.8.9
+
 ### v9.11.0 (2023-03-08)
  * Added instrumentation for Prisma(`@prisma/client`).
    * Miniumum supported version of `@prisma/client` is 4.0.0.
