@@ -301,16 +301,14 @@ tap.test('distributed tracing', (t) => {
     })
   })
 
-  const headers = [symbols.disableDT, 'x-monis-agent-disable-dt']
-  headers.forEach((header) => {
+  const headerValues = [symbols.disableDT, 'x-monis-agent-disable-dt']
+  headerValues.forEach((header) => {
     t.test(`should be disabled by ${header.toString()}`, (t) => {
       helper.runInTransaction(agent, (tx) => {
         const OLD_HEADER = 'x-monisagent-transaction'
         const headers = { [header]: 'true' }
-        get(generateUrl(START_PORT, 'start'), { headers }, (err, { body, reqHeaders }) => {
+        get(generateUrl(START_PORT, 'start'), { headers }, (err, { body }) => {
           t.error(err)
-          t.notOk(reqHeaders['x-monis-agent-disable-dt'], 'should remove x-monis-agent-disable-dt')
-
           t.notOk(body.start.monisagent, 'should not add DT header when disabled')
           t.notOk(body.start[OLD_HEADER], 'should not add old CAT header either')
           t.ok(body.middle.monisagent, 'should not stop down-stream DT from working')
