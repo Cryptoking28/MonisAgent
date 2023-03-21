@@ -20,7 +20,7 @@ const repos = [
   {
     name: 'koa',
     repository: 'https://github.com/Cryptoking28/monisagent-koa.git',
-    branch: 'main'
+    branch: 'shim-fixes'
   },
   {
     name: 'next',
@@ -35,7 +35,7 @@ const repos = [
   {
     name: 'apollo-server',
     repository: 'https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin.git',
-    branch: 'main',
+    branch: 'shim-fixes',
     additionalFiles: [
       'tests/agent-testing.js',
       'tests/create-apollo-server-setup.js',
