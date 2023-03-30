@@ -44,7 +44,8 @@ function getPlugin(shim, config) {
        */
       clientStack.add(headerMiddleware.bind(null, shim), {
         name: 'MonisAgentHeader',
-        step: 'finalizeRequest'
+        step: 'finalizeRequest',
+        priority: 'low'
       })
 
       clientStack.add(attrMiddleware.bind(null, shim, config), {
