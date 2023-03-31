@@ -27,6 +27,8 @@
   "author": "Monis Agent Node.js agent team <nodejs@monisagent.com>",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.303.0",
+    "@aws-sdk/s3-request-presigner": "^3.303.0",
     "@monisagent/eslint-config": "^0.0.2",
     "@monisagent/monisagent-oss-cli": "^0.1.2",
     "@monisagent/test-utilities": "^7.1.1",
