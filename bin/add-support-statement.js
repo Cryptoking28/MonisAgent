@@ -10,7 +10,7 @@ const Github = require('./github')
 const SUPPORT_STATEMENT_HEADER = '### Support statement:'
 const SUPPORT_STATEMENT_BODY = `* Monis Agent recommends that you upgrade the agent regularly to ensure that you're getting the latest features and performance benefits. Additionally, older releases will no longer be supported when they reach [end-of-life](https://docs.monisagent.com/docs/using-monis-agent/cross-product-functions/install-configure/notification-changes-monis-agent-saas-features-distributed-software).`
 
-module.exports = async function updateRelease() {
+async function updateRelease() {
   const org = process.env.RELEASE_ORG || 'monisagent'
   const repo = process.env.RELEASE_REPO || 'node-monisagent'
   const tag = process.env.RELEASE_TAG
@@ -32,4 +32,15 @@ module.exports = async function updateRelease() {
     release_id: id,
     body: [body, SUPPORT_STATEMENT_HEADER, SUPPORT_STATEMENT_BODY].join('\n')
   })
+}
+
+/*
+ * Exports slightly differ for tests vs. Github Actions
+ * this allows us to require the function without it executing for tests,
+ * and executing via `node` cli in GHA
+ */
+if (require.main === module) {
+  updateRelease()
+} else {
+  module.exports = updateRelease
 }
