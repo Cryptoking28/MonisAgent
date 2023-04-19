@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Tue Dec 20 2022 13:49:39 GMT-0500 (Eastern Standard Time)",
+  "lastUpdated": "Wed Apr 19 2023 13:33:31 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent Next.js Instrumentation",
   "projectUrl": "https://github.com/Cryptoking28/monisagent-node-nextjs",
   "includeOptDeps": false,
@@ -110,15 +110,15 @@
       "email": "liran.tal@gmail.com",
       "url": "https://github.com/lirantal"
     },
-    "monisagent@9.5.0": {
+    "monisagent@10.0.0": {
       "name": "monisagent",
-      "version": "9.5.0",
-      "range": "^9.0.3",
+      "version": "10.0.0",
+      "range": "^10.0.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent/tree/v9.5.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent/tree/v10.0.0",
       "licenseFile": "node_modules/monisagent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent/blob/v9.5.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent/blob/v10.0.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
