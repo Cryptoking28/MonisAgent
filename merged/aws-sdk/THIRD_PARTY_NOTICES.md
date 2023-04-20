@@ -880,7 +880,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.2.0](https://github.com/Cryptoking28/node-test-utilities/tree/v7.2.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.2.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.3.0](https://github.com/Cryptoking28/node-test-utilities/tree/v7.3.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.3.0/LICENSE):
 
 ```
                                  Apache License
@@ -1089,7 +1089,7 @@ This product includes source derived from [@monisagent/test-utilities](https://g
 
 ### aws-sdk
 
-This product includes source derived from [aws-sdk](https://github.com/aws/aws-sdk-js) ([v2.1278.0](https://github.com/aws/aws-sdk-js/tree/v2.1278.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js/blob/v2.1278.0/LICENSE.txt):
+This product includes source derived from [aws-sdk](https://github.com/aws/aws-sdk-js) ([v2.1354.0](https://github.com/aws/aws-sdk-js/tree/v2.1354.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js/blob/v2.1354.0/LICENSE.txt):
 
 ```
 
@@ -1711,7 +1711,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v9.12.1](https://github.com/Cryptoking28/monisagent/tree/v9.12.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v9.12.1/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.0.0](https://github.com/Cryptoking28/monisagent/tree/v10.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.0.0/LICENSE):
 
 ```
                                  Apache License
