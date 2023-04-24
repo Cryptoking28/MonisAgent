@@ -20,12 +20,12 @@ const repos = [
   {
     name: 'koa',
     repository: 'https://github.com/Cryptoking28/monisagent-koa.git',
-    branch: 'moar-shim-fixes'
+    branch: 'main'
   },
   {
     name: 'next',
     repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
-    branch: 'prefix-route-params'
+    branch: 'main'
   },
   {
     name: 'superagent',
