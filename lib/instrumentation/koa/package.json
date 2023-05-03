@@ -35,7 +35,7 @@
     "@koa/router": "^8.0.0",
     "@monisagent/eslint-config": "^0.0.2",
     "@monisagent/monisagent-oss-cli": "^0.1.2",
-    "@monisagent/test-utilities": "^7.3.0",
+    "@monisagent/test-utilities": "^7.3.1",
     "c8": "^7.12.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
