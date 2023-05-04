@@ -1,4 +1,8 @@
 'use strict'
 module.exports = {
-  extends: '@monisagent'
+  extends: '@monisagent',
+  parserOptions: {
+    ecmaVersion: '2020'
+  },
+
 }
