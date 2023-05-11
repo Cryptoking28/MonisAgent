@@ -182,6 +182,7 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.8.10",
     "@grpc/proto-loader": "^0.7.5",
+    "@mrleebo/prisma-ast": "^0.5.2",
     "@monisagent/aws-sdk": "^5.0.2",
     "@monisagent/koa": "^7.1.1",
     "@monisagent/superagent": "^6.0.0",
