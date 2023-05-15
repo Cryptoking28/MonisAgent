@@ -1,4 +1,15 @@
 {
-    "repository": "monisagent/node-monisagent",
-    "entries": []
+  "repository": "monisagent/node-monisagent",
+  "entries": [
+    {
+      "version": "10.1.1",
+      "changes": {
+        "security": [],
+        "bugfixes": [
+          "updated prisma instrumentation to properly parse database connection strings that work across all versions of prisma"
+        ],
+        "features": []
+      }
+    }
+  ]
 }
