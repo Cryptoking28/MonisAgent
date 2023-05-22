@@ -17,5 +17,3 @@ const monisagent = require('monisagent')
 // See: https://github.com/vercel/next.js/blob/canary/packages/next/build/utils.ts#L1217
 monisagent.instrumentWebframework('next/dist/server/next-server', require('./lib/next-server'))
 monisagent.instrumentWebframework('./next-server', require('./lib/next-server'))
-monisagent.instrumentWebframework('./render', require('./lib/render'))
-monisagent.instrumentWebframework('./context', require('./lib/context'))
