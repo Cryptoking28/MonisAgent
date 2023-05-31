@@ -80,7 +80,7 @@ npm run versioned
 Monis Agent hosts and moderates an online forum where you can interact with Monis Agent employees as well as other customers to get help and share best practices. Like all official Monis Agent open source projects, there's a related community topic in the Monis Agent Explorers Hub. You can find this project's topic/threads here:
 
 * [Monis Agent Documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs): Comprehensive guidance for using our platform
-* [Monis Agent Community](https://discuss.monisagent.com/tags/c/telemetry-data-platform/agents/nodeagent): The best place to engage in troubleshooting questions
+* [Monis Agent Community](https://forum.monisagent.com/): The best place to engage in troubleshooting questions
 * [Monis Agent Developer](https://developer.monisagent.com/): Resources for building a custom observability applications
 * [Monis Agent University](https://learn.monisagent.com/): A range of online training for Monis Agent users of every level
 * [Monis Agent Technical Support](https://support.monisagent.com/) 24/7/365 ticketed support. Read more about our [Technical Support Offerings](https://docs.monisagent.com/docs/licenses/license-information/general-usage-licenses/support-plan).
