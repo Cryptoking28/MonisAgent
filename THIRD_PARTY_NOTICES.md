@@ -1395,7 +1395,7 @@ IN THE SOFTWARE.
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v5.7.1](https://github.com/npm/node-semver/tree/v5.7.1)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v5.7.1/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.2](https://github.com/npm/node-semver/tree/v7.5.2)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.2/LICENSE):
 
 ```
 The ISC License
@@ -1884,7 +1884,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.3.1](https://github.com/Cryptoking28/node-test-utilities/tree/v7.3.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.3.1/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.3.2](https://github.com/Cryptoking28/node-test-utilities/tree/v7.3.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.3.2/LICENSE):
 
 ```
                                  Apache License
@@ -9556,7 +9556,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @monisagent/native-metrics
 
-This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v9.0.0](https://github.com/Cryptoking28/node-native-metrics/tree/v9.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v9.0.0/LICENSE):
+This product includes source derived from [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics) ([v9.0.1](https://github.com/Cryptoking28/node-native-metrics/tree/v9.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-native-metrics/blob/v9.0.1/LICENSE):
 
 ```
                                  Apache License
