@@ -2,6 +2,16 @@
   "repository": "monisagent/node-monisagent",
   "entries": [
     {
+      "version": "10.3.1",
+      "changes": {
+        "security": [
+          "Updated semver dependency to 7.5.2, also updating @monisagent/native-metrics, and @monisagent/test-utilities"
+        ],
+        "bugfixes": [],
+        "features": []
+      }
+    },
+    {
       "version": "10.3.0",
       "changes": {
         "security": [],
