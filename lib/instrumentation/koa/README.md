@@ -11,18 +11,7 @@ This module is a dependency of the agent and is installed by default when you in
 
 ## Installation
 
-Typically, most users use the version auto-installed by the agent. You can see agent install instructions [here](https://github.com/Cryptoking28/monisagent#installation-and-getting-started).
-
-In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main Monis Agent Node.js Agent.
-
-```
-npm install @monisagent/koa
-```
-
-```js
-// index.js
-require('@monisagent/koa')
-```
+This package is [a dependency of the the Node Agent](https://github.com/Cryptoking28/monisagent/blob/main/package.json#L189), and the average user should not need to install it manually.
 
 For more information, please see the agent [installation guide][3].
 
