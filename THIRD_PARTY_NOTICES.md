@@ -536,7 +536,7 @@ SOFTWARE.
 
 ### @monisagent/aws-sdk
 
-This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v5.0.5](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v5.0.5)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v5.0.5/LICENSE):
+This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v6.0.0](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v6.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v6.0.0/LICENSE):
 
 ```
                                  Apache License
