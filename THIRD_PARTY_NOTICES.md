@@ -953,7 +953,7 @@ Apache License
 
 ### @monisagent/security-agent
 
-This product includes source derived from [@monisagent/security-agent](https://github.com/Cryptoking28/csec-node-agent) ([v0.1.3](https://github.com/Cryptoking28/csec-node-agent/tree/v0.1.3)), distributed under the [Monis Agent Pre-Release License](https://github.com/Cryptoking28/csec-node-agent/blob/v0.1.3/LICENSE):
+This product includes source derived from [@monisagent/security-agent](https://github.com/Cryptoking28/csec-node-agent) ([v0.2.0](https://github.com/Cryptoking28/csec-node-agent/tree/v0.2.0)), distributed under the [Monis Agent Pre-Release License](https://github.com/Cryptoking28/csec-node-agent/blob/v0.2.0/LICENSE):
 
 ```
 ## Monis Agent Pre-Release Software Notice
