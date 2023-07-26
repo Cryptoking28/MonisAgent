@@ -17,7 +17,9 @@ const TAG_VALID_REGEX = /v\d+\.\d+\.\d+/
 const SUPPORT_STATEMENT = `
 ### Support statement:
 
-* Monis Agent recommends that you upgrade the agent regularly to ensure that you're getting the latest features and performance benefits. Additionally, older releases will no longer be supported when they reach [end-of-life](https://docs.monisagent.com/docs/using-monis-agent/cross-product-functions/install-configure/notification-changes-monis-agent-saas-features-distributed-software).`
+We recommend updating to the latest agent version as soon as it's available. If you can't upgrade to the latest version, update your agents to a version no more than 90 days old. Read more about keeping agents up to date. (https://docs.monisagent.com/docs/monis-agent-solutions/monis-agent-one/install-configure/update-monis-agent-agent/)
+
+See the Monis Agent Node.js agent EOL policy for information about agent releases and support dates. (https://docs.monisagent.com/docs/apm/agents/nodejs-agent/getting-started/nodejs-agent-eol-policy/)`
 
 program.requiredOption('--tag <tag>', 'tag name to create GitHub release for')
 program.option(
