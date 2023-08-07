@@ -953,7 +953,7 @@ Apache License
 
 ### @monisagent/security-agent
 
-This product includes source derived from [@monisagent/security-agent](https://github.com/Cryptoking28/csec-node-agent) ([v0.2.0](https://github.com/Cryptoking28/csec-node-agent/tree/v0.2.0)), distributed under the [Monis Agent Pre-Release License](https://github.com/Cryptoking28/csec-node-agent/blob/v0.2.0/LICENSE):
+This product includes source derived from [@monisagent/security-agent](https://github.com/Cryptoking28/csec-node-agent) ([v0.2.1](https://github.com/Cryptoking28/csec-node-agent/tree/v0.2.1)), distributed under the [Monis Agent Pre-Release License](https://github.com/Cryptoking28/csec-node-agent/blob/v0.2.1/LICENSE):
 
 ```
 ## Monis Agent Pre-Release Software Notice
@@ -1395,7 +1395,7 @@ IN THE SOFTWARE.
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.3](https://github.com/npm/node-semver/tree/v7.5.3)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.3/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.4](https://github.com/npm/node-semver/tree/v7.5.4)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.4/LICENSE):
 
 ```
 The ISC License
