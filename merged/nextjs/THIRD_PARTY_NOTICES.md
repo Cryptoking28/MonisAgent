@@ -34,7 +34,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.3.8](https://github.com/npm/node-semver/tree/v7.3.8)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.3.8/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.4](https://github.com/npm/node-semver/tree/v7.5.4)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.4/LICENSE):
 
 ```
 The ISC License
@@ -964,7 +964,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.0.0](https://github.com/Cryptoking28/monisagent/tree/v10.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.0.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.4.2](https://github.com/Cryptoking28/monisagent/tree/v10.4.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.4.2/LICENSE):
 
 ```
                                  Apache License
