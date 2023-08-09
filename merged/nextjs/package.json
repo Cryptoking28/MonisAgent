@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/Cryptoking28/monisagent-node-nextjs#readme",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "devDependencies": {
     "@monisagent/eslint-config": "^0.2.0",
