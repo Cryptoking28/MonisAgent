@@ -1711,7 +1711,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.3.2](https://github.com/Cryptoking28/monisagent/tree/v10.3.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.3.2/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.6.2](https://github.com/Cryptoking28/monisagent/tree/v10.6.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.6.2/LICENSE):
 
 ```
                                  Apache License
