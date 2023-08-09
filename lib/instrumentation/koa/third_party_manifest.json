@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mon Jul 10 2023 17:01:55 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Wed Aug 09 2023 15:33:07 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent Koa Instrumentation",
   "projectUrl": "https://github.com/Cryptoking28/monisagent-koa",
   "includeOptDeps": false,
@@ -206,15 +206,15 @@
       "email": "liran.tal@gmail.com",
       "url": "https://github.com/lirantal"
     },
-    "monisagent@10.0.0": {
+    "monisagent@10.6.2": {
       "name": "monisagent",
-      "version": "10.0.0",
-      "range": "^10.0.0",
+      "version": "10.6.2",
+      "range": "^10.6.2",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent/tree/v10.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent/tree/v10.6.2",
       "licenseFile": "node_modules/monisagent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent/blob/v10.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent/blob/v10.6.2/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
