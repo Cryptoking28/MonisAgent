@@ -15,7 +15,7 @@ const repos = [
   {
     name: 'aws-sdk',
     repository: 'https://github.com/Cryptoking28/monisagent-aws-sdk.git',
-    branch: 'main'
+    branch: 'ritm-update'
   },
   {
     name: 'koa',
@@ -25,7 +25,7 @@ const repos = [
   {
     name: 'next',
     repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
-    branch: 'main'
+    branch: 'ritm-update'
   },
   {
     name: 'superagent',
