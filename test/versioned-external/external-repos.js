@@ -25,7 +25,7 @@ const repos = [
   {
     name: 'next',
     repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
-    branch: 'ritm-update'
+    branch: 'main'
   },
   {
     name: 'superagent',
