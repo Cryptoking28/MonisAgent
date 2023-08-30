@@ -493,7 +493,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.3.1](https://github.com/Cryptoking28/node-test-utilities/tree/v7.3.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.3.1/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.1.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.1.0/LICENSE):
 
 ```
                                  Apache License
@@ -1189,7 +1189,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.6.2](https://github.com/Cryptoking28/monisagent/tree/v10.6.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.6.2/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v11.0.0](https://github.com/Cryptoking28/monisagent/tree/v11.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v11.0.0/LICENSE):
 
 ```
                                  Apache License
@@ -7375,7 +7375,7 @@ By: Ika
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v5.7.1](https://github.com/npm/node-semver/tree/v5.7.1)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v5.7.1/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v5.7.2](https://github.com/npm/node-semver/tree/v5.7.2)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v5.7.2/LICENSE):
 
 ```
 The ISC License
