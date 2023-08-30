@@ -45,7 +45,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 
 ### @aws-sdk/client-s3
 
-This product includes source derived from [@aws-sdk/client-s3](https://github.com/aws/aws-sdk-js-v3) ([v3.342.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.342.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.342.0/LICENSE):
+This product includes source derived from [@aws-sdk/client-s3](https://github.com/aws/aws-sdk-js-v3) ([v3.400.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.400.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.400.0/LICENSE):
 
 ```
                                 Apache License
@@ -880,7 +880,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v7.3.0](https://github.com/Cryptoking28/node-test-utilities/tree/v7.3.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v7.3.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.1.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.1.0/LICENSE):
 
 ```
                                  Apache License
@@ -1711,7 +1711,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v10.6.2](https://github.com/Cryptoking28/monisagent/tree/v10.6.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v10.6.2/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v11.0.0](https://github.com/Cryptoking28/monisagent/tree/v11.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v11.0.0/LICENSE):
 
 ```
                                  Apache License
