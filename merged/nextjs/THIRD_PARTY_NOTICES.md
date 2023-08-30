@@ -477,7 +477,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v6.5.5](https://github.com/Cryptoking28/node-test-utilities/tree/v6.5.5)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v6.5.5/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.1.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.1.0/LICENSE):
 
 ```
                                  Apache License
