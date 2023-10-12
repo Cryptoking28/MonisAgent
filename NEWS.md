@@ -1,3 +1,9 @@
+### v11.2.1 (2023-10-12)
+
+#### Bug fixes
+
+* Updated initialization to return the api on start up to the security agent properly ([#1807](https://github.com/Cryptoking28/monisagent/pull/1807)) ([99e5792](https://github.com/Cryptoking28/monisagent/commit/99e5792024263a61751b73976ed707ed51815388))
+
 ### v11.2.0 (2023-10-11)
 
 #### Features
