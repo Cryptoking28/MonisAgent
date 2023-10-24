@@ -37,9 +37,6 @@
   "engines": {
     "node": ">=16.0"
   },
-  "peerDependencies": {
-    "monisagent": ">=6.11.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cryptoking28/monisagent-superagent.git"
