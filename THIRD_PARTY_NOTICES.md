@@ -92,7 +92,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 
 ### @grpc/grpc-js
 
-This product includes source derived from [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) ([v1.9.2](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/tree/v1.9.2)), distributed under the [Apache-2.0 License](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/blob/v1.9.2/LICENSE):
+This product includes source derived from [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) ([v1.9.4](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/tree/v1.9.4)), distributed under the [Apache-2.0 License](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/blob/v1.9.4/LICENSE):
 
 ```
                                  Apache License
@@ -510,7 +510,7 @@ This product includes source derived from [@grpc/proto-loader](https://github.co
 
 ### @monisagent/aws-sdk
 
-This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v7.0.0](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v7.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v7.0.0/LICENSE):
+This product includes source derived from [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk) ([v7.0.2](https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v7.0.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v7.0.2/LICENSE):
 
 ```
                                  Apache License
@@ -718,7 +718,7 @@ This product includes source derived from [@monisagent/aws-sdk](https://github.c
 
 ### @monisagent/koa
 
-This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v8.0.0](https://github.com/Cryptoking28/monisagent-koa/tree/v8.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v8.0.0/LICENSE):
+This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v8.0.1](https://github.com/Cryptoking28/monisagent-koa/tree/v8.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v8.0.1/LICENSE):
 
 ```
 Apache License
@@ -978,7 +978,7 @@ This license terminates when the Pre-Release Software stops being provided by Mo
 
 ### @monisagent/superagent
 
-This product includes source derived from [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent) ([v7.0.0](https://github.com/Cryptoking28/monisagent-superagent/tree/v7.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-superagent/blob/v7.0.0/LICENSE):
+This product includes source derived from [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent) ([v7.0.1](https://github.com/Cryptoking28/monisagent-superagent/tree/v7.0.1)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-superagent/blob/v7.0.1/LICENSE):
 
 ```
                                  Apache License

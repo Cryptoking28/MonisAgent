@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mon Oct 23 2023 12:15:25 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Wed Oct 25 2023 14:53:27 GMT-0400 (Eastern Daylight Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -44,15 +44,15 @@
   },
   "includeDev": true,
   "dependencies": {
-    "@grpc/grpc-js@1.9.2": {
+    "@grpc/grpc-js@1.9.4": {
       "name": "@grpc/grpc-js",
-      "version": "1.9.2",
-      "range": "^1.8.10",
+      "version": "1.9.4",
+      "range": "^1.9.4",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js",
-      "versionedRepoUrl": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/tree/v1.9.2",
+      "versionedRepoUrl": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/tree/v1.9.4",
       "licenseFile": "node_modules/@grpc/grpc-js/LICENSE",
-      "licenseUrl": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/blob/v1.9.2/LICENSE",
+      "licenseUrl": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js/blob/v1.9.4/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Google Inc."
     },
@@ -68,28 +68,28 @@
       "licenseTextSource": "file",
       "publisher": "Google Inc."
     },
-    "@monisagent/aws-sdk@7.0.0": {
+    "@monisagent/aws-sdk@7.0.2": {
       "name": "@monisagent/aws-sdk",
-      "version": "7.0.0",
-      "range": "^7.0.0",
+      "version": "7.0.2",
+      "range": "^7.0.2",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v7.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/tree/v7.0.2",
       "licenseFile": "node_modules/@monisagent/aws-sdk/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v7.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-aws-sdk/blob/v7.0.2/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/koa@8.0.0": {
+    "@monisagent/koa@8.0.1": {
       "name": "@monisagent/koa",
-      "version": "8.0.0",
-      "range": "^8.0.0",
+      "version": "8.0.1",
+      "range": "^8.0.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-koa",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v8.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-koa/tree/v8.0.1",
       "licenseFile": "node_modules/@monisagent/koa/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v8.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-koa/blob/v8.0.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
@@ -106,15 +106,15 @@
       "licenseTextSource": "file",
       "publisher": "monisagent"
     },
-    "@monisagent/superagent@7.0.0": {
+    "@monisagent/superagent@7.0.1": {
       "name": "@monisagent/superagent",
-      "version": "7.0.0",
-      "range": "^7.0.0",
+      "version": "7.0.1",
+      "range": "^7.0.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/Cryptoking28/monisagent-superagent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v7.0.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/monisagent-superagent/tree/v7.0.1",
       "licenseFile": "node_modules/@monisagent/superagent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v7.0.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/monisagent-superagent/blob/v7.0.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Monis Agent Node.js Agent Team",
       "email": "nodejs@monisagent.com"
