@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed Oct 25 2023 14:53:27 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Fri Oct 27 2023 18:35:37 GMT+0530 (India Standard Time)",
   "projectName": "Monis Agent Node Agent",
   "projectUrl": "https://github.com/Cryptoking28/monisagent",
   "includeOptDeps": true,
@@ -94,15 +94,15 @@
       "publisher": "Monis Agent Node.js agent team",
       "email": "nodejs@monisagent.com"
     },
-    "@monisagent/security-agent@0.3.0": {
+    "@monisagent/security-agent@0.4.0": {
       "name": "@monisagent/security-agent",
-      "version": "0.3.0",
-      "range": "0.3.0",
+      "version": "0.4.0",
+      "range": "0.4.0",
       "licenses": "Monis Agent Pre-Release",
       "repoUrl": "https://github.com/Cryptoking28/csec-node-agent",
-      "versionedRepoUrl": "https://github.com/Cryptoking28/csec-node-agent/tree/v0.3.0",
+      "versionedRepoUrl": "https://github.com/Cryptoking28/csec-node-agent/tree/v0.4.0",
       "licenseFile": "node_modules/@monisagent/security-agent/LICENSE",
-      "licenseUrl": "https://github.com/Cryptoking28/csec-node-agent/blob/v0.3.0/LICENSE",
+      "licenseUrl": "https://github.com/Cryptoking28/csec-node-agent/blob/v0.4.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "monisagent"
     },
