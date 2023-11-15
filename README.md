@@ -158,7 +158,7 @@ These are the steps to work on core agent features, with more detail below:
     $ git clone git@github.com:your-user-name/node-monisagent.git
     $ cd node-monisagent
 
-2. Install the project's dependences:
+2. Install the project's dependencies:
 
     $ npm install
 
