@@ -123,6 +123,16 @@
       "name": "Jessica Lopatta",
       "email": "jlopatta@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "James Sumners",
+      "email": "jsumners@monisagent.com",
+      "web": "https://monisagent.com"
+    },
+    {
+      "name": "Svetlana Brennan",
+      "email": "sbrennan@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
