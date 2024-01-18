@@ -193,7 +193,7 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.9.4",
     "@grpc/proto-loader": "^0.7.5",
-    "@monisagent/aws-sdk": "^7.0.3",
+    "@monisagent/aws-sdk": "^7.1.0",
     "@monisagent/koa": "^8.0.1",
     "@monisagent/security-agent": "^0.6.0",
     "@monisagent/superagent": "^7.0.1",
