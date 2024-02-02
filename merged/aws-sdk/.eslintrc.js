@@ -7,6 +7,6 @@
 module.exports = {
   extends: '@monisagent',
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 2022
   }
 }

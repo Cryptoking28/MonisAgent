@@ -40,7 +40,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 
 ### @aws-sdk/client-s3
 
-This product includes source derived from [@aws-sdk/client-s3](https://github.com/aws/aws-sdk-js-v3) ([v3.485.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.485.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.485.0/LICENSE):
+This product includes source derived from [@aws-sdk/client-s3](https://github.com/aws/aws-sdk-js-v3) ([v3.504.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.504.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.504.0/LICENSE):
 
 ```
                                 Apache License
@@ -249,7 +249,7 @@ This product includes source derived from [@aws-sdk/client-s3](https://github.co
 
 ### @aws-sdk/s3-request-presigner
 
-This product includes source derived from [@aws-sdk/s3-request-presigner](https://github.com/aws/aws-sdk-js-v3) ([v3.485.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.485.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.485.0/LICENSE):
+This product includes source derived from [@aws-sdk/s3-request-presigner](https://github.com/aws/aws-sdk-js-v3) ([v3.504.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.504.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.504.0/LICENSE):
 
 ```
                                 Apache License
@@ -875,7 +875,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.1.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.1.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.2.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.2.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.2.0/LICENSE):
 
 ```
                                  Apache License
@@ -1084,7 +1084,7 @@ This product includes source derived from [@monisagent/test-utilities](https://g
 
 ### aws-sdk
 
-This product includes source derived from [aws-sdk](https://github.com/aws/aws-sdk-js) ([v2.1531.0](https://github.com/aws/aws-sdk-js/tree/v2.1531.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js/blob/v2.1531.0/LICENSE.txt):
+This product includes source derived from [aws-sdk](https://github.com/aws/aws-sdk-js) ([v2.1548.0](https://github.com/aws/aws-sdk-js/tree/v2.1548.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js/blob/v2.1548.0/LICENSE.txt):
 
 ```
 
@@ -1599,7 +1599,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v11.9.0](https://github.com/Cryptoking28/monisagent/tree/v11.9.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v11.9.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v11.10.2](https://github.com/Cryptoking28/monisagent/tree/v11.10.2)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v11.10.2/LICENSE):
 
 ```
                                  Apache License
