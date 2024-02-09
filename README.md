@@ -242,7 +242,9 @@ To [all contributors](https://github.com/Cryptoking28/monisagent/graphs/contribu
 
 ## License
 
-The Node.js agent is licensed under the [Apache 2.0](https://apache.org/licenses/LICENSE-2.0.txt) License.
+Except as noted below, the Node.js agent is licensed under the [Apache 2.0](https://apache.org/licenses/LICENSE-2.0.txt) License.
+
+The Monis Agent [security agent](https://github.com/Cryptoking28/csec-node-agent) is licensed under the Monis Agent Software License v1.0.  The Monis Agent security agent module may be integrated like the Monis Agent Node.js agent.
 
 The Node.js agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in [the third-party notices document](https://github.com/Cryptoking28/monisagent/blob/main/THIRD_PARTY_NOTICES.md).
 
