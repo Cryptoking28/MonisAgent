@@ -15,7 +15,7 @@ const repos = [
   {
     name: 'aws-sdk',
     repository: 'https://github.com/Cryptoking28/monisagent-aws-sdk.git',
-    branch: 'main'
+    branch: 'update-llm-feedback'
   },
   {
     name: 'koa',
