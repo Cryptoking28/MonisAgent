@@ -289,6 +289,7 @@ module.exports.bedrockMiddlewareConfig = {
   type: 'generic',
   config: {
     name: 'MonisAgentBedrockMiddleware',
-    step: 'deserialize'
+    step: 'deserialize',
+    override: true
   }
 }

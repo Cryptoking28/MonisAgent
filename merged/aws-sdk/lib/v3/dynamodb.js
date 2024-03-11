@@ -79,7 +79,8 @@ const dynamoMiddlewareConfig = {
   config: {
     name: 'MonisAgentDynamoMiddleware',
     step: 'initialize',
-    priority: 'high'
+    priority: 'high',
+    override: true
   }
 }
 
