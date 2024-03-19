@@ -234,7 +234,7 @@ If you have any questions, or to execute our corporate CLA, required if your con
 
 As noted in our [security policy](../../security/policy), Monis Agent is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
-If you believe you have found a security vulnerability in this project or any of Monis Agent's products or websites, we welcome and greatly appreciate you reporting it to Monis Agent through [HackerOne](https://hackerone.com/monisagent).
+If you believe you have found a security vulnerability in this project or any of Monis Agent's products or websites, we welcome and greatly appreciate you reporting it to Monis Agent through [our bug bounty program](https://docs.monisagent.com/docs/security/security-privacy/information-security/report-security-vulnerabilities/).
 
 If you would like to contribute to this project, review [these guidelines](./CONTRIBUTING.md).
 
