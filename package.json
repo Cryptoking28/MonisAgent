@@ -196,7 +196,7 @@
     "@monisagent/aws-sdk": "^7.3.0",
     "@monisagent/koa": "^9.0.0",
     "@monisagent/ritm": "^7.2.0",
-    "@monisagent/security-agent": "^1.0.1",
+    "@monisagent/security-agent": "^1.1.0",
     "@monisagent/superagent": "^7.0.1",
     "@tyriar/fibonacci-heap": "^2.0.7",
     "concat-stream": "^2.0.0",

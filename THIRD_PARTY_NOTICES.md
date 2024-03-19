@@ -951,7 +951,7 @@ SOFTWARE.
 
 ### @monisagent/security-agent
 
-This product includes source derived from [@monisagent/security-agent](https://github.com/Cryptoking28/csec-node-agent) ([v1.0.1](https://github.com/Cryptoking28/csec-node-agent/tree/v1.0.1)), distributed under the [UNKNOWN License](https://github.com/Cryptoking28/csec-node-agent/blob/v1.0.1/LICENSE):
+This product includes source derived from [@monisagent/security-agent](https://github.com/Cryptoking28/csec-node-agent) ([v1.1.0](https://github.com/Cryptoking28/csec-node-agent/tree/v1.1.0)), distributed under the [UNKNOWN License](https://github.com/Cryptoking28/csec-node-agent/blob/v1.1.0/LICENSE):
 
 ```
 ## Monis Agent Software License v1.0
