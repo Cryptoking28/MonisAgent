@@ -1,6 +1,6 @@
 {
   "name": "@monisagent/koa",
-  "version": "9.0.0",
+  "version": "9.1.0",
   "description": "Koa instrumentation for the Monis Agent Node agent",
   "directories": {
     "lib": "lib",
