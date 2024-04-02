@@ -2,6 +2,14 @@
   "repository": "monisagent/node-monisagent-aws-sdk",
   "entries": [
     {
+      "version": "7.4.0",
+      "changes": {
+        "security": [],
+        "bugfixes": [],
+        "features": []
+      }
+    },
+    {
       "version": "7.3.0",
       "changes": {
         "security": [],
