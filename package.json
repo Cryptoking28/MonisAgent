@@ -194,7 +194,7 @@
     "@grpc/grpc-js": "^1.9.4",
     "@grpc/proto-loader": "^0.7.5",
     "@monisagent/aws-sdk": "^7.3.0",
-    "@monisagent/koa": "^9.0.0",
+    "@monisagent/koa": "^9.1.0",
     "@monisagent/ritm": "^7.2.0",
     "@monisagent/security-agent": "^1.1.1",
     "@monisagent/superagent": "^7.0.1",

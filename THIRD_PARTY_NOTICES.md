@@ -712,7 +712,7 @@ This product includes source derived from [@monisagent/aws-sdk](https://github.c
 
 ### @monisagent/koa
 
-This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v9.0.0](https://github.com/Cryptoking28/monisagent-koa/tree/v9.0.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v9.0.0/LICENSE):
+This product includes source derived from [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa) ([v9.1.0](https://github.com/Cryptoking28/monisagent-koa/tree/v9.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent-koa/blob/v9.1.0/LICENSE):
 
 ```
 Apache License
