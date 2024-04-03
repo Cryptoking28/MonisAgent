@@ -58,7 +58,7 @@ module.exports.sqsMiddlewareConfig = {
   },
   type: 'message',
   config: {
-    name: 'MonisAgentSnsMiddleware',
+    name: 'MonisAgentSqsMiddleware',
     step: 'initialize',
     priority: 'high',
     override: true
