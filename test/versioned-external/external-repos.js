@@ -28,11 +28,6 @@ const repos = [
     branch: 'main'
   },
   {
-    name: 'superagent',
-    repository: 'https://github.com/Cryptoking28/monisagent-superagent.git',
-    branch: 'main'
-  },
-  {
     name: 'apollo-server',
     repository: 'https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin.git',
     branch: 'main',
