@@ -18,11 +18,6 @@ const repos = [
     branch: 'main'
   },
   {
-    name: 'koa',
-    repository: 'https://github.com/Cryptoking28/monisagent-koa.git',
-    branch: 'fix-paramware'
-  },
-  {
     name: 'next',
     repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
     branch: 'main'
