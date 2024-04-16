@@ -34,7 +34,7 @@ code, the source code can be found at [https://github.com/Cryptoking28/monisagen
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.4](https://github.com/npm/node-semver/tree/v7.5.4)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.4/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.6.0](https://github.com/npm/node-semver/tree/v7.6.0)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.6.0/LICENSE):
 
 ```
 The ISC License
@@ -477,7 +477,7 @@ This product includes source derived from [@monisagent/monisagent-oss-cli](https
 
 ### @monisagent/test-utilities
 
-This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.1.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.1.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.1.0/LICENSE):
+This product includes source derived from [@monisagent/test-utilities](https://github.com/Cryptoking28/node-test-utilities) ([v8.5.0](https://github.com/Cryptoking28/node-test-utilities/tree/v8.5.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/node-test-utilities/blob/v8.5.0/LICENSE):
 
 ```
                                  Apache License
@@ -686,7 +686,7 @@ This product includes source derived from [@monisagent/test-utilities](https://g
 
 ### c8
 
-This product includes source derived from [c8](https://github.com/bcoe/c8) ([v7.12.0](https://github.com/bcoe/c8/tree/v7.12.0)), distributed under the [ISC License](https://github.com/bcoe/c8/blob/v7.12.0/LICENSE.txt):
+This product includes source derived from [c8](https://github.com/bcoe/c8) ([v7.14.0](https://github.com/bcoe/c8/tree/v7.14.0)), distributed under the [ISC License](https://github.com/bcoe/c8/blob/v7.14.0/LICENSE.txt):
 
 ```
 Copyright (c) 2017, Contributors
@@ -708,7 +708,7 @@ ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### husky
 
-This product includes source derived from [husky](https://github.com/typicode/husky) ([v8.0.1](https://github.com/typicode/husky/tree/v8.0.1)), distributed under the [MIT License](https://github.com/typicode/husky/blob/v8.0.1/LICENSE):
+This product includes source derived from [husky](https://github.com/typicode/husky) ([v8.0.3](https://github.com/typicode/husky/tree/v8.0.3)), distributed under the [MIT License](https://github.com/typicode/husky/blob/v8.0.3/LICENSE):
 
 ```
 MIT License
@@ -766,7 +766,7 @@ SOFTWARE.
 
 ### lockfile-lint
 
-This product includes source derived from [lockfile-lint](https://github.com/lirantal/lockfile-lint) ([v4.9.6](https://github.com/lirantal/lockfile-lint/tree/v4.9.6)), distributed under the [Apache-2.0 License](https://github.com/lirantal/lockfile-lint/blob/v4.9.6/LICENSE):
+This product includes source derived from [lockfile-lint](https://github.com/lirantal/lockfile-lint) ([v4.13.2](https://github.com/lirantal/lockfile-lint/tree/v4.13.2)), distributed under the [Apache-2.0 License](https://github.com/lirantal/lockfile-lint/blob/v4.13.2/LICENSE):
 
 ```
 
@@ -964,7 +964,7 @@ This product includes source derived from [lockfile-lint](https://github.com/lir
 
 ### monisagent
 
-This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v11.5.0](https://github.com/Cryptoking28/monisagent/tree/v11.5.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v11.5.0/LICENSE):
+This product includes source derived from [monisagent](https://github.com/Cryptoking28/monisagent) ([v11.15.0](https://github.com/Cryptoking28/monisagent/tree/v11.15.0)), distributed under the [Apache-2.0 License](https://github.com/Cryptoking28/monisagent/blob/v11.15.0/LICENSE):
 
 ```
                                  Apache License
@@ -1172,7 +1172,7 @@ This product includes source derived from [monisagent](https://github.com/Crypto
 
 ### sinon
 
-This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v14.0.1](https://github.com/sinonjs/sinon/tree/v14.0.1)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v14.0.1/LICENSE):
+This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v14.0.2](https://github.com/sinonjs/sinon/tree/v14.0.2)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v14.0.2/LICENSE):
 
 ```
 (The BSD License)
@@ -1207,12 +1207,12 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### tap
 
-This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.3.0](https://github.com/tapjs/node-tap/tree/v16.3.0)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.3.0/LICENSE):
+This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.3.10](https://github.com/tapjs/node-tap/tree/v16.3.10)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.3.10/LICENSE):
 
 ```
 The ISC License
 
-Copyright (c) 2011-2022 Isaac Z. Schlueter and Contributors
+Copyright (c) 2011-2023 Isaac Z. Schlueter and Contributors
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
