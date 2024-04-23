@@ -13,11 +13,6 @@
  */
 const repos = [
   {
-    name: 'aws-sdk',
-    repository: 'https://github.com/Cryptoking28/monisagent-aws-sdk.git',
-    branch: 'main'
-  },
-  {
     name: 'next',
     repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
     branch: 'main'
