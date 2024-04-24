@@ -32,7 +32,24 @@ that are specific to our versioned test runner. The following is a
   //
   // If this property is omitted, the tool used to build our compatibility
   // document(s) will not include any modules from this versioned test suite.
-  "targets": ["module"],
+  "targets": [
+    {
+      // The name of the module being tested for compatibility.
+      "name": "module",
+      
+      // The minimum agent version that supports the named module.
+      "minAgentVersion": "2.6.0"
+    },
+    
+    {
+      "name": "other-module",
+      
+      // If the named module requires a specific agent implemenation, for
+      // example `@monisagent/next`, then the full agent module identifier with
+      // version string should be provided.
+      "minAgentVersion": "@monisagent/special-agent@1.2.3"
+    }
+  ],
   
   // `version` is ignored.
   "version": "0.0.0",
