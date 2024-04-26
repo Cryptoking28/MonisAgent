@@ -1,13 +1,13 @@
 <a href="https://opensource.monisagent.com/oss-category/#community-plus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/dark/Community_Plus.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png"><img alt="Monis Agent Open Source community plus project banner." src="https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png"></picture></a>
 
 # Monis Agent Next.js instrumentation 
-[![npm status badge][5]][6] [![Next.js Instrumentation CI][1]][2] [![codecov][7]][8]
+[![npm status badge][4]][5] [![Next.js Instrumentation CI][1]][2] [![codecov][6]][7]
 
 This is Monis Agent's official Next.js framework instrumentation for use with the Monis Agent [Node.js agent](https://github.com/Cryptoking28/monisagent).
 
-This module provides instrumentation for server-side rendering via [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props), [middleware](https://nextjs.org/docs/middleware), and Monis Agent transaction naming for both page and server requests. It does not provide any instrumentation for actions occurring during build or in client-side code.  If you want telemetry data on actions occurring on the client (browser), you can [inject the browser agent](./docs/inject-browser-agent.md).
+This module provides instrumentation for server-side rendering via [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props), [middleware](https://nextjs.org/docs/middleware), and Monis Agent transaction naming for both page and server requests. It does not provide any instrumentation for actions occurring during build or in client-side code.  If you want telemetry data on actions occurring on the client (browser), you can [inject the browser agent](./docs/faqs/browser-agent.md).
 
-Here are documents for more in-depth explanations about [transaction naming](./docs/transactions.md), [segments/spans](./docs/segments-and-spans.md), and [injecting the browser agent](./docs/inject-browser-agent.md).
+Here are documents for more in-depth explanations about [transaction naming](./docs/transactions.md), and [segments/spans](./docs/segments-and-spans.md).
 
 **Note**: The minimum supported Next.js version is [12.0.9](https://github.com/vercel/next.js/releases/tag/v12.0.9).  If you are using Next.js middleware the minimum supported version is [12.2.0](https://github.com/vercel/next.js/releases/tag/v12.2.0).
 
@@ -31,21 +31,6 @@ require('@monisagent/next')
 /* ... the rest of your program ... */
 ```
 
-## Load instrumentation
-
-Since Next.js uses webpack to bundle, auto-instrumentation of 3rd party libraries will not work without a shim.  The Next.js instrumentation will load as the Next.js project externalizes next.js files.  However, other libraries that are being used will not be externalized and thus not instrumented.  Follow these steps to ensure your calls to libraries are properly instrumented.
-
-Add the following to `next.config.js`
-
-```js
-const nrExternals = require('@monisagent/next/load-externals')
-const nextConfig = {
-  webpack: nrExternals 
-};
-
-module.exports = nextConfig;
-```
-
 ### Custom Next.js servers
 
 If you are using next as a [custom server](https://nextjs.org/docs/advanced-features/custom-server), you're probably not running your application with the `next` CLI.  In that scenario we recommend running the Next.js instrumentation as follows.
@@ -60,15 +45,9 @@ For more information, please see the agent [installation guide][3].
 
 Our [API and developer documentation](http://monisagent.github.io/node-monisagent/) for writing instrumentation will be of help. We particularly recommend the tutorials and various "shim" API documentation.
 
-## Client-side Instrumentation
+## FAQs
 
-Next.js is a full stack React Framework. This module augments the Node.js Monis Agent agent, thus any client-side actions will not be instrumented. However, there is an [example](https://github.com/Cryptoking28-experimental/monisagent-nextjs-integration/blob/main/pages/_document.tsx) for injecting [Monis Agent Browser agent](https://docs.monisagent.com/docs/browser/browser-monitoring/getting-started/introduction-browser-monitoring/) to get more information on client-side actions.
-
-For more information, please see the agent [compatibility and requirements][4].
-
-### Error Handling
-
-For capturing both the client and server side errors it is best to use `pages/_error.js` pattern recommended by Next.js documentation on [Advanced Error Page Customization](https://nextjs.org/docs/advanced-features/custom-error-page#more-advanced-error-page-customizing). This [example](https://github.com/Cryptoking28-experimental/monisagent-nextjs-integration/blob/main/pages/_error.tsx) can be used to send either client, server or both types of errors to Monis Agent. The example assumes that both the Monis Agent Browser and Node.js agents are [integrated](#client-side-instrumentation). The `getInitialProps` function's `if` statement checks whether an error was thrown on the server side (`typeof window === "undefined"`) and if it was the case, it `requires` Monis Agent Node.js agent and sends an `err` with `noticeError` method. Otherwise it assumes the error was thrown on the front-end side, and uses the browser agent to send the error to Monis Agent by using `window.monisagent.noticeError(err)`.
+If you are having trouble getting the `@monisagent/next` package to instrument Next.js, take a look at our [FAQs](./docs/faqs/README.md).
 
 ## Testing
 
@@ -87,8 +66,12 @@ npm run unit
 npm run versioned
 ```
 
-## Example project
-[Click here](https://github.com/Cryptoking28-experimental/monisagent-nextjs-integration) for our official Next.js example project that integrates both the Monis Agent Next.js plugin and the browser agent.
+## Example projects
+
+The following example applications show how to load the `@monisagent/next` instrumentation, inject browser agent, and handle errors:
+
+ * [Pages Router example](https://github.com/Cryptoking28/monisagent-node-examples/tree/main/nextjs-legacy)
+ * App Router example: coming soon!
 
 ## Support
 
@@ -124,8 +107,7 @@ Monis Agent Next.js instrumentation also uses source code from third-party libra
 [1]: https://github.com/Cryptoking28/monisagent-node-nextjs/workflows/Next.js%20Instrumentation%20CI/badge.svg
 [2]: https://github.com/Cryptoking28/monisagent-nextjs/actions
 [3]: https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
-[4]: https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent
-[5]: https://img.shields.io/npm/v/@monisagent/next.svg 
-[6]: https://www.npmjs.com/package/@monisagent/next
-[7]: https://codecov.io/gh/monisagent/monisagent-node-nextjs/branch/main/graph/badge.svg?token=UPO8LT1X4W 
-[8]: https://codecov.io/gh/monisagent/monisagent-node-nextjs
+[4]: https://img.shields.io/npm/v/@monisagent/next.svg 
+[5]: https://www.npmjs.com/package/@monisagent/next
+[6]: https://codecov.io/gh/monisagent/monisagent-node-nextjs/branch/main/graph/badge.svg?token=UPO8LT1X4W 
+[7]: https://codecov.io/gh/monisagent/monisagent-node-nextjs
