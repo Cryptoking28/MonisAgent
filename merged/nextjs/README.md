@@ -70,8 +70,8 @@ npm run versioned
 
 The following example applications show how to load the `@monisagent/next` instrumentation, inject browser agent, and handle errors:
 
- * [Pages Router example](https://github.com/Cryptoking28/monisagent-node-examples/tree/main/nextjs-legacy)
- * App Router example: coming soon!
+ * [Pages Router example](https://github.com/Cryptoking28/monisagent-node-examples/tree/58f760e828c45d90391bda3f66764d4420ba4990/nextjs-legacy)
+ * [App Router example](https://github.com/Cryptoking28/monisagent-node-examples/tree/58f760e828c45d90391bda3f66764d4420ba4990/nextjs-app-router)
 
 ## Support
 
