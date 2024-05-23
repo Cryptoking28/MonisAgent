@@ -1,3 +1,4 @@
+package-lock.json
 node_modules
 monisagent_agent.log
 .coverage_data
