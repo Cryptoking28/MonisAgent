@@ -118,16 +118,13 @@ For more information on getting started, [check the Node.js docs](https://docs.m
 
 ### External Modules
 
-There are several modules that can be installed and configured to accompany the Node.js agent:
+There are modules that can be installed and configured to accompany the Node.js agent:
 
  * [@monisagent/apollo-server-plugin](https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin): Monis Agent's official Apollo Server plugin for use with the Node.js agent.
  * [@monisagent/next](https://github.com/Cryptoking28/monisagent-node-nextjs): Provides instrumentation for the [Next.js](https://github.com/vercel/next.js/) npm package.
 
-There are several modules included within the Node.js agent to add more instrumentation for 3rd party modules:
+There are modules included within the Node.js agent to add more instrumentation for 3rd party modules:
 
- * [@monisagent/aws-sdk](https://github.com/Cryptoking28/monisagent-aws-sdk):  Provides instrumentation for the [AWS SDK](https://www.npmjs.com/package/aws-sdk) npm package.
- * [@monisagent/koa](https://github.com/Cryptoking28/monisagent-koa): Provides instrumentation for [koa](https://koajs.com/), [koa-router](https://github.com/ZijianHe/koa-router), [@koa/router](https://github.com/koajs/router), and [koa-route](https://github.com/koajs/route) npm packages.
- * [@monisagent/superagent](https://github.com/Cryptoking28/monisagent-superagent): Provides instrumentation for [superagent](https://github.com/visionmedia/superagent) npm package.
  * [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics): Provides hooks into the native v8 layer of Node.js to provide metrics to the Node.js agent.
 
 ## Usage
