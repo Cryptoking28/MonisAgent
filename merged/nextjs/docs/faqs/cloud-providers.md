@@ -54,7 +54,7 @@ sdk.start()
 ```js
 export async function register() {
   if (process.env.NEXT_RUNTIME === 'nodejs') {
-    require('./monis-agent-instrumentation.js)
+    require('./monis-agent-instrumentation.js')
   }
 }
 ```
