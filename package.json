@@ -133,6 +133,11 @@
       "name": "Svetlana Brennan",
       "email": "sbrennan@monisagent.com",
       "web": "https://monisagent.com"
+    },
+    {
+      "name": "Amy Chisholm",
+      "email": "achisholm@monisagent.com",
+      "web": "https://monisagent.com"
     }
   ],
   "description": "Monis Agent agent",
