@@ -151,7 +151,7 @@
   ],
   "homepage": "https://github.com/Cryptoking28/monisagent",
   "engines": {
-    "node": ">=16",
+    "node": ">=18",
     "npm": ">=6.0.0"
   },
   "directories": {
