@@ -13,11 +13,6 @@
  */
 const repos = [
   {
-    name: 'next',
-    repository: 'https://github.com/Cryptoking28/monisagent-node-nextjs.git',
-    branch: 'main'
-  },
-  {
     name: 'apollo-server',
     repository: 'https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin.git',
     branch: 'main',
