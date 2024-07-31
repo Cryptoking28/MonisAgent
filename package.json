@@ -271,6 +271,7 @@
     "api.js",
     "stub_api.js",
     "monisagent.js",
+    "load-externals.js",
     "README.md",
     "LICENSE",
     "NEWS.md",
