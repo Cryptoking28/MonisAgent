@@ -152,7 +152,6 @@ For more information on getting started, [check the Node.js docs](https://docs.m
 There are modules that can be installed and configured to accompany the Node.js agent:
 
  * [@monisagent/apollo-server-plugin](https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin): Monis Agent's official Apollo Server plugin for use with the Node.js agent.
- * [@monisagent/next](https://github.com/Cryptoking28/monisagent-node-nextjs): Provides instrumentation for the [Next.js](https://github.com/vercel/next.js/) npm package.
 
 There are modules included within the Node.js agent to add more instrumentation for 3rd party modules:
 
