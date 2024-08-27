@@ -304,8 +304,7 @@ API.prototype.addCustomAttribute = function addCustomAttribute(key, value) {
  * See documentation for monisagent.addCustomAttribute for more information on
  * setting custom attributes.
  *
- * An example of setting a custom attribute object:
- *
+ * @example
  *    monisagent.addCustomAttributes({test: 'value', test2: 'value2'});
  *
  * @param {object} [atts] Attribute object
@@ -332,7 +331,7 @@ API.prototype.addCustomAttributes = function addCustomAttributes(atts) {
  *
  * See documentation for monisagent.addCustomSpanAttribute for more information.
  *
- * An example of setting a custom span attribute:
+ * @example
  *
  *    monisagent.addCustomSpanAttribute({test: 'value', test2: 'value2'})
  *
@@ -401,20 +400,19 @@ API.prototype.addCustomSpanAttribute = function addCustomSpanAttribute(key, valu
  * `Error` or one of its subtypes, but the API will handle strings and objects
  * that have an attached `.message` or `.stack` property.
  *
- * An example of using this function is
- *
- *    try {
- *      performSomeTask();
- *    } catch (err) {
- *      monisagent.noticeError(
- *        err,
- *        {extraInformation: "error already handled in the application"},
- *        true
- *      );
- *    }
- *
  * NOTE: Errors that are recorded using this method do _not_ obey the
  * `ignore_status_codes` configuration.
+ *
+ * @example
+ * try {
+ *  performSomeTask();
+ * } catch (err) {
+ *  monisagent.noticeError(
+ *    err,
+ *    {extraInformation: "error already handled in the application"},
+ *    true
+ *  );
+ * }
  *
  * @param {Error} error
  *  The error to be traced.
@@ -474,13 +472,12 @@ API.prototype.noticeError = function noticeError(error, customAttributes, expect
  * If application log forwarding is disabled in the agent
  * configuration, this function does nothing.
  *
- * An example of using this function is
- *
- *    monisagent.recordLogEvent({
- *       message: 'cannot find file',
- *       level: 'ERROR',
- *       error: new SystemError('missing.txt')
- *    })
+ * @example
+ * monisagent.recordLogEvent({
+ *  message: 'cannot find file',
+ *  level: 'ERROR',
+ *  error: new SystemError('missing.txt')
+ * })
  *
  * @param {object} logEvent The log event object to send. Any
  *   attributes besides `message`, `level`, `timestamp`, and `error` are
@@ -554,20 +551,21 @@ API.prototype.recordLogEvent = function recordLogEvent(logEvent = {}) {
  * GUIDs, or timestamps), the rule will generate too many metrics and
  * potentially get your application blocked by Monis Agent.
  *
- * An example of a good rule with replacements:
  *
- *   monisagent.addNamingRule('^/storefront/(v[1-5])/(item|category|tag)',
- *                          'CommerceAPI/$1/$2')
+ * @example
+ * // An example of a good rule with replacements:
+ * monisagent.addNamingRule('^/storefront/(v[1-5])/(item|category|tag)',
+ *                        'CommerceAPI/$1/$2')
  *
- * An example of a bad rule with replacements:
+ * @example
+ * // An example of a bad rule with replacements:
+ * monisagent.addNamingRule('^/item/([0-9a-f]+)', 'Item/$1')
  *
- *   monisagent.addNamingRule('^/item/([0-9a-f]+)', 'Item/$1')
+ * // Keep in mind that the original URL and any query parameters will be sent
+ * // along with the request, so slow transactions will still be identifiable.
  *
- * Keep in mind that the original URL and any query parameters will be sent
- * along with the request, so slow transactions will still be identifiable.
- *
- * Naming rules can not be removed once added. They can also be added via the
- * agent's configuration. See configuration documentation for details.
+ * // Naming rules can not be removed once added. They can also be added via the
+ * // agent's configuration. See configuration documentation for details.
  *
  * @param {RegExp} pattern The pattern to rename (with capture groups).
  * @param {string} name    The name to use for the transaction.
@@ -591,8 +589,7 @@ API.prototype.addNamingRule = function addNamingRule(pattern, name) {
  * distorting an app's apdex or mean response time. Pattern may be a (standard
  * JavaScript) RegExp or a string.
  *
- * Example:
- *
+ * @example
  *   monisagent.addIgnoringRule('^/socket\\.io/')
  *
  * @param {RegExp} pattern The pattern to ignore.
@@ -929,9 +926,9 @@ API.prototype.startSegment = function startSegment(name, record, handler, callba
  *    will be ended when {@link TransactionHandle#end} is called in the user's code.
  *
  * @example
- * var monisagent = require('monisagent')
+ * const monisagent = require('monisagent')
  * monisagent.startWebTransaction('/some/url/path', function() {
- *   var transaction = monisagent.getTransaction()
+ *   const transaction = monisagent.getTransaction()
  *   setTimeout(function() {
  *     // do some work
  *     transaction.end()
@@ -1017,9 +1014,9 @@ API.prototype.startBackgroundTransaction = startBackgroundTransaction
  *    will be ended when {@link TransactionHandle#end} is called in the user's code.
  *
  * @example
- * var monisagent = require('monisagent')
+ * const monisagent = require('monisagent')
  * monisagent.startBackgroundTransaction('Red October', 'Subs', function() {
- *   var transaction = monisagent.getTransaction()
+ *   const transaction = monisagent.getTransaction()
  *   setTimeout(function() {
  *     // do some work
  *     transaction.end()
@@ -1478,14 +1475,15 @@ API.prototype.instrumentMessages = function instrumentMessages(moduleName, onReq
  * Applies an instrumentation to an already loaded CommonJs module.
  *
  * Note: This function will not work for ESM packages.
+ * @example
  *
- *    // oh no, express was loaded before monisagent
- *    const express   = require('express')
- *    const monisagent  = require('monisagent')
+ * // oh no, express was loaded before monisagent
+ * const express   = require('express')
+ * const monisagent  = require('monisagent')
  *
- *    // phew, we can use instrumentLoadedModule to make
- *    // sure express is still instrumented
- *    monisagent.instrumentLoadedModule('express', express)
+ * // phew, we can use instrumentLoadedModule to make
+ * // sure express is still instrumented
+ * monisagent.instrumentLoadedModule('express', express)
  *
  * @param {string} moduleName
  *  The module's name/identifier.  Will be normalized
@@ -1906,11 +1904,14 @@ API.prototype.ignoreApdex = function ignoreApdex() {
 /**
  * Run a function with the passed in LLM context as the active context and return its return value.
  *
- * An example of setting a custom attribute:
- *
- *    monisagent.withLlmCustomAttributes({'llm.someAttribute': 'someValue'}, () => {
- *      return;
- *    })
+ * @example
+ * const OpenAI = require('openai')
+ * const client = new OpenAI()
+ * monisagent.withLlmCustomAttributes({'llm.someAttribute': 'someValue'}, async () => {
+ *    const response = await client.chat.completions.create({ messages: [
+ *      { role: 'user', content: 'Tell me about Node.js.'}
+ *    ]})
+ * })
  * @param {Object} context LLM custom attributes context
  * @param {Function} callback The function to execute in context.
  */
