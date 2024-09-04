@@ -2,6 +2,16 @@
   "repository": "monisagent/node-monisagent",
   "entries": [
     {
+      "version": "12.3.1",
+      "changes": {
+        "security": [],
+        "bugfixes": [
+          "Fixed detection of REST API type payloads in AWS Lambda"
+        ],
+        "features": []
+      }
+    },
+    {
       "version": "12.3.0",
       "changes": {
         "security": [],
