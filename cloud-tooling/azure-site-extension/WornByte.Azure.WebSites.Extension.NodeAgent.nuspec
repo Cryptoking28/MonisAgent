@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MonisAgent.Azure.WebSites.Extension.NodeAgent</id>
+    <version>{VERSION}</version>
+    <title>Monis Agent Node Agent {VERSION}</title>
+    <authors>Monis Agent</authors>
+    <license type="expression">Apache-2.0</license>
+    <projectUrl>https://github.com/Cryptoking28/monisagent</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This extension adds the Monis Agent Node Agent to your Azure WebSite.</description>
+    <iconUrl>https://monisagent.com/static-assets/images/icons/avatar-monisagent.png</iconUrl>
+	<icon>images\icon.png</icon>
+    <copyright>Monis Agent, Inc., 2024</copyright>
+    <tags>AzureSiteExtension</tags>
+    <packageTypes>
+      <packageType name="AzureSiteExtension" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="Content\**\*.*" target="content" />
+    <file src="icon.png" target="images\" />
+  </files>
+</package>
