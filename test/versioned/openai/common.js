@@ -16,11 +16,12 @@ function assertChatCompletionMessages(
   { tx, chatMsgs, id, model, reqContent, resContent, tokenUsage },
   { assert = require('node:assert') } = {}
 ) {
+  const [segment] = tx.trace.getChildren(tx.trace.root.id)
   const baseMsg = {
     appName: 'Monis Agent for Node.js tests',
     request_id: '49dbbffbd3c3f4612aa48def69059aad',
     trace_id: tx.traceId,
-    span_id: tx.trace.root.children[0].id,
+    span_id: segment.id,
     'response.model': model,
     vendor: 'openai',
     ingest_source: 'Node',
@@ -65,17 +66,18 @@ function assertChatCompletionSummary(
   { tx, model, chatSummary, error = false },
   { assert = require('node:assert') } = {}
 ) {
+  const [segment] = tx.trace.getChildren(tx.trace.root.id)
   const expectedChatSummary = {
     id: /[a-f0-9]{36}/,
     appName: 'Monis Agent for Node.js tests',
     request_id: '49dbbffbd3c3f4612aa48def69059aad',
     trace_id: tx.traceId,
-    span_id: tx.trace.root.children[0].id,
+    span_id: segment.id,
     'response.model': model,
     vendor: 'openai',
     ingest_source: 'Node',
     'request.model': model,
-    duration: tx.trace.root.children[0].getDurationInMillis(),
+    duration: segment.getDurationInMillis(),
     'response.organization': 'monis-agent-nkmd8b',
     'response.headers.llmVersion': '2020-10-01',
     'response.headers.ratelimitLimitRequests': '200',
