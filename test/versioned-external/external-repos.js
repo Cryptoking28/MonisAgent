@@ -15,7 +15,7 @@ const repos = [
   {
     name: 'apollo-server',
     repository: 'https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin.git',
-    branch: 'main',
+    branch: 'remove-transaction-from-segment',
     additionalFiles: [
       'tests/lib',
     ]
