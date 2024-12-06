@@ -7,11 +7,7 @@
 
 const test = require('node:test')
 const assert = require('node:assert')
-const {
-  parsePath,
-  queryParser
-} = require('../../../lib/instrumentation/@opensearch-project/opensearch')
-const instrumentation = require('../../../lib/instrumentation/@opensearch-project/opensearch')
+const { parsePath, queryParser } = require('../../../../lib/db/query-parsers/elasticsearch')
 const methods = [
   { name: 'GET', expected: 'get' },
   { name: 'PUT', expected: 'create' },
@@ -20,20 +16,6 @@ const methods = [
   { name: 'HEAD', expected: 'exists' }
 ]
 
-test('should log warning if version is not supported', async () => {
-  const shim = {
-    pkgVersion: '2.0.0',
-    logger: {
-      debug(msg) {
-        assert.equal(
-          msg,
-          'Opensearch support is for versions 2.1.0 and above. Not instrumenting 2.0.0.'
-        )
-      }
-    }
-  }
-  instrumentation({}, {}, '@opensearch-project/opensearch', shim)
-})
 test('parsePath should behave as expected', async (t) => {
   await t.test('indices', async function () {
     const path = '/indexName'
