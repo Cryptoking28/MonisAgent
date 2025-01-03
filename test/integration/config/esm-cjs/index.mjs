@@ -10,7 +10,5 @@ export default function greeter(name) {
 }
 
 if (monisagent.agent) {
-  /* eslint-disable no-console */
   console.log(greeter(monisagent.agent.config.app_name))
-  /* eslint-enable no-console */
 }

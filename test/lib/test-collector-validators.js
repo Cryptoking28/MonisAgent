@@ -27,7 +27,7 @@ class CollectorValidators {
     }
 
     // MonisAgent-NodeAgent/0.9.1-46 (nodejs 0.8.12 darwin-x64)
-    const userAgentPattern = /^MonisAgent-[a-zA-Z0-9]+\/[0-9.\-]+ \(.+\)$/
+    const userAgentPattern = /^MonisAgent-[a-zA-Z0-9]+\/[0-9.-]+ \(.+\)$/
     if (userAgentPattern.test(req.getHeader('User-Agent')) === false) {
       errors.push("'User-Agent' should conform to Monis Agent standards")
     }
