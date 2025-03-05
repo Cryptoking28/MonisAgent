@@ -1,11 +1,12 @@
-<a href="https://opensource.monisagent.com/oss-category/#community-plus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/dark/Community_Plus.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png"><img alt="Monis Agent Open Source community plus project banner." src="https://github.com/Cryptoking28/opensource-website/raw/main/src/images/categories/Community_Plus.png"></picture></a>
+<div style="text-align: center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.monisagent.com/sites/default/files/2023-02/Product%20Screen%202.svg"><source media="(prefers-color-scheme: light)" srcset="https://www.monisagent.com/sites/default/files/2023-02/Product%20Screen%202.svg"><img alt="Monis Agent Open Source community plus project banner." src="https://www.monisagent.com/sites/default/files/2023-02/Product%20Screen%202.svg"></picture>
+</div>
 
 # Monis Agent's Node.js agent
-[![npm status badge][1]][2] [![Server Smoke Tests][3]][4] [![Node Agent CI][5]][6] [![codecov][7]][8]
 
 This package instruments your application for performance monitoring with [Monis Agent](https://monisagent.com).
 
-In order to take full advantage of this package, make sure you have a [Monis Agent account](https://monisagent.com) before starting. Available features, such as slow transaction traces, will vary [based on account level](https://monisagent.com/application-monitoring/features).
+In order to take full advantage of this package, make sure you have a [Monis Agent account](https://monisagent.com) before starting. Available features, such as slow transaction traces, will vary based on account level
 
 As with any instrumentation tool, please test before using in production.
 
@@ -13,20 +14,20 @@ As with any instrumentation tool, please test before using in production.
 
 To use Monis Agent's Node.js agent entails these three steps, which are described in detail below:
 
-- Install [the `monisagent` package](https://www.npmjs.com/package/monisagent)
+- Install the `monisagent` package
 - Create a base configuration file
 - Require the agent in your program
 
 1. To install the agent for performance monitoring, use your favorite npm-based package manager and install the `monisagent` package into your application:
 
     ```sh
-    $ npm install monisagent
+    npm install monisagent
     ```
 
 2. Then, copy the stock configuration file to your program's base folder:
 
     ```sh
-    $ cp ./node_modules/monisagent/monisagent.js ./<your destination>
+    cp ./node_modules/monisagent/monisagent.js ./<your destination>
     ```
 
 3. Now, add your Monis Agent license key and application/service name to that file:
@@ -49,9 +50,9 @@ To use Monis Agent's Node.js agent entails these three steps, which are describe
 
 4. Finally, run your program with the `monisagent` module loaded first by using node's `-r/--require` flag.
 
-```
- $ node -r monisagent your-program.js
-```
+    ```sh
+    node -r monisagent your-program.js
+    ```
 
 If you cannot control how your program is run, you can load the `monisagent` module _before any other module_ in your program.
 
@@ -62,14 +63,15 @@ If you cannot control how your program is run, you can load the `monisagent` mod
 ```
 
 ## Next.js instrumentation
+
 **Note**: The minimum supported Next.js version is [12.0.9](https://github.com/vercel/next.js/releases/tag/v12.0.9).  If you are using Next.js middleware the minimum supported version is [12.2.0](https://github.com/vercel/next.js/releases/tag/v12.2.0).
 
 The Monis Agent Node.js agent provides instrumentation for Next.js  The instrumentation provides telemetry for server-side rendering via [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props), [middleware](https://nextjs.org/docs/middleware), and Monis Agent transaction naming for both page and server requests. It does not provide any instrumentation for actions occurring during build or in client-side code.  If you want telemetry data on actions occurring on the client (browser), you can [inject the browser agent](./documentation/nextjs/faqs/browser-agent.md).
 
 Here are documents for more in-depth explanations about [transaction naming](./documentation/nextjs/transactions.md), and [segments/spans](./documentation/nextjs/segments-and-spans.md).
 
-
 ### Setup
+
 Typically you are running a Next.js app with the `next` cli and you must load the agent via `NODE_OPTIONS`:
 
 ```sh
@@ -79,10 +81,11 @@ NODE_OPTIONS='-r monisagent' next start
 If you are having trouble getting the `monisagent` package to instrument Next.js, take a look at our [FAQs](./documentation/nextjs/faqs/README.md).
 
 ### Next.js example projects
+
 The following example applications show how to load the `monisagent` instrumentation, inject browser agent, and handle errors:
 
- * [Pages Router example](https://github.com/Cryptoking28/monisagent-node-examples/tree/9415503f3bd78fa5d87a7214596d51c946199474/nextjs/nextjs-legacy)
- * [App Router example](https://github.com/Cryptoking28/monisagent-node-examples/tree/9415503f3bd78fa5d87a7214596d51c946199474/nextjs/nextjs-app-router)
+- Pages Router example
+- App Router example
 
 ### Custom Next.js servers
 
@@ -96,27 +99,27 @@ node -r monisagent your-program.js
 
 If your application is written with `import` and `export` statements in javascript, you are using [ES Modules](https://nodejs.org/api/esm.html#modules-ecmascript-modules) and must bootstrap the agent in a different way.
 
-The Monis Agent Node.js agent includes ***_experimental_*** support for ES Modules. The agent is reliant on an experimental feature in Node.js in order to appropriately register instrumentation. Until the Node.js API for [ES Module Loaders](https://nodejs.org/api/esm.html#loaders) is stable, breaking changes may occur when updating Node.js. Lastly, the ESM loader does not follow the same [supported Node.js versions](https://docs.monisagent.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent#system) as the agent. The minimum supported version of Node.js is `v16.12.0`.
+The Monis Agent Node.js agent includes _**_experimental_**_ support for ES Modules. The agent is reliant on an experimental feature in Node.js in order to appropriately register instrumentation. Until the Node.js API for [ES Module Loaders](https://nodejs.org/api/esm.html#loaders) is stable, breaking changes may occur when updating Node.js. Lastly, the ESM loader does not follow the same supported Node.js versions as the agent. The minimum supported version of Node.js is `v16.12.0`.
 
 ### Setup
 
  1. If you rely on a configuration file to run the agent, you must rename the file from `monisagent.js` to `monisagent.cjs` so it can be properly loaded.  All the contents of the configuration file will behave the same once you rename. See [CommonJS modules in ESM](https://nodejs.org/api/modules.html#enabling) for more details.
 
-```sh
-$ mv monisagent.js monisagent.cjs
-```
+    ```sh
+    mv monisagent.js monisagent.cjs
+    ```
 
  2. To use the monisagent ESM loader, start your program with node and use the `--experimental-loader` flag and a path to the loader file, like this:
 
-```sh
-$ node --experimental-loader monisagent/esm-loader.mjs -r monisagent your-program.js
-```
+    ```sh
+    node --experimental-loader monisagent/esm-loader.mjs -r monisagent your-program.js
+    ```
 
 **Note**: Unlike the CommonJS methods listed above, there are no alternatives to running the agent without the `--experimental-loader` flag.
 
 ### Custom Instrumentation
 
-The agent supports adding your own custom instrumentation to ES module applications. You can use the instrumentation API methods. The only other difference between CommonJS custom instrumentation and ESM is you must provide a property of `isEsm: true`. 
+The agent supports adding your own custom instrumentation to ES module applications. You can use the instrumentation API methods. The only other difference between CommonJS custom instrumentation and ESM is you must provide a property of `isEsm: true`.
 
 ```js
 import monisagent from 'monisagent'
@@ -133,29 +136,29 @@ monisagent.instrument({ moduleName: 'parse-json', isEsm: true }, function wrap(s
 
 We support the following custom instrumentation API methods in ES module apps:
 
-* `monisagent.instrument`
-* `monisagent.instrumentConglomerate`
-* `monisagent.instrumentDatastore`
-* `monisagent.instrumentMessages`
-* `monisagent.instrumentWebframework`
+- `monisagent.instrument`
+- `monisagent.instrumentConglomerate`
+- `monisagent.instrumentDatastore`
+- `monisagent.instrumentMessages`
+- `monisagent.instrumentWebframework`
 
 Note that we _do not_ support `monisagent.instrumentLoadedModule`, for the same issue of immutability mentioned above.
 
-If you want to see an example of how to write custom instrumentation in an ES module app, check out our [examples](https://github.com/Cryptoking28/monisagent-node-examples/tree/main/esm-app) repo for a working demo.
+If you want to see an example of how to write custom instrumentation in an ES module app, check out our examples repo for a working demo.
 
 ## Getting Started
 
-For more information on getting started, [check the Node.js docs](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs).
+For more information on getting started, check the Node.js docs.
 
 ### External Modules
 
 There are modules that can be installed and configured to accompany the Node.js agent:
 
- * [@monisagent/apollo-server-plugin](https://github.com/Cryptoking28/monisagent-node-apollo-server-plugin): Monis Agent's official Apollo Server plugin for use with the Node.js agent.
+- `@monisagent/apollo-server-plugin`: Monis Agent's official Apollo Server plugin for use with the Node.js agent.
 
 There are modules included within the Node.js agent to add more instrumentation for 3rd party modules:
 
- * [@monisagent/native-metrics](https://github.com/Cryptoking28/node-native-metrics): Provides hooks into the native v8 layer of Node.js to provide metrics to the Node.js agent.
+- `@monisagent/native-metrics`: Provides hooks into the native v8 layer of Node.js to provide metrics to the Node.js agent.
 
 ## Usage
 
@@ -170,7 +173,7 @@ The `monisagent` module returns an object with the Node.js agent's API methods a
     monisagent.addCustomAttribute('some-attribute', 'some-value')
 ```
 
-You can read more about using the API over on the [Monis Agent documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/guide-using-nodejs-agent-api) site.
+You can read more about using the API over on the Monis Agent documentation site.
 
 ## Testing
 
@@ -180,14 +183,18 @@ These are the steps to work on core agent features, with more detail below:
 - Install its dependencies
 - Run tests using `npm`
 
-1. [Fork](https://github.com/Cryptoking28/monisagent/fork) and clone this GitHub repository:
+1. Fork and clone this GitHub repository:
 
-    $ git clone git@github.com:your-user-name/node-monisagent.git
-    $ cd node-monisagent
+    ```sh
+    git clone git@github.com:your-user-name/node-monisagent.git
+    cd node-monisagent
+    ```
 
 2. Install the project's dependencies:
 
-    $ npm install
+    ```sh
+    npm install
+    ```
 
 Then you're all set to start programming.
 
@@ -199,31 +206,33 @@ Then you're all set to start programming.
 
 Available test suites include:
 
-    $ npm run unit
-    $ npm run integration
-    $ npm run versioned
-    $ npm run lint
-    $ npm run smoke
+  ```sh
+  npm run unit
+  npm run integration
+  npm run versioned
+  npm run lint
+  npm run smoke
+  ```
 
 ## Further Reading
 
 Here are some resources for learning more about the agent:
 
-- [Monis Agent's official Node.js agent documentation](https://docs.monisagent.com/docs/agents/nodejs-agent)
+- Monis Agent's official Node.js agent documentation
 
-- [Developer docs](https://monisagent.github.io/node-monisagent/)
+- Developer docs
 
-- [Configuring the agent using `monisagent.js` or environment variables](https://docs.monisagent.com/docs/agents/nodejs-agent/installation-configuration/nodejs-agent-configuration)
+- Configuring the agent using `monisagent.js` or environment variable
 
-- [Use the node agent to add the Browser and SPA monitoring](https://docs.monisagent.com/docs/agents/nodejs-agent/supported-features/monis-agent-browser-nodejs-agent)
+- Use the node agent to add the Browser and SPA monitoring
 
-- [API transaction naming](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/nodejs-agent-api#request-names) and [rules-based transaction naming](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/nodejs-agent-api#ignoring)
+- API transaction naming and rules-based transaction naming
 
-- [Custom instrumentation/transactions](https://docs.monisagent.com/docs/agents/nodejs-agent/api-guides/guide-using-nodejs-agent-api#creating-transactions)
+- Custom instrumentation/transactions
 
-- [The changelog](https://github.com/Cryptoking28/monisagent/blob/main/NEWS.md)
+- The changelog
 
-- [Example applications](https://github.com/Cryptoking28/monisagent-node-examples) - Working examples of Monis Agent features in Node.js.
+- Example applications - Working examples of Monis Agent features in Node.js.
 
 ## Support
 
@@ -233,19 +242,19 @@ If the issue has been confirmed as a bug or is a feature request, please file a 
 
 **Support Channels**
 
-* [Monis Agent Documentation](https://docs.monisagent.com/docs/agents/nodejs-agent/getting-started/introduction-monis-agent-nodejs): Comprehensive guidance for using our platform
-* [Monis Agent Community](https://forum.monisagent.com/): The best place to engage in troubleshooting questions
-* [Monis Agent Developer](https://developer.monisagent.com/): Resources for building a custom observability applications
-* [Monis Agent University](https://learn.monisagent.com/): A range of online training for Monis Agent users of every level
-* [Monis Agent Technical Support](https://support.monisagent.com/) 24/7/365 ticketed support. Read more about our [Technical Support Offerings](https://docs.monisagent.com/docs/licenses/license-information/general-usage-licenses/support-plan).
-
+- Monis Agent Documentation: Comprehensive guidance for using our platform
+- Monis Agent Community: The best place to engage in troubleshooting questions
+- Monis Agent Developer: Resources for building a custom observability applications
+- Monis Agent University: A range of online training for Monis Agent users of every level
+- Monis Agent Technical Support 24/7/365 ticketed support. Read more about our Technical Support Offerings.
 
 ## Privacy
+
 At Monis Agent we take your privacy and the security of your information seriously, and are committed to protecting your information. We must emphasize the importance of not sharing personal data in public forums, and ask all users to scrub logs and diagnostic information for sensitive information, whether personal, proprietary, or otherwise.
 
 We define “Personal Data” as any information relating to an identified or identifiable individual, including, for example, your name, phone number, post code or zip code, Device ID, IP address and email address.
 
-Please review [Monis Agent’s General Data Privacy Notice](https://monisagent.com/termsandconditions/privacy) for more information.
+Please review Monis Agent’s General Data Privacy Notice for more information.
 
 ## Roadmap
 
@@ -255,7 +264,7 @@ See our [roadmap](./ROADMAP_Node.md), to learn more about our product vision, un
 
 We encourage your contributions to improve the Node.js agent! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 
-If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@monisagent.com.
+If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at <opensource@monisagent.com>.
 
 **A note about vulnerabilities**
 
@@ -274,14 +283,3 @@ Except as noted below, the Node.js agent is licensed under the [Apache 2.0](http
 The Monis Agent [security agent](https://github.com/Cryptoking28/csec-node-agent) is licensed under the Monis Agent Software License v1.0.  The Monis Agent security agent module may be integrated like the Monis Agent Node.js agent.
 
 The Node.js agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in [the third-party notices document](https://github.com/Cryptoking28/monisagent/blob/main/THIRD_PARTY_NOTICES.md).
-
-
-[1]: https://img.shields.io/npm/v/monisagent.svg
-[2]: https://www.npmjs.com/package/monisagent
-[3]: https://github.com/Cryptoking28/monisagent/workflows/Server%20Smoke%20Tests/badge.svg
-[4]: https://github.com/Cryptoking28/monisagent/actions?query=workflow%3A%22Server+Smoke+Tests%22
-[5]: https://github.com/Cryptoking28/monisagent/workflows/Node%20Agent%20CI/badge.svg
-[6]: https://github.com/Cryptoking28/monisagent/actions?query=workflow%3A%22Node+Agent+CI%22
-[7]: https://codecov.io/gh/monisagent/node-monisagent/branch/main/graph/badge.svg
-[8]: https://codecov.io/gh/monisagent/node-monisagent
-
